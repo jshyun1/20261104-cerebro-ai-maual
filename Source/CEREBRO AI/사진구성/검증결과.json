@@ -25,5 +25,29 @@
     "broken": [],
     "escapedImages": false,
     "horizontalOverflow": false
+  },
+  "join_example_correction": {
+    "checked_at": "2026-11-11T10:20:50.788300+00:00",
+    "column_count": 7,
+    "columns": [
+      "customer_id",
+      "region",
+      "customer_type",
+      "signup_date",
+      "order_id",
+      "purchase_count",
+      "total_amount"
+    ],
+    "row_count": 100,
+    "created_dataset": {
+      "title": "사진매뉴얼_고객정보매출조인_7컬럼",
+      "url": "https://cerebro.alpl.co.kr/#/df/631/info",
+      "legacyId": 631,
+      "rowCount": 100,
+      "columnCount": 7
+    },
+    "preview_verified": true,
+    "registered_structure_verified": true,
+    "account_name_hidden": true
   }
 }

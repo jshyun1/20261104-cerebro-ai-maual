@@ -135,33 +135,54 @@
   },
   {
     "file": "005_분석_데이터셋등록_데이터셋조인_02.png",
-    "caption": "customer_id를 INNER JOIN으로 연결하고 고객매출에서 추가할 세 컬럼을 선택합니다.",
+    "caption": "customer_id를 INNER JOIN으로 연결하고 고객매출의 order_id·purchase_count·total_amount를 선택하여 7개 컬럼을 미리 확인합니다.",
     "source": "live",
-    "capturedAt": "2026-11-11T05:28:20.243Z",
+    "capturedAt": "2026-11-11T10:18:35.378431+00:00",
     "topic_index": 5,
     "section": "##### 3.1.1.3 데이터셋 조인",
     "size": [
-      1466,
-      876
+      1620,
+      936
     ],
-    "sha256": "d858414024c654db65d26132057fe9465650b9fc3723da70815beceb98ce6b94",
+    "sha256": "744a667ac2af74bf58d4f181674813b7576d8bfd1516078dc758d2f649b2d79f",
     "account_name_masked": true,
-    "cropped": true
+    "cropped": true,
+    "privacy_method": "선택 창만 촬영하여 상단 계정 영역 제외",
+    "verified_columns": [
+      "customer_id",
+      "region",
+      "customer_type",
+      "signup_date",
+      "order_id",
+      "purchase_count",
+      "total_amount"
+    ]
   },
   {
     "file": "005_분석_데이터셋등록_데이터셋조인_03.png",
-    "caption": "조인으로 생성된 데이터셋의 컬럼 구성을 확인합니다. 두 실습 파일을 연결하면 7개 컬럼으로 구성됩니다.",
+    "caption": "등록된 데이터셋에서 total_amount를 포함한 총 7개 컬럼과 각 컬럼의 100건 데이터를 확인합니다.",
     "source": "live",
-    "capturedAt": "2026-11-11T07:35:31.796Z",
+    "capturedAt": "2026-11-11T10:19:52.506207+00:00",
     "topic_index": 5,
     "section": "##### 3.1.1.3 데이터셋 조인",
     "size": [
       1600,
       1000
     ],
-    "sha256": "c9a42a1c663e5a0ca85dacfc5827153ea89373d6fbd8b35913860d852dcd9841",
+    "sha256": "12113013a4d30fc25cc05412b975b2326889b8bcd8ef6a6b9c2a46bbdf13395f",
     "account_name_masked": true,
-    "cropped": false
+    "cropped": false,
+    "privacy_method": "상단 계정 이름 숨김",
+    "verified_columns": [
+      "customer_id",
+      "region",
+      "customer_type",
+      "signup_date",
+      "order_id",
+      "purchase_count",
+      "total_amount"
+    ],
+    "dataset_url": "https://cerebro.alpl.co.kr/#/df/631/info"
   },
   {
     "file": "006_분석_데이터셋등록_DB추출_시연_01.png",

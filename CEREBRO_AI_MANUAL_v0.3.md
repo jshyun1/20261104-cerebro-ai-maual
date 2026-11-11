@@ -411,7 +411,7 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
     - 차트 화면의 위젯 등록 <img src="./Source/CEREBRO AI/공통/버튼/analysis-widget.png" alt="위젯 등록 버튼" title="위젯 등록" height="26" style="vertical-align: middle;"> 버튼을 클릭하면 스튜디오에서 사용할 위젯으로 저장됩니다.
 
 <p align = "center">
-  <img src = "./Source/CEREBRO AI/4_분석/분석_원본_차트시각화화면.png">
+  <img src="./Source/CEREBRO AI/4_분석/분석_원본_차트종류선택.png" alt="비교·분포·추이·관계·공간·구성·흐름의 차트 종류 선택 화면" width="810">
 </p>
 
 | 분류 | 분석 목적 | 차트 종류 |

@@ -242,16 +242,16 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
     - 아래 예시는 고객기본의 전체 컬럼에 고객매출의 `order_id`, `purchase_count`, `total_amount`를 추가하여 7개 컬럼으로 구성합니다.
     - 미리보기는 최대 50행이 표시되며, 등록이 완료된 데이터셋의 전체 행 수는 목록에서 확인합니다.
 
-**화면 1.** customer_id를 INNER JOIN으로 연결하고 고객매출에서 추가할 세 컬럼을 선택합니다.
+**화면 1.** customer_id를 INNER JOIN으로 연결하고 고객매출의 order_id·purchase_count·total_amount를 선택하여 7개 컬럼을 미리 확인합니다.
 
 <p align="center">
-  <img src="./Source/CEREBRO AI/사진구성/005_분석_데이터셋등록_데이터셋조인_02.png" alt="customer_id를 INNER JOIN으로 연결하고 고객매출에서 추가할 세 컬럼을 선택합니다." width="1100">
+  <img src="./Source/CEREBRO AI/사진구성/005_분석_데이터셋등록_데이터셋조인_02.png" alt="customer_id를 INNER JOIN으로 연결하고 고객매출의 order_id·purchase_count·total_amount를 선택하여 7개 컬럼을 미리 확인합니다." width="1100">
 </p>
 
-**화면 2.** 조인으로 생성된 데이터셋의 컬럼 구성을 확인합니다. 두 실습 파일을 연결하면 7개 컬럼으로 구성됩니다.
+**화면 2.** 등록된 데이터셋에서 total_amount를 포함한 총 7개 컬럼과 각 컬럼의 100건 데이터를 확인합니다.
 
 <p align="center">
-  <img src="./Source/CEREBRO AI/사진구성/005_분석_데이터셋등록_데이터셋조인_03.png" alt="조인으로 생성된 데이터셋의 컬럼 구성을 확인합니다. 두 실습 파일을 연결하면 7개 컬럼으로 구성됩니다." width="1100">
+  <img src="./Source/CEREBRO AI/사진구성/005_분석_데이터셋등록_데이터셋조인_03.png" alt="등록된 데이터셋에서 total_amount를 포함한 총 7개 컬럼과 각 컬럼의 100건 데이터를 확인합니다." width="1100">
 </p>
 
 ##### 3.1.1.4 DB 추출
@@ -510,7 +510,7 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
     - 차트 화면의 위젯 등록 <img src="./Source/CEREBRO AI/공통/버튼/analysis-widget.png" alt="위젯 등록 버튼" title="위젯 등록" height="26" style="vertical-align: middle;"> 버튼을 클릭하면 스튜디오에서 사용할 위젯으로 저장됩니다.
 
 <p align = "center">
-  <img src = "./Source/CEREBRO AI/4_분석/분석_원본_차트시각화화면.png">
+  <img src="./Source/CEREBRO AI/4_분석/분석_원본_차트종류선택.png" alt="비교·분포·추이·관계·공간·구성·흐름의 차트 종류 선택 화면" width="810">
 </p>
 
 | 분류 | 분석 목적 | 차트 종류 |

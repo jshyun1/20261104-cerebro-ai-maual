@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-11-11T16:48:06+09:00",
+  "document": "사진구성_CEREBRO_AI_MANUAL_v0.3.md",
+  "original_sha256": "c0ff8c64d39579d1238ed654088826e2b9bc608321c2c027d0bcbbb8f6b1cdd6",
+  "original_unchanged": true,
+  "headings_preserved": true,
+  "comments_preserved": true,
+  "gif_references": 0,
+  "replacement_topics": 122,
+  "replacement_photo_files": 196,
+  "live_photos": 133,
+  "extracted_photos": 63,
+  "rendered_images": 552,
+  "missing_image_files": [],
+  "broken_internal_links": [],
+  "escaped_image_tags": 0,
+  "png_decode_errors": 0,
+  "privacy_ocr_images": 196,
+  "privacy_ocr_errors": 0,
+  "account_header_covers": 130,
+  "cropped_dialog_photos": 44,
+  "unused_capture_files_removed": 13,
+  "browser_preview": {
+    "images": 552,
+    "broken": [],
+    "escapedImages": false,
+    "horizontalOverflow": false
+  }
+}

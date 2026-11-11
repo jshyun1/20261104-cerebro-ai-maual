@@ -1,0 +1,3004 @@
+[
+  {
+    "file": "로그인_01_로그인화면.png",
+    "caption": "발급받은 이메일과 비밀번호로 로그인하거나 연동된 카카오 계정을 사용합니다.",
+    "source": "live",
+    "topic_index": 1,
+    "section": "## 2. 로그인",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "5f15cd3395d2528799bafbbe050db8825036b445baccef311b3931467e8abd24",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "001_로그인_계정로그인_02.png",
+    "caption": "로그인 후 데이터마트에서 분석할 데이터셋을 확인합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:19:20.971Z",
+    "topic_index": 1,
+    "section": "## 2. 로그인",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "be47760d2a174fde768616c96233505c28341bbb2ed312587313fb1cbf8f06a8",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "002_분석_데이터셋등록방식_01.png",
+    "caption": "새 데이터셋 등록 메뉴에서 사용할 등록 방식을 선택합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:20:25.702Z",
+    "topic_index": 2,
+    "section": "#### 3.1.1 데이터셋 등록",
+    "size": [
+      786,
+      506
+    ],
+    "sha256": "5bcd2ce6a9bb9571322fe1f36b9e30ab6c5a5b81059f2e32bd316981c2499f5f",
+    "account_name_masked": true,
+    "cropped": true
+  },
+  {
+    "file": "003_분석_데이터선택_01.png",
+    "caption": "파일 업로드에서 데이터셋 제목과 파일을 지정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:21:15.925Z",
+    "topic_index": 3,
+    "section": "##### 3.1.1.1 파일 업로드",
+    "size": [
+      786,
+      506
+    ],
+    "sha256": "5bcd2ce6a9bb9571322fe1f36b9e30ab6c5a5b81059f2e32bd316981c2499f5f",
+    "account_name_masked": true,
+    "cropped": true
+  },
+  {
+    "file": "003_분석_데이터선택_02.png",
+    "caption": "선택한 파일의 이름과 용량을 확인한 뒤 업로드합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:23:59.797Z",
+    "topic_index": 3,
+    "section": "##### 3.1.1.1 파일 업로드",
+    "size": [
+      826,
+      518
+    ],
+    "sha256": "bd12b23664ecd0142ddc7e1150e5d0de37b204dda1a841ac78573abe2dedc3f8",
+    "account_name_masked": true,
+    "cropped": true
+  },
+  {
+    "file": "003_분석_데이터선택_03.png",
+    "caption": "업로드가 완료되면 데이터마트 목록에 100행의 실습 데이터셋이 표시됩니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:24:56.078Z",
+    "topic_index": 3,
+    "section": "##### 3.1.1.1 파일 업로드",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "cfb4813d90038de0a55548bc36526009aab9023dd8436b9d1c94b8616767e23c",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "004_분석_데이터셋등록_SQL쿼리_02.png",
+    "caption": "SQL에서 참조할 고객매출 데이터셋을 선택합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:25:38.527Z",
+    "topic_index": 4,
+    "section": "##### 3.1.1.2 SQL 쿼리",
+    "size": [
+      526,
+      396
+    ],
+    "sha256": "9230b95d69455848d5124ea9e022b0affad4dbad31da624b930b713d5050d686",
+    "account_name_masked": true,
+    "cropped": true
+  },
+  {
+    "file": "004_분석_데이터셋등록_SQL쿼리_03.png",
+    "caption": "total_amount가 300,000 이상인 데이터를 조회하고 실행 결과를 확인합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:25:40.778Z",
+    "topic_index": 4,
+    "section": "##### 3.1.1.2 SQL 쿼리",
+    "size": [
+      1466,
+      876
+    ],
+    "sha256": "e55e9659de761696a9ea7207fb61dfec7ebb6f74f5882a58d66c6c6a7a1aef00",
+    "account_name_masked": true,
+    "cropped": true
+  },
+  {
+    "file": "004_분석_데이터셋등록_SQL쿼리_04.png",
+    "caption": "조회 결과를 새 SQL 데이터셋으로 저장할 제목을 입력합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:26:01.294Z",
+    "topic_index": 4,
+    "section": "##### 3.1.1.2 SQL 쿼리",
+    "size": [
+      526,
+      264
+    ],
+    "sha256": "cfa6dd1c215684cc5491bed97a404998894093bc1b8ed11d0f5b5c5781c69575",
+    "account_name_masked": true,
+    "cropped": true
+  },
+  {
+    "file": "005_분석_데이터셋등록_데이터셋조인_02.png",
+    "caption": "customer_id를 INNER JOIN으로 연결하고 고객매출에서 추가할 세 컬럼을 선택합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:28:20.243Z",
+    "topic_index": 5,
+    "section": "##### 3.1.1.3 데이터셋 조인",
+    "size": [
+      1466,
+      876
+    ],
+    "sha256": "d858414024c654db65d26132057fe9465650b9fc3723da70815beceb98ce6b94",
+    "account_name_masked": true,
+    "cropped": true
+  },
+  {
+    "file": "005_분석_데이터셋등록_데이터셋조인_03.png",
+    "caption": "조인으로 생성된 데이터셋의 컬럼 구성을 확인합니다. 두 실습 파일을 연결하면 7개 컬럼으로 구성됩니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:35:31.796Z",
+    "topic_index": 5,
+    "section": "##### 3.1.1.3 데이터셋 조인",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "c9a42a1c663e5a0ca85dacfc5827153ea89373d6fbd8b35913860d852dcd9841",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "006_분석_데이터셋등록_DB추출_시연_01.png",
+    "caption": "DB 연결과 추출할 테이블을 선택합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_데이터셋등록_DB추출.gif",
+    "frame": 141,
+    "topic_index": 6,
+    "section": "##### 3.1.1.4 DB 추출",
+    "size": [
+      1754,
+      944
+    ],
+    "sha256": "b73f7b3f559d17a25f0292819fa386d74e206beb638f6eecb7e75e28818d1faf",
+    "account_name_masked": false,
+    "cropped": true
+  },
+  {
+    "file": "006_분석_데이터셋등록_DB추출_시연_02.png",
+    "caption": "테이블 속성과 데이터를 확인하고 추출 조건을 지정합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_데이터셋등록_DB추출.gif",
+    "frame": 353,
+    "topic_index": 6,
+    "section": "##### 3.1.1.4 DB 추출",
+    "size": [
+      1754,
+      944
+    ],
+    "sha256": "d20caa25936da5aae9b6f9b1736f31b2f6193fd3a497c4ac98a45b41ac1a2182",
+    "account_name_masked": false,
+    "cropped": true
+  },
+  {
+    "file": "006_분석_데이터셋등록_DB추출_시연_03.png",
+    "caption": "추출 결과를 확인한 뒤 새 데이터셋으로 등록합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_데이터셋등록_DB추출.gif",
+    "frame": 565,
+    "topic_index": 6,
+    "section": "##### 3.1.1.4 DB 추출",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "2435880d83a7abfb30e673d606b97d268194f0fddd942b87d4a8fd2829f506bd",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "007_분석_데이터셋등록_문서업로드_01.png",
+    "caption": "문서 업로드에서 PDF 파일을 선택하고 파일 정보를 확인합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:29:01.830Z",
+    "topic_index": 7,
+    "section": "##### 3.1.1.5 문서 업로드",
+    "size": [
+      826,
+      518
+    ],
+    "sha256": "f991e3fe4ab90e44b27d510023fb5e0b058141db3fe4dedfd350eaaf93896a79",
+    "account_name_masked": true,
+    "cropped": true
+  },
+  {
+    "file": "007_분석_데이터셋등록_문서업로드_02.png",
+    "caption": "비정형 문서 목록에서 업로드한 PDF와 처리 상태를 확인합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:35:33.790Z",
+    "topic_index": 7,
+    "section": "##### 3.1.1.5 문서 업로드",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "6933c16c06d6928bce2bc01102b3fdfc3039b8390bc281298fa63c49f071e229",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "008_분석_데이터공유설정_01.png",
+    "caption": "공유 설정에서 사용자·그룹 검색과 대상별 권한을 확인합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:29:58.699Z",
+    "topic_index": 8,
+    "section": "##### 3.1.1.5 문서 업로드",
+    "size": [
+      706,
+      309
+    ],
+    "sha256": "97468836a60041d16c04da84b45ff875b08e9c40ef1fc0b75b27624aaf1410a9",
+    "account_name_masked": true,
+    "cropped": true
+  },
+  {
+    "file": "009_분석_컬럼메타_01.png",
+    "caption": "컬럼별 표시 이름과 역할, 계층 그룹, 키 및 표시 여부를 설정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:29:59.717Z",
+    "topic_index": 9,
+    "section": "##### 3.1.1.5 문서 업로드",
+    "size": [
+      1146,
+      348
+    ],
+    "sha256": "2958781f34b9c58eb9fe449b7844de4cbba1680448af8f2f63bca4dec73cdfa2",
+    "account_name_masked": true,
+    "cropped": true
+  },
+  {
+    "file": "010_분석_원본_데이터구조_CerebroGPT_01.png",
+    "caption": "원본 데이터의 컬럼별 형식·건수·결측값·통계 정보를 확인합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:30:12.695Z",
+    "topic_index": 10,
+    "section": "#### 3.2.1 데이터 구조",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "d8c0576f042611f4c33fd44d73da6e9063bf10158a2e635a512a54e3aa461656",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "010_분석_원본_데이터구조_CerebroGPT_02.png",
+    "caption": "CerebroGPT 요약을 펼쳐 데이터의 주요 특징과 분석 방향을 확인합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:30:26.528Z",
+    "topic_index": 10,
+    "section": "#### 3.2.1 데이터 구조",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "4866892351a6590cb26cbf7bebff3b2c01baa4a0f2052d2b4a26e62e020483b5",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "011_분석_원본_데이터구조_차트_01.png",
+    "caption": "보험금 컬럼의 데이터 분포와 통계를 확인합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:31:16.492Z",
+    "topic_index": 11,
+    "section": "#### 3.2.1 데이터 구조",
+    "size": [
+      826,
+      716
+    ],
+    "sha256": "c2268e5a570e66b5015ed7011031626629fe3d49eb08cb083d0c47b5cc87d696",
+    "account_name_masked": true,
+    "cropped": true
+  },
+  {
+    "file": "012_분석_원본_데이터보기_그룹색적용_01.png",
+    "caption": "원본 데이터의 행과 컬럼을 표로 조회합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:32:21.650Z",
+    "topic_index": 12,
+    "section": "#### 3.2.2 데이터 보기",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "d8d81f6b8e6d36010d7b32090315bfaa732e78109203c939e6ee27dd5fd3d141",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "012_분석_원본_데이터보기_그룹색적용_02.png",
+    "caption": "같은 값을 가진 셀을 동일한 색으로 구분해 확인합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:32:22.295Z",
+    "topic_index": 12,
+    "section": "#### 3.2.2 데이터 보기",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "44e7dd96097abd3185af8fa52288242b0d30ee4e51bd354c4ea3197c55410d50",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "013_분석_원본_데이터보기_데이터다운로드_01.png",
+    "caption": "상단의 CSV·엑셀 다운로드 버튼으로 조회 데이터를 파일로 저장합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:32:22.801Z",
+    "topic_index": 13,
+    "section": "#### 3.2.2 데이터 보기",
+    "size": [
+      900,
+      160
+    ],
+    "sha256": "ed405f91aec217e9ee231a2319adf5ce5953cc61099a98220a6dfc4c5efc03be",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "014_분석_원본_데이터보기_너비간격조정_01.png",
+    "caption": "간격 슬라이더로 전체 열의 너비를 조절하고 컬럼 경계선을 끌어 개별 너비를 바꿉니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:32:23.308Z",
+    "topic_index": 14,
+    "section": "#### 3.2.2 데이터 보기",
+    "size": [
+      1100,
+      250
+    ],
+    "sha256": "95cba3eeeef90bf304f787d17848929c2d60cb592ded19683cfb161438e00414",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "015_분석_원본_데이터보기_컬럼정렬_01.png",
+    "caption": "정렬 버튼으로 컬럼 값의 표시 순서를 변경합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:32:24.045Z",
+    "topic_index": 15,
+    "section": "#### 3.2.2 데이터 보기",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "663c2ce591e312155bc1d390fab4d20c9e4dd7e27d1bf91df250c7c58f328483",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "016_분석_원본_데이터보기_필터링_01.png",
+    "caption": "필터 창에서 조회할 조건을 지정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:32:24.621Z",
+    "topic_index": 16,
+    "section": "#### 3.2.2 데이터 보기",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "9b05dc152de7c5a54f09eac15d608897af096cf49f89ac9b72b43dace7bd2b57",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "017_분석_원본_차트시각화_막대그래프생성_01.png",
+    "caption": "병원지역·성별·보험금 합계를 지정해 비교할 항목을 설정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:33:18.112Z",
+    "topic_index": 17,
+    "section": "###### 3.2.3.1.1 막대",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "aced8d300d2cc8bc3baf3f65f13272becd583ba73a7fb856adaac738bb1bc34a",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "017_분석_원본_차트시각화_막대그래프생성_02.png",
+    "caption": "지역과 성별에 따른 보험금 합계를 막대 차트로 비교합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:33:19.761Z",
+    "topic_index": 17,
+    "section": "###### 3.2.3.1.1 막대",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "1b45add3fde23025e44a06d48a492188cdb2ae2a2643aaaab8c50a9fd8ac514b",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "018_분석_원본_차트시각화_선그래프생성_01.png",
+    "caption": "선 차트에 사용할 컬럼과 집계 기준을 설정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:34:11.610Z",
+    "topic_index": 18,
+    "section": "###### 3.2.3.1.2 선",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "44d0eb12a360428390cf36af142ac3b6795552420e9c61c495f77896fdb71788",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "018_분석_원본_차트시각화_선그래프생성_02.png",
+    "caption": "선 차트의 생성 결과를 확인합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:34:13.148Z",
+    "topic_index": 18,
+    "section": "###### 3.2.3.1.2 선",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "3131b09eba08426cd1b6c9ccda3cd238c1133ac4cbc15ce97c97a4e998f5e74e",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "019_분석_원본_차트시각화_막대꺾은선생성_01.png",
+    "caption": "막대+꺾은선 차트에 사용할 컬럼과 집계 기준을 설정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:34:14.517Z",
+    "topic_index": 19,
+    "section": "###### 3.2.3.1.3 막대+꺾은선",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "bff566774dbee076a0704bd7bf139c9ab79e01492d37b99cbf730deb47de62d9",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "019_분석_원본_차트시각화_막대꺾은선생성_02.png",
+    "caption": "막대+꺾은선 차트의 생성 결과를 확인합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:34:16.048Z",
+    "topic_index": 19,
+    "section": "###### 3.2.3.1.3 막대+꺾은선",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "1f5030a0878d1902541fc36b92e6b2e73e3d0599703073730869b82dafc07f31",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "020_분석_원본_차트시각화_레이더생성_01.png",
+    "caption": "세 개의 수치 지표와 비교할 성별을 지정하여 레이더 차트를 구성합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:35:25.039Z",
+    "topic_index": 20,
+    "section": "###### 3.2.3.1.4 레이더",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "e4f2188aab069dca9d8bd110924ad1b28dd09c9edc904a054551e9d96f8259c4",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "020_분석_원본_차트시각화_레이더생성_02.png",
+    "caption": "지표별 축을 따라 성별에 따른 차이를 비교합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:35:26.511Z",
+    "topic_index": 20,
+    "section": "###### 3.2.3.1.4 레이더",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "3a2e66b78212c9b1d29b387986215b026e5ceef095798604b48702e7922dd1f5",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "021_분석_원본_차트시각화_히스토그램생성_01.png",
+    "caption": "히스토그램 차트에 사용할 컬럼과 집계 기준을 설정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:34:25.146Z",
+    "topic_index": 21,
+    "section": "###### 3.2.3.2.1 히스토그램",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "842e343d6832363f18d50605a7500d239f16c14a5da7420ab1932df0136b396b",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "021_분석_원본_차트시각화_히스토그램생성_02.png",
+    "caption": "히스토그램 차트의 생성 결과를 확인합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:34:26.701Z",
+    "topic_index": 21,
+    "section": "###### 3.2.3.2.1 히스토그램",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "754df64f0b0366229bcc9a423061a01c307f39c827a5c9ddcafa1ecdcbfeaa67",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "022_분석_원본_차트시각화_박스플롯생성_01.png",
+    "caption": "박스플롯 차트에 사용할 컬럼과 집계 기준을 설정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:34:27.982Z",
+    "topic_index": 22,
+    "section": "###### 3.2.3.2.2 박스플롯",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "35ecbd91a21e087b5771ba3af2ecb7a16b8dc64583e8de408aace2c42cff7bc5",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "022_분석_원본_차트시각화_박스플롯생성_02.png",
+    "caption": "박스플롯 차트의 생성 결과를 확인합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:34:29.512Z",
+    "topic_index": 22,
+    "section": "###### 3.2.3.2.2 박스플롯",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "816313f8883335e3c06ba3dbb1dc0277da4dd6fad887040ce51f20c34ecfb3dd",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "023_분석_원본_차트시각화_산점도생성_01.png",
+    "caption": "산점도 차트에 사용할 컬럼과 집계 기준을 설정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:34:30.924Z",
+    "topic_index": 23,
+    "section": "###### 3.2.3.2.3 산점도",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "3e846a0c672f9ae429b4c429bf660c59a9a48112b7f32d84a8d0394bf127474b",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "023_분석_원본_차트시각화_산점도생성_02.png",
+    "caption": "산점도 차트의 생성 결과를 확인합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:34:32.472Z",
+    "topic_index": 23,
+    "section": "###### 3.2.3.2.3 산점도",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "beec74c857157c2d94380f51a1f664dcd4d47ea6b8d51a9f07dc646e3e552231",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "024_분석_원본_차트시각화_분포파이그래프생성_01.png",
+    "caption": "파이 차트에 사용할 컬럼과 분석 기준을 지정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:35:08.573Z",
+    "topic_index": 24,
+    "section": "###### 3.2.3.2.4 파이",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "9c58eb8c8638210331a6d7aad94831739a2d470a39f6dc3dd74de719240ee1b4",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "024_분석_원본_차트시각화_분포파이그래프생성_02.png",
+    "caption": "파이 차트로 표시된 데이터의 분포와 관계를 확인합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:35:10.226Z",
+    "topic_index": 24,
+    "section": "###### 3.2.3.2.4 파이",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "d038cccd347280840007245110fef40cbe5e61832a457a53cbbee5a9d95db735",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "025_분석_원본_차트시각화_영역생성_01.png",
+    "caption": "영역 차트에 사용할 컬럼과 분석 기준을 지정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:35:11.715Z",
+    "topic_index": 25,
+    "section": "###### 3.2.3.3.1 영역",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "819ed012d6d14a4cb5733fed2e18f0e4ccb3d00603e477a3e439db04f5585d2e",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "025_분석_원본_차트시각화_영역생성_02.png",
+    "caption": "영역 차트로 표시된 데이터의 분포와 관계를 확인합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:35:13.443Z",
+    "topic_index": 25,
+    "section": "###### 3.2.3.3.1 영역",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "40981cf958e3703a3b6760646746d00426bf6a2a5c406dbd9e6c0484dd2575ad",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "026_분석_원본_차트시각화_히트맵생성_01.png",
+    "caption": "히트맵 차트에 사용할 항목과 측정값을 설정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:36:07.980Z",
+    "topic_index": 26,
+    "section": "###### 3.2.3.4.1 히트맵",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "a53218f6bb6b4554879dedf813bc501a0359c48d331e05da0db8fde8f087820c",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "026_분석_원본_차트시각화_히트맵생성_02.png",
+    "caption": "히트맵 차트에서 지정한 항목 간 차이와 구성 비율을 확인합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:36:09.617Z",
+    "topic_index": 26,
+    "section": "###### 3.2.3.4.1 히트맵",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "dae1f7b1e4ea724da1aa9591e2e6736b5f9ee21356be69688c213b64be46119e",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "027_분석_원본_차트시각화_지도생성_01.png",
+    "caption": "실습용 예시 데이터에서 경도·위도·지역과 보험금 합계를 지정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:34:47.105Z",
+    "topic_index": 27,
+    "section": "###### 3.2.3.5.1 지도",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "e1afd2a4b1fb9c24a1f2221bfdf55c1659254fa755f87f432b15ff0cd85b7580",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "027_분석_원본_차트시각화_지도생성_02.png",
+    "caption": "지역별 위치와 보험금 크기를 지도 위에서 비교합니다. 좌표와 금액은 기능 설명을 위한 실습 예시입니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:34:49.063Z",
+    "topic_index": 27,
+    "section": "###### 3.2.3.5.1 지도",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "ec833af3dd09ad374090ef21e4d254e2c8a512783134a5583fc2a890d6d8a8fc",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "028_분석_원본_차트시각화_한국지도생성_01.png",
+    "caption": "한국 지도 차트에 사용할 컬럼과 분석 기준을 지정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:35:24.964Z",
+    "topic_index": 28,
+    "section": "###### 3.2.3.5.2 한국 지도",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "7ede22ed9c1b084070196e5f660a9a35d0cf7fe886847ac31f8281a1328c928b",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "028_분석_원본_차트시각화_한국지도생성_02.png",
+    "caption": "한국 지도 차트로 표시된 데이터의 분포와 관계를 확인합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:35:26.611Z",
+    "topic_index": 28,
+    "section": "###### 3.2.3.5.2 한국 지도",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "31c99daad3f07fbb41ae33f1f84a4c4f15d45e696fc561e9db73bec4e158b9cf",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "029_분석_원본_차트시각화_구성파이생성_01.png",
+    "caption": "파이 차트에 사용할 항목과 측정값을 설정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:36:10.988Z",
+    "topic_index": 29,
+    "section": "###### 3.2.3.6.1 파이",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "8064643c03d3abcb673d4c2c07d50c1f905a72bddece795167f7b735c76f422a",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "029_분석_원본_차트시각화_구성파이생성_02.png",
+    "caption": "파이 차트에서 지정한 항목 간 차이와 구성 비율을 확인합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:36:12.614Z",
+    "topic_index": 29,
+    "section": "###### 3.2.3.6.1 파이",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "803a9bdb320e264d57369283a6e2ee23f1c677a8f73ce9a6c226e6148e509bdb",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "030_분석_원본_차트시각화_스택막대생성_01.png",
+    "caption": "스택막대 차트에 사용할 항목과 측정값을 설정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:36:14.023Z",
+    "topic_index": 30,
+    "section": "###### 3.2.3.6.2 스택막대",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "f52e84e77da7fcc163e0d8493f41004a7b32dbee05679e892ec52dc63c6747c6",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "030_분석_원본_차트시각화_스택막대생성_02.png",
+    "caption": "스택막대 차트에서 지정한 항목 간 차이와 구성 비율을 확인합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:36:15.657Z",
+    "topic_index": 30,
+    "section": "###### 3.2.3.6.2 스택막대",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "ad62f032b2df0f8f52ee591f66a84ccfa4ac1f49ccbb47be30b7e3b59e683c78",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "031_분석_원본_차트시각화_트리맵생성_01.png",
+    "caption": "트리맵 차트에 사용할 항목과 측정값을 설정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:36:17.051Z",
+    "topic_index": 31,
+    "section": "###### 3.2.3.6.3 트리맵",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "48ca8378d1c345f40a1dd63decc9f284f83f5e2be01c821f10e17798a0ff4223",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "031_분석_원본_차트시각화_트리맵생성_02.png",
+    "caption": "트리맵 차트에서 지정한 항목 간 차이와 구성 비율을 확인합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:36:18.688Z",
+    "topic_index": 31,
+    "section": "###### 3.2.3.6.3 트리맵",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "b309c93cf12b9da1f71513fb1231b0d4a1339ab13b05cc3f8d0739bf8326c8c4",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "032_분석_원본_차트시각화_센키생성_01.png",
+    "caption": "샌키 차트에 사용할 컬럼과 분석 기준을 지정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:35:36.557Z",
+    "topic_index": 32,
+    "section": "###### 3.2.3.7.1 샌키",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "9cce2f0eec410819e7866a0029c28cb609b5c79d0c676d74c4e743724df8fa50",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "032_분석_원본_차트시각화_센키생성_02.png",
+    "caption": "샌키 차트로 표시된 데이터의 분포와 관계를 확인합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:35:38.219Z",
+    "topic_index": 32,
+    "section": "###### 3.2.3.7.1 샌키",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "c69d962f3d7ea5ba127f6acf03d8de2115f3d8c640bf6890d8a676c09cfc2883",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "033_분석_원본_차트시각화_스트림그래프생성_01.png",
+    "caption": "스트림그래프 차트에 사용할 컬럼과 분석 기준을 지정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:35:39.571Z",
+    "topic_index": 33,
+    "section": "###### 3.2.3.7.2 스트림그래프",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "035374c7f460ba687c7ebb6e6555fe55ad6a9ec1b773d70850894a693a2efdbb",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "033_분석_원본_차트시각화_스트림그래프생성_02.png",
+    "caption": "스트림그래프 차트로 표시된 데이터의 분포와 관계를 확인합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:35:41.204Z",
+    "topic_index": 33,
+    "section": "###### 3.2.3.7.2 스트림그래프",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "4147120db827b1a49e49477c2889de1004227fa044cc99e6e12a1356b620b2fa",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "034_분석_전처리_AI전처리_01.png",
+    "caption": "AI 전처리 버튼으로 데이터에 필요한 처리 단계를 추천받습니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:39:40.010Z",
+    "topic_index": 34,
+    "section": "###### 3.3.1.1.1 AI전처리",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "3f2819675a77ab50200ef61f9a2b5140d4929ea762a117b3fa2303a684dde2ec",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "034_분석_전처리_AI전처리_시연_01.png",
+    "caption": "AI가 추천한 처리 단계와 단계별 설정을 검토합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_전처리_AI전처리.gif",
+    "frame": 132,
+    "topic_index": 34,
+    "section": "###### 3.3.1.1.1 AI전처리",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "3e264e57edbc93174d2be79e5b70b3c29f9cdc510fc22f7bdfacb0845499062f",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "035_분석_전처리_AI직접입력_시연_01.png",
+    "caption": "직접 입력에서 원하는 전처리 내용을 자연어로 작성합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_전처리_AI직접입력.gif",
+    "frame": 77,
+    "topic_index": 35,
+    "section": "###### 3.3.1.1.2 AI 직접입력",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "ac46f3cfd0048b3b8b969f3b16a421d12b205c92639f198d0edb50efe6b54dab",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "035_분석_전처리_AI직접입력_시연_02.png",
+    "caption": "요청에 따라 추가된 전처리 단계와 조건을 확인한 뒤 적용합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_전처리_AI직접입력.gif",
+    "frame": 184,
+    "topic_index": 35,
+    "section": "###### 3.3.1.1.2 AI 직접입력",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "8e9b573b158c3a0e1ddc90876eeae896ebec23aa4436a1503c843c95dfa5a448",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "036_분석_전처리_데이터정제_필터링_01.png",
+    "caption": "필터링할 컬럼과 조건을 지정하여 필요한 데이터만 남깁니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:39:02.009Z",
+    "topic_index": 36,
+    "section": "###### 3.3.1.2.1 필터링",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "0a740b1d1dd1f8bb754fc3b2e98b65582a49d2cb395f7441d779c8d4b6be6602",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "037_분석_전처리_데이터정제_값변경_01.png",
+    "caption": "변경할 컬럼과 기존 값·새 값을 지정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:39:05.717Z",
+    "topic_index": 37,
+    "section": "###### 3.3.1.2.2 값 변경",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "201b88e1b6b0f7a9251403d19d6fbcb668964137692fb6c276c3c55283f194db",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "038_분석_전처리_데이터정제_형변환_01.png",
+    "caption": "컬럼의 현재 데이터 형식과 변환할 형식을 지정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:39:09.424Z",
+    "topic_index": 38,
+    "section": "###### 3.3.1.2.3 형 변환",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "dca5c90b21023a259017e9a2aea7a2903b1b3b563fa01bc49c3fc06cb363fdcc",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "039_분석_전처리_결측중복_중복값_01.png",
+    "caption": "중복 여부를 판단할 기준 컬럼과 처리 방식을 선택합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:39:13.095Z",
+    "topic_index": 39,
+    "section": "###### 3.3.1.3.1 중복값",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "039377fc67b740c593b1e942d2cda535bd7c33dd56102f9151aa8d72ea4342a2",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "040_분석_전처리_결측중복_결측값_01.png",
+    "caption": "결측값을 처리할 컬럼과 삭제·대체 방법을 지정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:39:16.766Z",
+    "topic_index": 40,
+    "section": "###### 3.3.1.3.2 결측값",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "b0ea098d1d68449f52ebeca1b0342697be12e2f5a0a2641e23bf0e500489005b",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "041_분석_전처리_컬럼관리_항목삭제_01.png",
+    "caption": "분석에 필요하지 않은 컬럼을 선택합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:39:20.435Z",
+    "topic_index": 41,
+    "section": "###### 3.3.1.4.1 항목삭제",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "e36bade3bb1c1adff15ec4849e551f3c2884bf2b85bdf03763f59edc3f80e368",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "042_분석_전처리_컬럼관리_항목명변경_01.png",
+    "caption": "기존 컬럼 이름과 변경할 새 이름을 입력합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:39:24.089Z",
+    "topic_index": 42,
+    "section": "###### 3.3.1.4.2 항목명변경",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "ccd91992d2385a0c34eefb6bf092e7d6a59436544ea8efde2a872cdebd9efa3b",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "043_분석_전처리_컬럼관리_항목생성_01.png",
+    "caption": "새 컬럼의 이름과 계산식을 지정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:39:27.788Z",
+    "topic_index": 43,
+    "section": "###### 3.3.1.4.3 항목생성",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "5f045877bf4d53ceb902be9b9be36d21b5839e8078b95b74b78d5c00e11ef2a0",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "044_분석_전처리_스케일링_정규화_01.png",
+    "caption": "수치 컬럼과 스케일링 방법을 선택합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:39:31.489Z",
+    "topic_index": 44,
+    "section": "###### 3.3.1.5.1 정규화",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "fb5004e6f5f5f54c73a0ae8af4b580f2147f11d6a80a45d6776560f99bbae6b8",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "045_분석_전처리_스케일링_이상치_01.png",
+    "caption": "이상치 판단 기준과 처리 방법을 지정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:39:35.336Z",
+    "topic_index": 45,
+    "section": "###### 3.3.1.5.2 이상치",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "ebe158542a67655582f95a91c751236f22eb6a61c7a6ed47a2e95a4970c79135",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "046_분석_전처리_되돌리기_01.png",
+    "caption": "되돌리기로 적용 전 변경 사항을 취소합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:39:35.900Z",
+    "topic_index": 46,
+    "section": "##### 3.3.1.6 되돌리기",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "c5f1879a61c26e4bd8835d3e75873f124d05cbe19d1ce63f9897389032fb1989",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "047_분석_통계분석_BI(OLAP)_피벗그래프_01.png",
+    "caption": "열에 보험종류, 행에 성별, 측정값에 보험금 합계를 지정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:40:20.570Z",
+    "topic_index": 47,
+    "section": "##### 3.4.1.1 피벗그래프",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "19bdf628810c4e77978c8a51fd2223b4fa7c9cdb0e8361fa1425da80a2e6351d",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "047_분석_통계분석_BI(OLAP)_피벗그래프_02.png",
+    "caption": "피벗 표에서 보험종류와 성별에 따른 보험금 집계 결과를 비교합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:40:22.314Z",
+    "topic_index": 47,
+    "section": "##### 3.4.1.1 피벗그래프",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "4ded002f561a42787789d6b61ec6f3b38697311487a7e58b3199c6756817f616",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "048_분석_통계분석_BI(OLAP)_선그래프_01.png",
+    "caption": "선 그래프 표시 방식을 선택해 같은 집계 결과를 확인합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:41:09.908Z",
+    "topic_index": 48,
+    "section": "##### 3.4.1.2 선그래프",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "84942bb00965dfc92d49869c2ff77aabc77c6da1af7b01958d903af07175be51",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "049_분석_통계분석_BI(OLAP)_막대그래프_01.png",
+    "caption": "막대 그래프 표시 방식을 선택해 같은 집계 결과를 확인합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:41:11.393Z",
+    "topic_index": 49,
+    "section": "##### 3.4.1.3 막대그래프",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "5903c0358c4e9ee96cd2d3f39721eb72c913525043805fce984ebd3520b456fc",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "050_분석_통계분석_BI(OLAP)_표그래프_01.png",
+    "caption": "표 그래프 표시 방식을 선택해 같은 집계 결과를 확인합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:41:12.895Z",
+    "topic_index": 50,
+    "section": "##### 3.4.1.4 표그래프",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "d8e1f3bc21894b62565feb4864dc26e65aacb03e49cae43c685639f87dc4ecbe",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "051_분석_통계분석_BI(OLAP)_필터그래프_01.png",
+    "caption": "필터 그래프에서 집계 결과를 확인하고 관심 항목을 선택하여 비교합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:35:29.939Z",
+    "topic_index": 51,
+    "section": "##### 3.4.1.5 필터그래프",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "9058b2a2da5d5297b1f0bd48f2083b81ec785db1d5fdd6a58bb6d8f98a56f70c",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "052_분석_연관관계분석_분석항목선택_시연_01.png",
+    "caption": "분석에 사용할 컬럼과 항목별 노드 수를 확인한 뒤 선택합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_연관관계분석_분석항목선택.gif",
+    "frame": 152,
+    "topic_index": 52,
+    "section": "##### 3.4.2.1 분석 항목 선택",
+    "size": [
+      652,
+      678
+    ],
+    "sha256": "827782ff2d4e5ce57b8883d679378c98081d727edffdc3348f62292f90ea0339",
+    "account_name_masked": false,
+    "cropped": true
+  },
+  {
+    "file": "052_분석_연관관계분석_분석항목선택_시연_02.png",
+    "caption": "선택한 항목의 연결 관계가 분석도에 표시됩니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_연관관계분석_분석항목선택.gif",
+    "frame": 206,
+    "topic_index": 52,
+    "section": "##### 3.4.2.1 분석 항목 선택",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "b6b50c5f73dda77bcce7ce6a20b74c9f4eb1dc48c2843f8bd5dac1bb5049369a",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "053_분석_연관관계분석_분석대상선택_시연_01.png",
+    "caption": "범례에서 항목을 선택해 해당 노드를 숨기거나 표시합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_연관관계분석_분석대상선택.gif",
+    "frame": 69,
+    "topic_index": 53,
+    "section": "##### 3.4.2.1 분석 항목 선택",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "12b3b86ce68c0dc2fda60ab45a144d7437d608cb5f72a08c443ccb31565bfac1",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "053_분석_연관관계분석_분석대상선택_시연_02.png",
+    "caption": "표시할 항목을 조절하여 관심 있는 관계를 비교합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_연관관계분석_분석대상선택.gif",
+    "frame": 149,
+    "topic_index": 53,
+    "section": "##### 3.4.2.1 분석 항목 선택",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "787399b8b86f3ceee03a90c172f2b55fbf9948cc21bcf6971ed59951bfbf70de",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "054_분석_연관관계분석_필터_시연_01.png",
+    "caption": "항목별로 표시할 값을 선택하여 필터 조건을 지정합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_연관관계분석_필터.gif",
+    "frame": 129,
+    "topic_index": 54,
+    "section": "##### 3.4.2.2 필터",
+    "size": [
+      838,
+      708
+    ],
+    "sha256": "5e3bac27108733e05bc834e9ec0dd4c6dee2535ac50c65c14c8d9817504ca06e",
+    "account_name_masked": false,
+    "cropped": true
+  },
+  {
+    "file": "054_분석_연관관계분석_필터_시연_02.png",
+    "caption": "필터를 적용한 뒤 남은 노드와 연결 관계를 확인합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_연관관계분석_필터.gif",
+    "frame": 175,
+    "topic_index": 54,
+    "section": "##### 3.4.2.2 필터",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "a31fd5638984bff68dd4d23a90d1e64c091139c1860a4a841ab8f0f2670884b2",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "055_분석_연관관계분석_검색필터_시연_01.png",
+    "caption": "검색 필터에 항목과 일치·포함 등의 조건을 설정합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_연관관계분석_검색필터.gif",
+    "frame": 142,
+    "topic_index": 55,
+    "section": "##### 3.4.2.3 검색 필터",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "68534d7262a1811d28956d13ba7ebb5b7b0ea13b2fd481f0e4d510e63f94d131",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "055_분석_연관관계분석_검색필터_시연_02.png",
+    "caption": "조건을 불러온 뒤 분석도에 표시되는 결과를 확인합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_연관관계분석_검색필터.gif",
+    "frame": 192,
+    "topic_index": 55,
+    "section": "##### 3.4.2.3 검색 필터",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "46941a334fd64450c4dc0db8f9930e462865b2aa9bbeeb6810f227b2a744d529",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "056_분석_연관관계분석_레이아웃_시연_01.png",
+    "caption": "레이아웃을 전환하여 항목별 노드 배치를 바꿉니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_연관관계분석_레이아웃.gif",
+    "frame": 30,
+    "topic_index": 56,
+    "section": "##### 3.4.2.4 분석도 레이아웃 변경",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "78dcbdb745e7ea1b77ce489e2572d797db5b0c1c0ab2951d7d2fbfc7a9c5a865",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "056_분석_연관관계분석_레이아웃_시연_02.png",
+    "caption": "다른 배치 방식으로 같은 항목의 연결 관계를 살펴봅니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_연관관계분석_레이아웃.gif",
+    "frame": 114,
+    "topic_index": 56,
+    "section": "##### 3.4.2.4 분석도 레이아웃 변경",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "189c2b1f16829dfac59ddd5b34a22ecc0d21fd1443318dc9d77ec2c624b842c5",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "057_분석_연관관계분석_설정_시연_01.png",
+    "caption": "설정 패널에서 노드 간격·글씨 크기·이름과 엣지 표시를 조절합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_연관관계분석_설정.gif",
+    "frame": 136,
+    "topic_index": 57,
+    "section": "##### 3.4.2.5 설정",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "99e8a349af475f692ad07f20e9ddcd1e3855bbd03ece3f6155284185bfe6f029",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "057_분석_연관관계분석_설정_시연_02.png",
+    "caption": "엣지의 빈도 구간과 색상·두께를 설정해 관계를 구분합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_연관관계분석_설정.gif",
+    "frame": 292,
+    "topic_index": 57,
+    "section": "##### 3.4.2.5 설정",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "f83e9e0eedb533288fcd267b4ea1f1cdc8d746628feebc7321b068f94b8d6b77",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "058_분석_연관관계분석_관계_시연_01.png",
+    "caption": "관계 도구를 선택하고 관심 노드를 클릭합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_연관관계분석_관계.gif",
+    "frame": 106,
+    "topic_index": 58,
+    "section": "##### 3.4.2.6 관계",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "ff216c6ba4b6b622a20f995aaaf9ea2d5bd1261df9106b47364c2b8fa4d48e5b",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "058_분석_연관관계분석_관계_시연_02.png",
+    "caption": "노드 연관관계 패널에서 연결된 항목과 값을 확인합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_연관관계분석_관계.gif",
+    "frame": 143,
+    "topic_index": 58,
+    "section": "##### 3.4.2.6 관계",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "dfa67ea19e79315b0c5ea6bba2de3ecfa8d54bb938ed0d03db2411fe0e693aea",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "059_분석_연관관계분석_관계_데이터셋연결_상하분할_시연_01.png",
+    "caption": "연관관계 설정에서 연결할 데이터셋과 컬럼을 지정합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_연관관계분석_관계_데이터셋연결_상하분할.gif",
+    "frame": 179,
+    "topic_index": 59,
+    "section": "##### 3.4.2.6 관계",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "5c2b30450133dd0c9dee68defe6cbfa5c95241704b79f95dc0c2301b41153fc2",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "059_분석_연관관계분석_관계_데이터셋연결_상하분할_시연_02.png",
+    "caption": "선택한 값과 연결된 데이터를 별도 분석 화면에서 확인합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_연관관계분석_관계_데이터셋연결_상하분할.gif",
+    "frame": 677,
+    "topic_index": 59,
+    "section": "##### 3.4.2.6 관계",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "8b3ab041c39ae3c9cbb332f22e8924655524ba640c93c2c4eede8a5e22fc4763",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "059_분석_연관관계분석_관계_데이터셋연결_상하분할_시연_03.png",
+    "caption": "분할 방향을 상하로 바꿔 두 분석 화면을 위아래로 비교합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_연관관계분석_관계_데이터셋연결_상하분할.gif",
+    "frame": 916,
+    "topic_index": 59,
+    "section": "##### 3.4.2.6 관계",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "3b811b23fcab619aec8979baad6c578777c3e40a075b3d86695a050d921f835f",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "060_분석_연관관계분석_패턴분석_시연_01.png",
+    "caption": "패턴에 포함할 항목과 노드를 순서대로 추가합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_연관관계분석_패턴분석.gif",
+    "frame": 133,
+    "topic_index": 60,
+    "section": "##### 3.4.2.7 패턴분석",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "659ed2498fa8acac705fbfa556b99d7aa52a8b846937c791cdf55e3ec9e5674d",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "060_분석_연관관계분석_패턴분석_시연_02.png",
+    "caption": "등록한 패턴에 해당하는 연결 경로를 확인합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_연관관계분석_패턴분석.gif",
+    "frame": 181,
+    "topic_index": 60,
+    "section": "##### 3.4.2.7 패턴분석",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "352f75cc6d09ddc9040bef3aa9452d56243b41e1160e6ac2209c91b64dc207ef",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "061_분석_연관관계분석_빈도분석_시연_01.png",
+    "caption": "빈도분석에서 상위 경로를 추가하거나 상위 비율을 선택합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_연관관계분석_빈도분석.gif",
+    "frame": 116,
+    "topic_index": 61,
+    "section": "##### 3.4.2.8 빈도분석",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "893b7335464cedaae5996d2ec407217d1ddc396c7374f1ad04a4058bb4fd376f",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "061_분석_연관관계분석_빈도분석_시연_02.png",
+    "caption": "색으로 구분된 빈도 경로를 분석도에서 확인합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_연관관계분석_빈도분석.gif",
+    "frame": 158,
+    "topic_index": 61,
+    "section": "##### 3.4.2.8 빈도분석",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "86bbee68bd12f2d973077b48a8620f359a08debdc19914ad9810a8eeb25c9324",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "062_분석_연관관계분석_초점_시연_01.png",
+    "caption": "확대하거나 이동한 분석도의 현재 위치를 확인합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_연관관계분석_초점.gif",
+    "frame": 69,
+    "topic_index": 62,
+    "section": "##### 3.4.2.9 초점",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "e3d5d9ff3ebdcaedcc94cab33e4484d7f6bbb83d8eb071d3d6b04a446723c0de",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "062_분석_연관관계분석_초점_시연_02.png",
+    "caption": "초점 도구를 사용하여 전체 관계가 보이도록 화면을 정리합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_연관관계분석_초점.gif",
+    "frame": 149,
+    "topic_index": 62,
+    "section": "##### 3.4.2.9 초점",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "7ee574ba4b4d93ff139c66ca311403e6ff88e2f5d5e64dee0b2e147ffa6473df",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "063_분석_연관관계분석_위젯저장_시연_01.png",
+    "caption": "위젯 이름을 입력하고 분석도를 저장합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_연관관계분석_위젯저장.gif",
+    "frame": 81,
+    "topic_index": 63,
+    "section": "##### 3.4.2.10 위젯저장",
+    "size": [
+      652,
+      296
+    ],
+    "sha256": "3c8f69c623452d2c9ef6beb9d2b0ca09065f7c23a5646b720ad53a8caa7616db",
+    "account_name_masked": false,
+    "cropped": true
+  },
+  {
+    "file": "063_분석_연관관계분석_위젯저장_시연_02.png",
+    "caption": "저장된 위젯 목록에서 이름을 확인하고 불러오거나 관리합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_연관관계분석_위젯저장.gif",
+    "frame": 174,
+    "topic_index": 63,
+    "section": "##### 3.4.2.10 위젯저장",
+    "size": [
+      776,
+      502
+    ],
+    "sha256": "ee9d8983531b30113e562068834119f9defd685efb985d3a81f55f995cfc9392",
+    "account_name_masked": false,
+    "cropped": true
+  },
+  {
+    "file": "064_분석_연관관계분석_미러분석_시연_01.png",
+    "caption": "미러 분석으로 화면을 나누고 비교할 조건을 설정합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_연관관계분석_미러분석.gif",
+    "frame": 77,
+    "topic_index": 64,
+    "section": "##### 3.4.2.11 미러분석",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "0523fb3236af8b54cee6afc7faec4a7be0eeaa397c90fa7aa19109b5a6365ed6",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "064_분석_연관관계분석_미러분석_시연_02.png",
+    "caption": "화면 동기화와 통합 필터로 두 분석도를 비교합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_연관관계분석_미러분석.gif",
+    "frame": 166,
+    "topic_index": 64,
+    "section": "##### 3.4.2.11 미러분석",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "cfceec643c9b5348cec0c67517da8500406f8e5e0fc6ca8d5ff9adbb15466b2c",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "065_기계학습_회귀_1학습_시연_01.png",
+    "caption": "샘플 데이터를 확인하고 영향요인과 예측항목을 선택합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/기계학습_회귀_1학습.gif",
+    "frame": 172,
+    "topic_index": 65,
+    "section": "#### 3.5.1 회귀모델",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "d810d9d7430d7710aac29fc48e6d27c6e2d8625fd7d3e24899ad2c29594ba4d2",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "065_기계학습_회귀_1학습_시연_02.png",
+    "caption": "자동 전처리·알고리즘·학습 비율을 설정합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/기계학습_회귀_1학습.gif",
+    "frame": 272,
+    "topic_index": 65,
+    "section": "#### 3.5.1 회귀모델",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "c57721c582b920a17e188c7de89ee9ddd9e6d44661ef5c1becb485af03422fe2",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "065_기계학습_회귀_1학습_시연_03.png",
+    "caption": "학습이 완료되면 알고리즘별 평가 지표를 비교합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/기계학습_회귀_1학습.gif",
+    "frame": 368,
+    "topic_index": 65,
+    "section": "#### 3.5.1 회귀모델",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "fcc6b0f67546e5d48a76af49cecbd7d6ce90023ee0e31a46c258dc41a71cbf89",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "066_기계학습_회귀_2튜닝_시연_01.png",
+    "caption": "하이퍼 파라미터를 조정하여 모델을 튜닝합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/기계학습_회귀_2튜닝.gif",
+    "frame": 208,
+    "topic_index": 66,
+    "section": "#### 3.5.1 회귀모델",
+    "size": [
+      1102,
+      658
+    ],
+    "sha256": "f19a14c07bae99b414b5c1d6109dad261062d320c5f1845cd5a447c1effcd913",
+    "account_name_masked": false,
+    "cropped": true
+  },
+  {
+    "file": "066_기계학습_회귀_2튜닝_시연_02.png",
+    "caption": "그래프에서 실제값과 예측값의 관계를 확인합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/기계학습_회귀_2튜닝.gif",
+    "frame": 330,
+    "topic_index": 66,
+    "section": "#### 3.5.1 회귀모델",
+    "size": [
+      1102,
+      998
+    ],
+    "sha256": "8888e102046b9ea989881036f5b39616fb2b56c21f41791e969ed922ba44318e",
+    "account_name_masked": false,
+    "cropped": true
+  },
+  {
+    "file": "066_기계학습_회귀_2튜닝_시연_03.png",
+    "caption": "학습 결과 표에서 예측 오차를 확인합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/기계학습_회귀_2튜닝.gif",
+    "frame": 447,
+    "topic_index": 66,
+    "section": "#### 3.5.1 회귀모델",
+    "size": [
+      1102,
+      998
+    ],
+    "sha256": "44f43f49f3ea83a32aaa357d0df4e6e08243dcf9e0dd554c3f6d4ca4c87440d8",
+    "account_name_masked": false,
+    "cropped": true
+  },
+  {
+    "file": "067_기계학습_회귀_2튜닝_part2_시연_01.png",
+    "caption": "예측 데이터 설정 창에 값을 입력하거나 무작위 데이터를 불러옵니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/기계학습_회귀_2튜닝_part2.gif",
+    "frame": 208,
+    "topic_index": 67,
+    "section": "#### 3.5.1 회귀모델",
+    "size": [
+      986,
+      577
+    ],
+    "sha256": "98360dca6fbc7efa5708341d4c452bbc8e3980fb23d8bdc3eecc4ad64f07232d",
+    "account_name_masked": false,
+    "cropped": true
+  },
+  {
+    "file": "067_기계학습_회귀_2튜닝_part2_시연_02.png",
+    "caption": "예측 실행 후 결과와 회차를 확인합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/기계학습_회귀_2튜닝_part2.gif",
+    "frame": 330,
+    "topic_index": 67,
+    "section": "#### 3.5.1 회귀모델",
+    "size": [
+      1102,
+      996
+    ],
+    "sha256": "bede1e7132efb16659adeb749d4c94ffbe17773f15b5014c6b15d3dd8a5bfa18",
+    "account_name_masked": false,
+    "cropped": true
+  },
+  {
+    "file": "067_기계학습_회귀_2튜닝_part2_시연_03.png",
+    "caption": "완성한 모델의 다운로드와 Python 적용 예제를 확인합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/기계학습_회귀_2튜닝_part2.gif",
+    "frame": 447,
+    "topic_index": 67,
+    "section": "#### 3.5.1 회귀모델",
+    "size": [
+      1102,
+      998
+    ],
+    "sha256": "4b69db735df4dd45334c14e3c7a603934eafb2627b978cc77b462f70eb259c1c",
+    "account_name_masked": false,
+    "cropped": true
+  },
+  {
+    "file": "068_기계학습_분류_1학습_시연_01.png",
+    "caption": "분류에 사용할 영향요인과 예측항목을 선택합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/기계학습_분류_1학습.gif",
+    "frame": 179,
+    "topic_index": 68,
+    "section": "#### 3.5.2 분류모델",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "b52ecd442fe0209a106c9304a1e00a35529b009941992c45e88d12a05eb549d7",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "068_기계학습_분류_1학습_시연_02.png",
+    "caption": "학습할 알고리즘과 학습·검증 데이터 비율을 지정합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/기계학습_분류_1학습.gif",
+    "frame": 283,
+    "topic_index": 68,
+    "section": "#### 3.5.2 분류모델",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "e143f3670bb7339ec25698ce31311f54e49e06469748b47adfab83b95e00cdc7",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "068_기계학습_분류_1학습_시연_03.png",
+    "caption": "학습이 끝나면 Accuracy·AUC·F1 등 평가 지표를 비교합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/기계학습_분류_1학습.gif",
+    "frame": 383,
+    "topic_index": 68,
+    "section": "#### 3.5.2 분류모델",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "916d9ad605e72cadea211f09a09cea0f4ccd05f7904659b4de09d7cda9158dc4",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "069_기계학습_분류_2튜닝_시연_01.png",
+    "caption": "분류 모델의 하이퍼 파라미터를 설정합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/기계학습_분류_2튜닝.gif",
+    "frame": 77,
+    "topic_index": 69,
+    "section": "#### 3.5.2 분류모델",
+    "size": [
+      1102,
+      742
+    ],
+    "sha256": "cbcd868a2e08b30ea5aa3ecbba522308b62267df5b5461b3b86dcdda507e365a",
+    "account_name_masked": false,
+    "cropped": true
+  },
+  {
+    "file": "069_기계학습_분류_2튜닝_시연_02.png",
+    "caption": "그래프 탭에서 모델의 분류 성능을 확인합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/기계학습_분류_2튜닝.gif",
+    "frame": 293,
+    "topic_index": 69,
+    "section": "#### 3.5.2 분류모델",
+    "size": [
+      1102,
+      998
+    ],
+    "sha256": "1ecead15e1a42da46d69ac0368bb8ca6d423fd0b99794920233158fde5723759",
+    "account_name_masked": false,
+    "cropped": true
+  },
+  {
+    "file": "069_기계학습_분류_2튜닝_시연_03.png",
+    "caption": "학습 결과 탭에서 실제 분류와 예측 결과를 비교합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/기계학습_분류_2튜닝.gif",
+    "frame": 397,
+    "topic_index": 69,
+    "section": "#### 3.5.2 분류모델",
+    "size": [
+      1102,
+      998
+    ],
+    "sha256": "080ed5a4c8fb3a8c296721a8ad28e969362e5fa5b2c9859047ed04bd26b863d9",
+    "account_name_masked": false,
+    "cropped": true
+  },
+  {
+    "file": "070_기계학습_분류_2튜닝_part2_시연_01.png",
+    "caption": "분류를 예측할 입력값을 지정합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/기계학습_분류_2튜닝_part2.gif",
+    "frame": 207,
+    "topic_index": 70,
+    "section": "#### 3.5.2 분류모델",
+    "size": [
+      986,
+      694
+    ],
+    "sha256": "211649fedacca1a76597f681f537beedd1d26c5eda5df024fe13fd28af6d3064",
+    "account_name_masked": false,
+    "cropped": true
+  },
+  {
+    "file": "070_기계학습_분류_2튜닝_part2_시연_02.png",
+    "caption": "회차별 예측 결과를 확인합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/기계학습_분류_2튜닝_part2.gif",
+    "frame": 327,
+    "topic_index": 70,
+    "section": "#### 3.5.2 분류모델",
+    "size": [
+      1102,
+      999
+    ],
+    "sha256": "89f42784b8550d210049522c3e1e9fc3af3c4d5c5ea4ed4cf3ead123569b08b7",
+    "account_name_masked": false,
+    "cropped": true
+  },
+  {
+    "file": "070_기계학습_분류_2튜닝_part2_시연_03.png",
+    "caption": "완성 모델의 다운로드와 적용 코드를 확인합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/기계학습_분류_2튜닝_part2.gif",
+    "frame": 443,
+    "topic_index": 70,
+    "section": "#### 3.5.2 분류모델",
+    "size": [
+      1102,
+      999
+    ],
+    "sha256": "1bcaaf005a799476dacbace8e00415f2f08bfd2927f2fcb854889f0ef9e6054a",
+    "account_name_masked": false,
+    "cropped": true
+  },
+  {
+    "file": "071_기계학습_군집_시연_01.png",
+    "caption": "군집에 사용할 변수와 알고리즘을 선택합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/기계학습_군집.gif",
+    "frame": 85,
+    "topic_index": 71,
+    "section": "#### 3.5.3 군집모델",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "72525832cf4b32cc30a9ee4f00c189dc8ff0e1a43cd73d524fb20bdff09ca457",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "071_기계학습_군집_시연_02.png",
+    "caption": "행별 군집 결과를 표로 확인합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/기계학습_군집.gif",
+    "frame": 324,
+    "topic_index": 71,
+    "section": "#### 3.5.3 군집모델",
+    "size": [
+      1658,
+      1053
+    ],
+    "sha256": "562f17d4bbd5774771b13e9a6d1c2c2a587f0f3d5db790fc030ac476492a138d",
+    "account_name_masked": false,
+    "cropped": true
+  },
+  {
+    "file": "071_기계학습_군집_시연_03.png",
+    "caption": "산점도에서 군집별 분포와 차이를 살펴봅니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/기계학습_군집.gif",
+    "frame": 438,
+    "topic_index": 71,
+    "section": "#### 3.5.3 군집모델",
+    "size": [
+      1658,
+      1053
+    ],
+    "sha256": "3998c326a2a13c2c7fc2476dade4438c99cb4872278a00c6b37e42953159e025",
+    "account_name_masked": false,
+    "cropped": true
+  },
+  {
+    "file": "072_기계학습_시계열_1학습_시연_01.png",
+    "caption": "날짜변수와 예측할 수치 항목을 선택합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/기계학습_시계열_1학습.gif",
+    "frame": 58,
+    "topic_index": 72,
+    "section": "#### 3.5.4 시계열모델",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "bd020feb66017518be8f5a5bbf4f44c43b647a21839175b7a12749cf08263976",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "072_기계학습_시계열_1학습_시연_02.png",
+    "caption": "예측 기간과 학습·검증 데이터 비율을 설정합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/기계학습_시계열_1학습.gif",
+    "frame": 221,
+    "topic_index": 72,
+    "section": "#### 3.5.4 시계열모델",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "b9b54f2991606891e8a17fdb6881ecd833b90a034d24616d7714a5bc9b63517b",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "072_기계학습_시계열_1학습_시연_03.png",
+    "caption": "학습 후 MAE·RMSE 등 시계열 평가 지표를 비교합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/기계학습_시계열_1학습.gif",
+    "frame": 299,
+    "topic_index": 72,
+    "section": "#### 3.5.4 시계열모델",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "b845aaee2c08088774ecc6cbbac6847166a946b1c33ac39893490d9788e615ac",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "073_기계학습_이상탐지_시연_01.png",
+    "caption": "이상 여부를 판단할 변수와 이상치 비율을 지정합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/기계학습_이상탐지.gif",
+    "frame": 81,
+    "topic_index": 73,
+    "section": "#### 3.5.5 이상탐지모델",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "ab5412f6a1fd909f997b9db7526f546048e66b72dca94c64c04d3f58757a4a28",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "073_기계학습_이상탐지_시연_02.png",
+    "caption": "행별 이상치 여부와 탐지된 개수·비율을 확인합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/기계학습_이상탐지.gif",
+    "frame": 308,
+    "topic_index": 73,
+    "section": "#### 3.5.5 이상탐지모델",
+    "size": [
+      1659,
+      1053
+    ],
+    "sha256": "d250bf7a1a0149f85f6e2e79b589a0e6c00e8a0592c1d14ade38041902cb82c8",
+    "account_name_masked": false,
+    "cropped": true
+  },
+  {
+    "file": "073_기계학습_이상탐지_시연_03.png",
+    "caption": "분포 그래프에서 정상 데이터와 이상치를 비교합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/기계학습_이상탐지.gif",
+    "frame": 416,
+    "topic_index": 73,
+    "section": "#### 3.5.5 이상탐지모델",
+    "size": [
+      1658,
+      1053
+    ],
+    "sha256": "6816d414b37e2aa94a8eaf79790997751be95b2501bed7170040bfdef95edaf6",
+    "account_name_masked": false,
+    "cropped": true
+  },
+  {
+    "file": "074_보고서_2_AI작성 (1)_01.png",
+    "caption": "보고서 주제와 작성 목적을 입력하고 톤·분량을 선택합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:44:53.169Z",
+    "topic_index": 74,
+    "section": "### 4.1 AI로 보고서 만들기",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "ebca915c98ccf44b0b9d96bf798c58a1421dfc00fb6f0e6a23e8a67dcaf41776",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "075_보고서_2_AI작성 (2)_01.png",
+    "caption": "보고서의 근거 자료로 사용할 보험금지급현황 데이터셋을 선택합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:45:14.944Z",
+    "topic_index": 75,
+    "section": "### 4.1 AI로 보고서 만들기",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "55d3a6d512a1dc30d9c909afd915d0ff1b439eeaea91c282c8ce318f8d2b917a",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "076_보고서_2_AI작성 (3)_시연_01.png",
+    "caption": "추천된 위젯을 검토하고 보고서에 넣을 항목을 채택합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/7_보고서/GIF/보고서_2_AI작성 (3).gif",
+    "frame": 188,
+    "topic_index": 76,
+    "section": "### 4.1 AI로 보고서 만들기",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "d044f415977830ca30b56e3e845d0a8288b0de9e30098fcc5b1f1058f12a27a9",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "077_보고서_2_AI작성 (4)_시연_01.png",
+    "caption": "생성된 본문과 최종 제목을 검토한 뒤 보고서를 저장합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/7_보고서/GIF/보고서_2_AI작성 (4).gif",
+    "frame": 74,
+    "topic_index": 77,
+    "section": "### 4.1 AI로 보고서 만들기",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "fa9dccef074efeab5edc0e31ea802c196dcf4204d86499844bdf492140e941fc",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "077_보고서_2_AI작성 (4)_시연_02.png",
+    "caption": "편집 화면에서 완성된 보고서의 차트와 본문을 확인합니다.",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/7_보고서/GIF/보고서_2_AI작성 (4).gif",
+    "frame": 100,
+    "topic_index": 77,
+    "section": "### 4.1 AI로 보고서 만들기",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "a5009018495dc95f72c333a157b2b10cf85dde7165a436749caf6cce9e1ab4a6",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "078_보고서_1_템플릿_01.png",
+    "caption": "제목·본문 등 공통 블록을 배치해 반복해서 사용할 보고서 양식을 만듭니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:27:21.496Z",
+    "topic_index": 78,
+    "section": "### 4.2 템플릿 만들기",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "c317aceb3d0354d0158a767126d3e70bd8677fe564ecdf2dd40726edde8c5e11",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "078_보고서_1_템플릿_02.png",
+    "caption": "템플릿의 출력 형태를 미리 확인하고 저장합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:27:22.843Z",
+    "topic_index": 78,
+    "section": "### 4.2 템플릿 만들기",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "d7dd56c1367b4b20e81f059ac1f4ebacf237d528d80a36920278143a1284c47c",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "079_보고서_템플릿보고서만들기_01.png",
+    "caption": "템플릿에서 만들기를 선택한 뒤 사용할 양식을 고릅니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:27:49.480Z",
+    "topic_index": 79,
+    "section": "### 4.2 템플릿 만들기",
+    "size": [
+      598,
+      218
+    ],
+    "sha256": "0adbbecd1ba5214ebd1a0ec5ea035117225c73968226cff16d7e9b3135ffeefa",
+    "account_name_masked": true,
+    "cropped": true
+  },
+  {
+    "file": "079_보고서_템플릿보고서만들기_02.png",
+    "caption": "불러온 양식에서 제목과 분석 내용을 수정하여 새 보고서를 작성합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:27:50.311Z",
+    "topic_index": 79,
+    "section": "### 4.2 템플릿 만들기",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "4aaa275a06d7681eace80984afb589cf6c498bfbb3de1c2180efaa275b015050",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "080_보고서_빈보고서만들기_01.png",
+    "caption": "빈 보고서에 제목·본문 블록을 추가하고 내용을 작성합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:47:14.740Z",
+    "topic_index": 80,
+    "section": "### 4.3 새로운 보고서 만들기",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "97af2cd675a64b89ac175e298eeca1af552fc8d0859b2868a75e4f9565f0c503",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "080_보고서_빈보고서만들기_02.png",
+    "caption": "저장한 보고서를 미리보기로 확인합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:47:16.343Z",
+    "topic_index": 80,
+    "section": "### 4.3 새로운 보고서 만들기",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "4edbbc58e58f108fbad400b30749210738e9bc7e93a1f77128e68ccd6a7d862b",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "081_스튜디오_51_대시보드생성_01.png",
+    "caption": "대시보드 제목을 입력하고 저장합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:47:45.617Z",
+    "topic_index": 81,
+    "section": "### 5.1 대시보드 생성",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "c11a1d878ecaa7ea51a3f1ce4ae007aadec96ca843c934ed61514bf3d47d6549",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "081_스튜디오_51_대시보드생성_02.png",
+    "caption": "저장 창에서 대시보드 제목을 확인하고 저장을 완료합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:48:30.712Z",
+    "topic_index": 81,
+    "section": "### 5.1 대시보드 생성",
+    "size": [
+      687,
+      635
+    ],
+    "sha256": "005c3d9af871b0e50214ad334b9b0baa66e3289c1237ca6313e81a01dc73519f",
+    "account_name_masked": true,
+    "cropped": true
+  },
+  {
+    "file": "082_스튜디오_51_다른이름저장_실행취소_01.png",
+    "caption": "다른 이름으로 저장 창에서 제목을 바꾸어 별도 대시보드로 저장할 수 있습니다. 실행취소·다시실행은 상단 도구에서 사용합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:23:18.215Z",
+    "topic_index": 82,
+    "section": "### 5.1 대시보드 생성",
+    "size": [
+      526,
+      227
+    ],
+    "sha256": "c4a6173e40e9b03093641f5ad5551aa920a50b6dd422f38cbd704da7c16725d4",
+    "account_name_masked": true,
+    "cropped": true
+  },
+  {
+    "file": "083_대시보드_대시보드관리_01.png",
+    "caption": "스튜디오 목록에서 대시보드를 열고 관리합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:25:48.310Z",
+    "topic_index": 83,
+    "section": "### 5.1 대시보드 생성",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "9f72864ba901f5e0484fb7a212edb4e0aa24b6bbc5e163bfb6fc022209176c57",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "084_스튜디오_52_페이지관리_01.png",
+    "caption": "페이지 추가로 화면을 나누고 왼쪽 목록에서 페이지 순서를 관리합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:14:58.638Z",
+    "topic_index": 84,
+    "section": "### 5.2 페이지·캔버스 속성",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "0e9981eada1601a55f0a3e970942d2486a8fe08c4e625e4767aafa769c6afb6a",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "085_스튜디오_52_캔버스속성_01.png",
+    "caption": "페이지 설정에서 배경색·캔버스 크기·위젯 간격을 조절합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:23:18.944Z",
+    "topic_index": 85,
+    "section": "### 5.2 페이지·캔버스 속성",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "ba817c9b77279f177b4233301ee0a8fd27bf155e790dac6e0fe5a99e9e3d854f",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "086_스튜디오_52_배경페이지_01.png",
+    "caption": "공통으로 표시할 요소를 배경 페이지에 구성한 뒤 사용할 페이지에서 배경으로 지정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:23:19.663Z",
+    "topic_index": 86,
+    "section": "### 5.2 페이지·캔버스 속성",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "7ad66467847a5dadc12b78b2b3e3c368bd99574647d8836e598686a21afdd7f2",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "087_스튜디오_5311_차트_01.png",
+    "caption": "보험금지급현황을 연결하고 X축에 보험종류, 값에 보험금 합계를 지정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:49:43.966Z",
+    "topic_index": 87,
+    "section": "##### 5.3.1.1 차트",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "ba9d96ad04819e46c34b50004de1f05cf616486e739eee96b17fd593f39f31b1",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "087_스튜디오_5311_차트_02.png",
+    "caption": "배치 탭에서 차트의 위치·크기를 조절합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T05:49:44.693Z",
+    "topic_index": 87,
+    "section": "##### 5.3.1.1 차트",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "f31b34bdff59a04a1dba94283cd9a5322127788ba45d2042be3effa4a9f913d2",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "088_스튜디오_5312_KPI_01.png",
+    "caption": "보험금 합계를 선택하여 전체 지급 금액을 KPI로 표시합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:15:43.112Z",
+    "topic_index": 88,
+    "section": "##### 5.3.1.2 KPI",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "949c3855074a3eca350a84086737e2d72f58bf2241b6246a20b0a611bc57ea90",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "089_스튜디오_5313_게이지_01.png",
+    "caption": "보험금 평균을 게이지의 값으로 지정합니다. 표시 범위와 색상은 스타일에서 조정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:16:04.533Z",
+    "topic_index": 89,
+    "section": "##### 5.3.1.3 게이지",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "aaa20dd83d484954ebd544efc31635f7e33bed7e6c3974ad64ab4831c61ec48c",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "090_스튜디오_5314_테이블_01.png",
+    "caption": "보험금지급현황을 연결하여 행별 데이터를 표로 조회합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:16:06.831Z",
+    "topic_index": 90,
+    "section": "##### 5.3.1.4 테이블",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "b1b275ed9665f807cf550851db2c03b9d64da41c38850897522d14df0f9ab0f1",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "091_스튜디오_5315_피벗_01.png",
+    "caption": "행에 보험종류, 열에 성별, 값에 보험금 합계를 지정하여 교차 집계 결과를 확인합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:37:34.130Z",
+    "topic_index": 91,
+    "section": "##### 5.3.1.5 피벗",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "22d93df0503010fcb0fa9a183de7bedbf3864840b2a7788aa3632e0094165d33",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "092_스튜디오_5316_필터_01.png",
+    "caption": "필터 컬럼에 보험종류를 지정하고 같은 페이지의 차트를 적용 대상으로 선택합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:17:39.230Z",
+    "topic_index": 92,
+    "section": "##### 5.3.1.6 필터",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "14d5163999d10662a3796ce36ddcb619c857f100940963e11ffd16cca72b03ad",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "093_스튜디오_5321_텍스트_01.png",
+    "caption": "마크다운으로 제목과 안내 문구를 작성하고 글꼴·정렬·색상을 조절합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:18:13.641Z",
+    "topic_index": 93,
+    "section": "##### 5.3.2.1 텍스트",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "dbe28239de10d5d97651b1997b31902c3b6f73c807f1b3d54ac2f2bf67678934",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "094_스튜디오_5322_접이식설명_01.png",
+    "caption": "접이식 설명 위젯의 내용과 표시 스타일을 설정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:18:14.815Z",
+    "topic_index": 94,
+    "section": "##### 5.3.2.2 접이식 설명",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "c255bde27b2e3ad7209c9389cec9e8d60736dcdb323c76e0eaeaf81822064866",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "095_스튜디오_5323_데이터기준_출처_01.png",
+    "caption": "데이터 기준·출처 위젯의 내용과 표시 스타일을 설정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:18:15.958Z",
+    "topic_index": 95,
+    "section": "##### 5.3.2.3 데이터 기준·출처",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "09903ab0fc0ce3e532d8089b13a815112ecc4809cbe04e7d190536901badd536",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "096_스튜디오_5331_정보카드_01.png",
+    "caption": "정보 카드 위젯의 내용과 표시 스타일을 설정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:18:17.107Z",
+    "topic_index": 96,
+    "section": "##### 5.3.3.1 정보 카드",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "661b830810e492a9839b700eafb4288b8fe4f6f2ceeb3f16080540f39a4afe24",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "097_스튜디오_5332_동적요약_01.png",
+    "caption": "데이터 탭에서 보험금 합계를 연결하고 요약 문장의 {{value}}로 집계값을 표시합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:19:14.623Z",
+    "topic_index": 97,
+    "section": "##### 5.3.3.2 동적 요약",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "cf16b957f86370de769c4d5fb70f39f2b75c8a9b9e956c036a1a4f3ffbb56646",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "098_스튜디오_5341_이미지_01.png",
+    "caption": "이미지를 업로드한 뒤 맞춤 방식과 클릭 시 이동 동작을 설정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:20:10.092Z",
+    "topic_index": 98,
+    "section": "##### 5.3.4.1 이미지",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "1f4cc6a836931844eb72c9b8c3ede39dfd214777d1877137be2484b02592e0a4",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "099_스튜디오_5342_이미지갤러리_01.png",
+    "caption": "이미지 주소와 사진 설명을 입력하고 격자·슬라이드 배치를 선택합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:20:40.161Z",
+    "topic_index": 99,
+    "section": "##### 5.3.4.2 이미지 갤러리",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "937e98471598bac82bfd61156af76bb9dc26c3ef100d15f44015f7643c6721b2",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "100_스튜디오_5343_동영상_01.png",
+    "caption": "동영상 주소와 설명을 입력하여 대시보드에 소개 영상을 연결합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:21:09.496Z",
+    "topic_index": 100,
+    "section": "##### 5.3.4.3 동영상",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "c7d375a1a1385ac2deb2bb6ac00d5430314db06c33317e58a3bb7c63d5a4ce14",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "101_스튜디오_5351_보고서_01.png",
+    "caption": "저장한 보험금지급현황 요약 보고서를 위젯으로 연결합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:21:32.368Z",
+    "topic_index": 101,
+    "section": "##### 5.3.5.1 보고서",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "e610299b3f268867bec5eade389c71f666d8aab87fd8b926fc4ddbc0af49ab12",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "102_스튜디오_5352_문서_첨부파일_01.png",
+    "caption": "파일 이름과 문서 주소를 연결하고 파일 크기·다운로드 횟수 표시 여부를 설정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:22:02.201Z",
+    "topic_index": 102,
+    "section": "##### 5.3.5.2 문서·첨부파일",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "48bdf3c9e5723499350d8c875ffb9b677ddb54f9d1b82666ee9530d8a07c4fc8",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "103_스튜디오_5361_링크_01.png",
+    "caption": "링크의 라벨을 입력하고 이동할 내부 페이지를 지정합니다. 외부 URL로도 연결할 수 있습니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:22:23.531Z",
+    "topic_index": 103,
+    "section": "##### 5.3.6.1 링크",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "a1733e8571b9978812cd151c2a3d11871c3c05f6222576b5aebaf71f1ba73ded",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "104_스튜디오_5362_메뉴_01.png",
+    "caption": "메뉴 항목의 이름과 이동 대상을 지정하여 페이지 탐색을 구성합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:22:24.649Z",
+    "topic_index": 104,
+    "section": "##### 5.3.6.2 메뉴",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "0e006a8a99a2fa3eab1a8b6de12d5cb709275783947fc3b330932c29f5eb7db6",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "105_스튜디오_5363_타임라인_단계안내_01.png",
+    "caption": "단계별 제목·설명·상태를 지정하여 분석 절차나 진행 상황을 안내합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:22:25.783Z",
+    "topic_index": 105,
+    "section": "##### 5.3.6.3 타임라인·단계 안내",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "11bf8a2df2ec075f26e6ae13cebc92f1085a8366dd0b9090515553b7717317ce",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "106_스튜디오_5371_도형_01.png",
+    "caption": "도형 위젯을 배치하고 색상·선·크기 등의 스타일을 설정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:22:26.915Z",
+    "topic_index": 106,
+    "section": "##### 5.3.7.1 도형",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "7f0a184a04d4cd9973c0c9ac203a9e84de490380ed8a57cf05588c277f747a2e",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "107_스튜디오_5372_직선_01.png",
+    "caption": "직선 위젯을 배치하고 색상·선·크기 등의 스타일을 설정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:22:28.029Z",
+    "topic_index": 107,
+    "section": "##### 5.3.7.2 직선",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "2ce0498e9b7b901b965d1a42408afb313d28b3ed23c1e2c49da0c19a50947431",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "108_스튜디오_5373_화살표_01.png",
+    "caption": "화살표 위젯을 배치하고 색상·선·크기 등의 스타일을 설정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:22:29.144Z",
+    "topic_index": 108,
+    "section": "##### 5.3.7.3 화살표",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "a37e0ded121bd341a84a15d145cff8266e8424492ad2ce8cff90b17c575581a3",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "109_스튜디오_5374_설명선_01.png",
+    "caption": "설명선 위젯을 배치하고 색상·선·크기 등의 스타일을 설정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:22:30.266Z",
+    "topic_index": 109,
+    "section": "##### 5.3.7.4 설명선",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "871aaef15575f40c33d510fb1088b7f0fcbf3e69f117e7260544fb7594514ac7",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "110_스튜디오_538_저장된위젯_01.png",
+    "caption": "분석에서 저장한 위젯을 선택하여 현재 페이지에 가져옵니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:26:28.701Z",
+    "topic_index": 110,
+    "section": "#### 5.3.8 저장된 위젯 가져오기",
+    "size": [
+      586,
+      189
+    ],
+    "sha256": "508b2b332b872c9b2f380639a3da8e17f43959672769375709c3db175fca05ae",
+    "account_name_masked": true,
+    "cropped": true
+  },
+  {
+    "file": "110_스튜디오_538_저장된위젯_02.png",
+    "caption": "가져온 피벗 위젯을 캔버스에 배치하고 데이터와 스타일을 확인합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:26:46.097Z",
+    "topic_index": 110,
+    "section": "#### 5.3.8 저장된 위젯 가져오기",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "d0247176c32e7fb6e03c581ca3b5fcbc1be384eb6f8212dea1f512556397a924",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "111_대시보드_저장된위젯_01.png",
+    "caption": "저장 위젯 목록에서 원본 데이터·유형·이름·사용처를 확인하고 관리합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:26:48.435Z",
+    "topic_index": 111,
+    "section": "#### 5.3.8 저장된 위젯 가져오기",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "1abe5284aedeed85d325c62233ffdffd5781662e04766e39740738f453b78c6a",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "112_스튜디오_54_정렬_스냅_레이어_01.png",
+    "caption": "상단 정렬·스냅 도구와 왼쪽 레이어 목록으로 여러 위젯의 배치를 정리합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:23:21.217Z",
+    "topic_index": 112,
+    "section": "### 5.4 배치 정렬·스냅·레이어",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "5468090054e308072d7bfa12393352f529218a3746d1acf272a520a8b7185ac8",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "113_스튜디오_55_화면보기_자동새로고침_01.png",
+    "caption": "화면 배율과 자동 새로고침 주기를 선택합니다. 화면 맞춤과 미리보기도 상단에서 실행합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:23:21.755Z",
+    "topic_index": 113,
+    "section": "### 5.5 화면 보기·자동 새로고침",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "5c585fd464df0ea47cae2d76d3c53f5cc140d61a3e5278a3505ae620d2f5583c",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "114_스튜디오_56_AI도우미_01.png",
+    "caption": "AI 도우미에서 원하는 위젯과 배치를 자연어로 요청하고 결과를 확인합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:23:22.681Z",
+    "topic_index": 114,
+    "section": "### 5.6 AI 도우미",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "6c230a52d60aa2d4ff6fe4ea04ad64e6b11db3d15b0639e99f3a2a21411cb12a",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "115_대시보드_자동생성_01.png",
+    "caption": "AI 대시보드 생성에서 분석할 데이터셋을 선택하고 생성 방식을 고릅니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:25:49.527Z",
+    "topic_index": 115,
+    "section": "### 5.6 AI 도우미",
+    "size": [
+      1126,
+      597
+    ],
+    "sha256": "b59feff72beac9b36030ae2f4e345a98793c4fe0049bd452d6d7b640747db6d3",
+    "account_name_masked": true,
+    "cropped": true
+  },
+  {
+    "file": "116_대시보드_대화로만들기_01.png",
+    "caption": "대화로 만들기에서 필요한 차트·지표와 배치를 구체적으로 요청합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:26:09.495Z",
+    "topic_index": 116,
+    "section": "### 5.6 AI 도우미",
+    "size": [
+      1126,
+      863
+    ],
+    "sha256": "8fa3cb75d240a43630e2d01e328f4a3ed3d24bf5bfb779ca53a8bc71e2448d8a",
+    "account_name_masked": true,
+    "cropped": true
+  },
+  {
+    "file": "117_스튜디오_571_멤버공유_01.png",
+    "caption": "멤버 공유에서 공유할 사용자·그룹을 검색하고 대상별 접근 권한을 지정합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:24:49.861Z",
+    "topic_index": 117,
+    "section": "#### 5.7.1 멤버 공유",
+    "size": [
+      586,
+      311
+    ],
+    "sha256": "e174e352c135514fc9f73a8562c59f1c6404ce5cb1c3096391512b94d0f1b681",
+    "account_name_masked": true,
+    "cropped": true
+  },
+  {
+    "file": "118_스튜디오_571_데이터셋조회권한_01.png",
+    "caption": "대시보드와 별도로 원본 데이터셋의 공유 설정에서 조회 권한을 확인합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:26:50.349Z",
+    "topic_index": 118,
+    "section": "#### 5.7.1 멤버 공유",
+    "size": [
+      706,
+      309
+    ],
+    "sha256": "75316bb7eeaabbf892edd0b072908389c103fa8b2628af1c848663199a2624d4",
+    "account_name_masked": true,
+    "cropped": true
+  },
+  {
+    "file": "119_스튜디오_572_임베드_퍼블릭요청_01.png",
+    "caption": "임베드·퍼블릭 탭에서 허용 도메인과 링크 요청·승인 상태를 확인합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:25:02.912Z",
+    "topic_index": 119,
+    "section": "#### 5.7.2 임베드·퍼블릭",
+    "size": [
+      586,
+      519
+    ],
+    "sha256": "480cd62e84ebf01414399952717e5eb5c4b938e91984fb194124f082f58df24c",
+    "account_name_masked": true,
+    "cropped": true
+  },
+  {
+    "file": "120_스튜디오_퍼블릭_새탭_01.png",
+    "caption": "공개 링크를 새 탭에서 열면 편집 도구 없이 대시보드가 표시됩니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:25:23.098Z",
+    "topic_index": 120,
+    "section": "#### 5.7.2 임베드·퍼블릭",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "aef08aeb4902e1369f3227b5488bf149d32e4c0d3efad4c028bba329fc283dac",
+    "account_name_masked": false,
+    "cropped": false
+  },
+  {
+    "file": "121_GPT_문서질문_01.png",
+    "caption": "내 문서에서 업로드한 PDF를 선택하고 AI 버튼으로 대화에 추가합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:28:45.267Z",
+    "topic_index": 121,
+    "section": "### 6.1 GPT에게 질의하기",
+    "size": [
+      1146,
+      886
+    ],
+    "sha256": "e01c0174a3ef4b8938a086f29b84c12a6459ca8c51845bb5229f869827aa1cc1",
+    "account_name_masked": true,
+    "cropped": true
+  },
+  {
+    "file": "121_GPT_문서질문_02.png",
+    "caption": "선택한 문서가 입력창에 연결되어 있는지 확인하고 질문을 전송합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:30:13.471Z",
+    "topic_index": 121,
+    "section": "### 6.1 GPT에게 질의하기",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "355e568e703c5ce3e7dfe3e7782aa29864bd728f5c5cdc8df7be9cf2d36299b1",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "121_GPT_문서질문_03.png",
+    "caption": "실습 안내 문서의 목적과 단계별 진행 순서에 대한 답변을 확인합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:31:12.953Z",
+    "topic_index": 121,
+    "section": "### 6.1 GPT에게 질의하기",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "f94a4961a24f0e8123af236165278dc20ad8a490c3342df9dc1b587a6d1abd0e",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "122_GPT_분석데이터질문_01.png",
+    "caption": "분석 데이터 목록에서 질문할 보험금지급현황을 선택하고 AI로 연결합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:31:36.609Z",
+    "topic_index": 122,
+    "section": "### 6.1 GPT에게 질의하기",
+    "size": [
+      1146,
+      886
+    ],
+    "sha256": "710403e40effa38cc1f11154e1a01a0c04c64cd0115b50f9e49d0cb799038e91",
+    "account_name_masked": true,
+    "cropped": true
+  },
+  {
+    "file": "122_GPT_분석데이터질문_02.png",
+    "caption": "데이터가 연결된 상태에서 집계 기준과 필요한 결과 형식을 구체적으로 입력합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:31:37.165Z",
+    "topic_index": 122,
+    "section": "### 6.1 GPT에게 질의하기",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "13ed15b48e9be7abfe2427f3552b3a43231b920c747e5cb2d79220ac5a741006",
+    "account_name_masked": true,
+    "cropped": false
+  },
+  {
+    "file": "122_GPT_분석데이터질문_03.png",
+    "caption": "보험종류별 지급 건수와 보험금 합계의 상위 5개 집계 결과를 확인합니다.",
+    "source": "live",
+    "capturedAt": "2026-11-11T07:33:35.612Z",
+    "topic_index": 122,
+    "section": "### 6.1 GPT에게 질의하기",
+    "size": [
+      1600,
+      1000
+    ],
+    "sha256": "bad2ed4cb1d7efa632fd60abf7d642875107e155a6c958bd61c445268c9e7fd9",
+    "account_name_masked": true,
+    "cropped": false
+  }
+]

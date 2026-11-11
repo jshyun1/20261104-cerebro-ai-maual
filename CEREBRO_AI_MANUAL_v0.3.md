@@ -15,7 +15,7 @@ CEREBRO AI는 다양한 유형의 데이터를 수집·분석하고, 인공지�
 </p>
 
 
-### 📊 데이터 탐색 및 전처리
+### 01. 데이터 탐색 및 전처리
 
 - 다양한 데이터 소스로부터 데이터 수집
 - 분석 목적에 맞는 데이터 정제 및 가공
@@ -24,7 +24,7 @@ CEREBRO AI는 다양한 유형의 데이터를 수집·분석하고, 인공지�
 
 ---
 
-### 📈 OLAP 분석
+### 02. OLAP 분석
 
 - 다차원 데이터 기반 분석 수행
 - 다양한 기준의 데이터 비교 및 탐색
@@ -33,7 +33,7 @@ CEREBRO AI는 다양한 유형의 데이터를 수집·분석하고, 인공지�
 
 ---
 
-### 🔗 연관관계 분석
+### 03. 연관관계 분석
 
 - 데이터 간 연결 관계 시각화
 - 객체 간 관계 및 패턴 분석
@@ -42,7 +42,7 @@ CEREBRO AI는 다양한 유형의 데이터를 수집·분석하고, 인공지�
 
 ---
 
-### 🤖 인공지능 모델링
+### 04. 인공지능 모델링
 
 - 머신러닝 및 딥러닝 기반 모델 생성
 - 학습 데이터 기반 예측 분석 수행
@@ -57,7 +57,7 @@ CEREBRO AI는 다양한 유형의 데이터를 수집·분석하고, 인공지�
   <img src ="./Source/CEREBRO AI/1_시스템설명/CEREBRO_AI_특장점.png" >
 </p>
 
-### 💬 GPT 기반 대화형 분석 환경
+### 01. GPT 기반 대화형 분석 환경
 
 세레브로 GPT를 활용한 자연어 기반 분석 기능 제공
 
@@ -67,7 +67,7 @@ CEREBRO AI는 다양한 유형의 데이터를 수집·분석하고, 인공지�
 
 ---
 
-### 🧩 원스톱 데이터 분석 환경
+### 02. 원스톱 데이터 분석 환경
 
 데이터 처리부터 분석까지 통합 환경 제공
 
@@ -77,7 +77,7 @@ CEREBRO AI는 다양한 유형의 데이터를 수집·분석하고, 인공지�
 
 ---
 
-### ⚙️ 인공지능 개발 자동화
+### 03. 인공지능 개발 자동화
 
 AI 모델 개발 과정을 자동화하여 분석 효율 향상
 
@@ -87,7 +87,7 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 
 ---
 
-### 🛠️ 유연한 확장 구조
+### 04. 유연한 확장 구조
 
 사용 환경에 맞는 기능 확장 및 커스터마이징 지원
 
@@ -289,6 +289,8 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 |<img src = "./Source/CEREBRO AI/4_분석/분석_원본_데이터구조화면.png">|<img src = "./Source/CEREBRO AI/4_분석/분석_원본_데이터보기화면.png">|
 |<img src = "./Source/CEREBRO AI/4_분석/분석_원본_차트시각화화면.png">|<img src = "./Source/CEREBRO AI/4_분석/분석_원본_편집이력화면.png">|
 
+<a id="original-data-structure"></a>
+
 #### 3.2.1 데이터 구조
 
 - 원본 자료에 대한 데이터 정보를 조회하는 기능입니다.
@@ -325,6 +327,8 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 > </p>
 
 <!-- /auth -->
+
+<a id="original-data-view"></a>
 
 #### 3.2.2 데이터 보기
 
@@ -395,6 +399,8 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 > </p>
 
 <!-- /auth -->
+
+<a id="original-chart-visualization"></a>
 
 #### 3.2.3 차트 시각화
 
@@ -886,364 +892,49 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 
 <!-- /auth -->
 
+> **💡 부연설명: 전처리 결과 확인**
+>
+> 아래 기능의 사용 방법은 원본 데이터와 동일하며, 조회·분석 대상은 전처리가 적용된 데이터입니다.
+
 #### 3.3.2 데이터 구조
 
-- 전처리 자료에 대한 데이터 정보를 조회하는 기능입니다.
-    - GPT를 통하여 해당 자료의 컬럼 정보를 요약하여 확인 할 수 있습니다.
-    - 자료 내 컬럼별로 데이터 형식, 건수, 중복제거건수, 결측건수, 통계정보 등을 파악하여 컬럼별 데이터의 특성과 품질을 확인할 수 있습니다.
-    - 자료 컬럼 별 차트를 통해 데이터 분포 현황등을 파악할 수 있습니다.
+- 전처리 결과의 컬럼 구성, 데이터 형식, 결측값 및 통계 정보를 확인합니다.
 
-<p align = "center">
-  <img src = "./Source/CEREBRO AI/4_분석/분석_전처리_데이터구조.png">
+<p align="center">
+  <img src="./Source/CEREBRO AI/4_분석/분석_전처리_데이터구조.png" alt="전처리 결과의 컬럼 구성과 통계 정보">
 </p>
 
 <!-- auth: LV3, LV2_332 -->
 
-
-> **💡 부연설명: CerebroGPT 요약**
->
-> - CEREBRO AI가 업로드한 데이터 정보를 분석하여 요약본을 볼 수 있는 기능입니다.
->     - 상단 CerebroGPT 영역의 자세히 보기 <img src="./Source/CEREBRO AI/공통/버튼/analysis-details.png" alt="자세히 보기 버튼" title="자세히 보기" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 요약 정보를 펼쳐 확인 할 수 있습니다.
->
-> <p align = "center">
->   <img src = "./Source/CEREBRO AI/4_분석/GIF/분석_전처리_데이터구조_CerebroGPT.gif">
-> </p>
-
-<!-- 부연설명 구분 -->
-
-> **💡 부연설명: 컬럼 차트 화면**
->
-> - 컬럼 값의 데이터 분포를 차트로 표시합니다.
->     - 컬럼명 옆 차트 <img src="./Source/CEREBRO AI/공통/버튼/analysis-column-chart.png" alt="차트 버튼" title="차트" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 데이터 분포를 확인할 수 있습니다.
->     - 차트 탭에서 차트 유형과 비교할 컬럼, 결과값을 선택하여 컬럼간 데이터를 확인할 수 있습니다.
->
-> <p align = "center">
->   <img src = "./Source/CEREBRO AI/4_분석/GIF/분석_전처리_데이터구조_차트.gif">
-> </p>
+- 상세 사용법은 [**3.2.1 데이터 구조**](#original-data-structure)를 참조하세요.
 
 <!-- /auth -->
 
 #### 3.3.3 데이터 보기
 
-- 전처리 한 데이터를 확인하는 기능입니다.
-    - 전처리 한 데이터에 그룹화 및 필터링하여 데이터 사전에 파악할 수 있습니다. 
+- 전처리가 적용된 데이터를 표로 확인하고, 필터링과 그룹화를 통해 처리 결과를 살펴봅니다.
 
-<p align = "center">
-  <img src = "./Source/CEREBRO AI/4_분석/분석_전처리_데이터보기.png">
+<p align="center">
+  <img src="./Source/CEREBRO AI/4_분석/분석_전처리_데이터보기.png" alt="전처리가 적용된 데이터의 조회 화면">
 </p>
 
 <!-- auth: LV3, LV2_333 -->
 
-> **💡 부연설명: 그룹 색 적용**
->
-> - 컬럼별 데이터에 따른 색을 부여하여 화면에 표시합니다.
->     - 왼쪽 위 그룹 색 적용 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 컬럼별 같은 데이터를 확인할 수 있습니다.
->
-> <p align = "center">
->   <img src = "./Source/CEREBRO AI/4_분석/GIF/분석_전처리_데이터보기_그룹색적용1.gif">
-> </p>
-
-<!-- 부연설명 구분 -->
-
-> **💡 부연설명: 데이터 다운로드**
->
-> - 조회한 데이터를 csv, xlsx 파일로 변환하여 다운로드합니다.
->     - 그룹 색 적용 옆 CSV 다운로드, 엑셀 다운로드 <img src="./Source/CEREBRO AI/공통/버튼/analysis-excel.png" alt="엑셀 다운로드 버튼" title="엑셀 다운로드" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 저장합니다.
->
-> <p align = "center">
->   <img src = "./Source/CEREBRO AI/4_분석/GIF/분석_전처리_데이터보기_데이터다운로드.gif">
-> </p>
-
-<!-- 부연설명 구분 -->
-
-> **💡 부연설명: 너비 간격 조절**
->
-> - 화면에 표시된 표의 너비를 변경합니다.
->     - 다운로드 <img src="./Source/CEREBRO AI/공통/버튼/analysis-csv.png" alt="CSV 다운로드 버튼" title="CSV 다운로드" height="24" style="vertical-align: middle;"> 버튼 옆 간격 바를 드래그 하여 전체 열의 너비를 조절합니다.
->     - 컬럼 머리글의 오른쪽 경계선을 드래그 하여 해당 열의 너비만 조절할 수 있습니다.
->
-> <p align = "center">
->   <img src = "./Source/CEREBRO AI/4_분석/GIF/분석_전처리_데이터보기_너비간격조정.gif">
-> </p>
-
-<!-- 부연설명 구분 -->
-
-> **💡 부연설명: 해당 컬럼 데이터 정렬**
->
-> - 컬럼의 데이터를 오름차순 또는 내림차순으로 정렬합니다.
->     - 컬럼 옆 정렬 <img src="./Source/CEREBRO AI/공통/버튼/analysis-sort.png" alt="정렬 버튼" title="정렬" height="24" style="vertical-align: middle;"> 버튼을 통해 데이터를 오름차순/내림차순으로 정렬합니다.
->     - Shift 키를 누른 채 다른 컬럼의 정렬 <img src="./Source/CEREBRO AI/공통/버튼/analysis-sort.png" alt="정렬 버튼" title="정렬" height="24" style="vertical-align: middle;"> 버튼을 클릭하면 여러 컬럼 기준으로 정렬합니다.
->
-> <p align = "center">
->   <img src = "./Source/CEREBRO AI/4_분석/GIF/분석_전처리_데이터보기_컬럼정렬.gif">
-> </p>
-
-<!-- 부연설명 구분 -->
-
-> **💡 부연설명: 해당 컬럼 데이터 필터**
->
-> - 특정 데이터만 조회하도록 필터링합니다.
->     - 컬럼 옆 필터 <img src="./Source/CEREBRO AI/공통/버튼/analysis-filter.png" alt="필터 버튼" title="필터" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 조회할 특정 데이터를 선택한 후 체크 <img src="./Source/CEREBRO AI/공통/버튼/analysis-check.png" alt="체크 버튼" title="체크" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
->     - 쓰레기통 <img src="./Source/CEREBRO AI/공통/버튼/analysis-trash.png" alt="쓰레기통 버튼" title="쓰레기통" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 필터링을 초기화합니다.
->
-> <p align = "center">
->   <img src = "./Source/CEREBRO AI/4_분석/GIF/분석_전처리_데이터보기_필터링.gif">
-> </p>
+- 상세 사용법은 [**3.2.2 데이터 보기**](#original-data-view)를 참조하세요.
 
 <!-- /auth -->
 
 #### 3.3.4 차트 시각화
 
-- 전처리 데이터에 컬럼별 데이터를 선택하여 시각화하는 기능입니다.
-    - 수치형 데이터에 합계/평균/중앙값 등, 문자형 데이터에 갯수를 측정값으로 지원합니다.
-    - 비교, 분포, 추이, 관계, 공간, 구성, 흐름 분류별로 17가지 차트 형식을 지원합니다.
-    - 정렬 목록에서 기본, 이름 오름차순/내림차순, 값 오름차순/내림차순을 선택할 수 있습니다.
+- 전처리 결과를 차트로 시각화하여 데이터의 분포와 변화 등을 확인합니다.
 
-<p align = "center">
-  <img src = "./Source/CEREBRO AI/4_분석/분석_전처리_차트시각화.png">
+<p align="center">
+  <img src="./Source/CEREBRO AI/4_분석/분석_전처리_차트시각화.png" alt="전처리 결과를 활용한 차트 시각화 예시">
 </p>
+
 <!-- auth: LV3, LV2_334 -->
 
-
-> **💡 부연설명: 막대 그래프**
->
-> - 막대그래프로 데이터를 시각화 할 수 있습니다.
->     - 그래프 선택에서 비교 - '막대' 항목을 선택합니다.
->     - 왼쪽 검색창에서 그래프를 그릴 때 사용할 항목을 검색합니다.
->     - 막대그래프에 사용할 분류항목, 비교항목을 지정 후 드래그합니다.
->     - 막대그래프에 사용할 측정값을 지정 후 드래그합니다.
->     - '차트 생성' <img src="./Source/CEREBRO AI/공통/버튼/analysis-create-chart.png" alt="차트 생성 버튼" title="차트 생성" height="26" style="vertical-align: middle;">을 클릭하여 그래프를 생성합니다.
->     - 정렬 목록에서 값 내림차순을 선택한 후 다시 '차트 생성' <img src="./Source/CEREBRO AI/공통/버튼/analysis-create-chart.png" alt="차트 생성 버튼" title="차트 생성" height="26" style="vertical-align: middle;">을 클릭하여 정렬합니다.
->
-> <p align = "center">
->   <img src="./Source/CEREBRO AI/4_분석/GIF/분석_전처리_차트시각화_막대그래프.gif">
-> </p>
-
-<!-- 부연설명 구분 -->
-
-> **💡 부연설명: 선 그래프**
->
-> - 선그래프로 데이터를 시각화 할 수 있습니다.
->     - 그래프 선택에서 비교 - '선' 항목을 선택합니다.
->     - 선그래프에 사용할 분류항목, 비교항목을 지정 후 드래그합니다.
->     - 선그래프에 사용할 측정값을 지정 후 드래그합니다.
->     - '차트 생성' <img src="./Source/CEREBRO AI/공통/버튼/analysis-create-chart.png" alt="차트 생성 버튼" title="차트 생성" height="26" style="vertical-align: middle;">을 클릭하여 그래프를 생성합니다.
->
-> <p align = "center">
->   <img src="./Source/CEREBRO AI/4_분석/GIF/분석_전처리_차트시각화_선그래프.gif">
-> </p>
-
-<!-- 부연설명 구분 -->
-
-> **💡 부연설명: 막대+꺾은선**
->
-> - 막대와 꺾은선을 함께 표시하여 두 측정값을 비교할 수 있습니다.
->     - 그래프 선택에서 비교 - '막대+꺾은선' 항목을 선택합니다.
->     - 분류항목을 지정 후 드래그합니다.
->     - 막대 측정값과 꺾은선 측정값을 각각 지정 후 드래그합니다.
->         - 꺾은선 측정값은 오른쪽 Y축으로 표시됩니다.
->     - '차트 생성' <img src="./Source/CEREBRO AI/공통/버튼/analysis-create-chart.png" alt="차트 생성 버튼" title="차트 생성" height="26" style="vertical-align: middle;">을 클릭하여 그래프를 생성합니다.
->
-> <p align = "center">
->   <img src="./Source/CEREBRO AI/4_분석/GIF/분석_전처리_차트시각화_막대꺾은선.gif">
-> </p>
-
-<!-- 부연설명 구분 -->
-
-> **💡 부연설명: 레이더**
->
-> - 데이터를 레이더로 시각화 할 수 있습니다.
->     - 그래프 선택에서 비교 - '레이더' 항목을 선택합니다.
->     - 레이더에 사용할 지표 항목을 지정 후 드래그합니다.
->         - 지표항목은 숫자만 사용가능합니다.
->     - 레이더에 사용할 비교항목을 지정 후 드래그합니다.
->     - 왼쪽 항목 목록에서 비교항목을 펼쳐 비교할 값만 선택할 수 있습니다.
->     - '차트 생성' <img src="./Source/CEREBRO AI/공통/버튼/analysis-create-chart.png" alt="차트 생성 버튼" title="차트 생성" height="26" style="vertical-align: middle;">을 클릭하여 그래프를 생성합니다.
->
-> <p align = "center">
->   <img src="./Source/CEREBRO AI/4_분석/GIF/분석_전처리_차트시각화_레이더.gif">
-> </p>
-
-<!-- 부연설명 구분 -->
-
-> **💡 부연설명: 히스토그램**
->
-> - 히스토그램으로 데이터의 분포를 확인 할 수 있습니다.
->     - 그래프 선택에서 분포 - '히스토그램' 항목을 선택합니다.
->     - 히스토그램에 사용할 분포항목을 지정 후 드래그합니다.
->     - '차트 생성' <img src="./Source/CEREBRO AI/공통/버튼/analysis-create-chart.png" alt="차트 생성 버튼" title="차트 생성" height="26" style="vertical-align: middle;">을 클릭하여 그래프를 생성합니다.
->
-> <p align = "center">
->   <img src="./Source/CEREBRO AI/4_분석/GIF/분석_전처리_차트시각화_히스토그램.gif">
-> </p>
-
-<!-- 부연설명 구분 -->
-
-> **💡 부연설명: 박스플롯**
->
-> - 박스플롯으로 특정 컬럼을 기준으로 데이터의 분포를 확인 할 수 있습니다.
->     - 그래프 선택에서 분포 - '박스플롯' 항목을 선택합니다.
->     - 박스플롯에 사용할 측정값, 그룹기준 항목을 지정 후 드래그합니다.
->         - 측정값은 숫자만 사용가능합니다.
->     - '차트 생성' <img src="./Source/CEREBRO AI/공통/버튼/analysis-create-chart.png" alt="차트 생성 버튼" title="차트 생성" height="26" style="vertical-align: middle;">을 클릭하여 그래프를 생성합니다.
->
-> <p align = "center">
->   <img src="./Source/CEREBRO AI/4_분석/GIF/분석_전처리_차트시각화_박스플롯.gif">
-> </p>
-
-<!-- 부연설명 구분 -->
-
-> **💡 부연설명: 산점도**
->
-> - 산점도로 데이터의 분포를 확인 할 수 있습니다.
->     - 그래프 선택에서 분포 - '산점도' 항목을 선택합니다.
->     - 산점도에 사용할 가로축, 세로축, 크기기준, 그룹기준 항목을 지정 후 드래그합니다.
->         - 가로축, 세로축, 크기기준은 숫자만 사용가능합니다.
->     - '차트 생성' <img src="./Source/CEREBRO AI/공통/버튼/analysis-create-chart.png" alt="차트 생성 버튼" title="차트 생성" height="26" style="vertical-align: middle;">을 클릭하여 그래프를 생성합니다.
->
-> <p align = "center">
->   <img src="./Source/CEREBRO AI/4_분석/GIF/분석_전처리_차트시각화_산점도.gif">
-> </p>
-
-<!-- 부연설명 구분 -->
-
-> **💡 부연설명: 분포 파이 그래프**
->
-> - 파이그래프를 통해 컬럼별 빈도를 확인할 수 있습니다.
->     - 그래프 선택에서 분포 - '파이' 항목을 선택합니다.
->     - 파이그래프에 사용할 분류항목, 측정값을 지정 후 드래그합니다.
->     - '차트 생성' <img src="./Source/CEREBRO AI/공통/버튼/analysis-create-chart.png" alt="차트 생성 버튼" title="차트 생성" height="26" style="vertical-align: middle;">을 클릭하여 그래프를 생성합니다.
->     - 정렬을 통해 값 내림차순으로 다시 정렬합니다.
->
-> <p align = "center">
->   <img src="./Source/CEREBRO AI/4_분석/GIF/분석_전처리_차트시각화_분포파이그래프.gif">
-> </p>
-
-<!-- 부연설명 구분 -->
-
-> **💡 부연설명: 영역 그래프**
->
-> - 영역그래프를 통해 항목별 영역을 확인할 수 있습니다.
->     - 그래프 선택에서 추이 - '영역' 항목을 선택합니다.
->     - 영역그래프에 사용할 분류 항목, 비교항목, 측정값을 지정 후 드래그합니다.
->         - 날짜 항목은 연도, 분기, 월, 일 단위로 묶어서 사용할 수 있습니다.
->     - '차트 생성' <img src="./Source/CEREBRO AI/공통/버튼/analysis-create-chart.png" alt="차트 생성 버튼" title="차트 생성" height="26" style="vertical-align: middle;">을 클릭하여 그래프를 생성합니다.
->
-> <p align = "center">
->   <img src="./Source/CEREBRO AI/4_분석/GIF/분석_전처리_차트시각화_영역그래프.gif">
-> </p>
-
-<!-- 부연설명 구분 -->
-
-> **💡 부연설명: 히트맵**
->
-> - 히트맵을 통해 컬럼별 상관관계를 확인할 수 있습니다.
->     - 그래프 선택에서 관계 - '히트맵' 항목을 선택합니다.
->     - 비교항목을 확인합니다. (숫자 항목이 자동으로 지정됩니다.)
->     - '차트 생성' <img src="./Source/CEREBRO AI/공통/버튼/analysis-create-chart.png" alt="차트 생성 버튼" title="차트 생성" height="26" style="vertical-align: middle;">을 클릭하여 그래프를 생성합니다.
->
-> <p align = "center">
->   <img src="./Source/CEREBRO AI/4_분석/GIF/분석_전처리_차트시각화_히트맵.gif">
-> </p>
-
-<!-- 부연설명 구분 -->
-
-> **💡 부연설명: 지도**
->
-> - 데이터 내 위도와 경도를 입력하여 지도에 표기할 수 있습니다.
->   <br/> ※ 지도를 사용하기 위해선 데이터에 위/경도 정보가 있어야 합니다.
->     - 그래프 선택에서 공간 - '지도' 항목을 선택합니다.
->     - 지도에 사용할 경도, 위도, 위치명, 측정값 항목을 지정 후 드래그합니다.
->     - '차트 생성' <img src="./Source/CEREBRO AI/공통/버튼/analysis-create-chart.png" alt="차트 생성 버튼" title="차트 생성" height="26" style="vertical-align: middle;">을 클릭하여 지도를 생성합니다.
->
-> <p align = "center">
->   <img src="./Source/CEREBRO AI/4_분석/GIF/분석_전처리_차트시각화_지도.gif">
-> </p>
-
-<!-- 부연설명 구분 -->
-
-> **💡 부연설명: 한국 지도**
->
-> - 시도·시군구 이름으로 지역별 값을 색으로 구분하여 지도에 표기할 수 있습니다.
->     - 그래프 선택에서 공간 - '한국 지도' 항목을 선택합니다.
->     - 지역(시도), 측정값 항목을 지정 후 드래그합니다.
->         - 지역(시군구)를 함께 지정하면 시도를 클릭하여 시군구 단위로 볼 수 있습니다.
->     - '차트 생성' <img src="./Source/CEREBRO AI/공통/버튼/analysis-create-chart.png" alt="차트 생성 버튼" title="차트 생성" height="26" style="vertical-align: middle;">을 클릭하여 지도를 생성합니다.
->
-> <p align = "center">
->   <img src="./Source/CEREBRO AI/4_분석/GIF/분석_전처리_차트시각화_한국지도.gif">
-> </p>
-
-<!-- 부연설명 구분 -->
-
-> **💡 부연설명: 구성 파이 그래프**
->
-> - 파이그래프를 통해 항목별 측정값에 대한 구성비율을 확인할 수 있습니다.
->     - 그래프 선택에서 구성 - '파이' 항목을 선택합니다.
->     - 파이 그래프에서 비율을 확인할 측정값 항목을 지정 후 드래그합니다.
->     - 파이 그래프에서 비교할 항목을 지정 후 드래그 합니다.
->     - '차트 생성' <img src="./Source/CEREBRO AI/공통/버튼/analysis-create-chart.png" alt="차트 생성 버튼" title="차트 생성" height="26" style="vertical-align: middle;">을 클릭하여 그래프를 생성합니다.
->     - 정렬을 통해 값 오름차순으로 다시 정렬합니다.
->
-> <p align = "center">
->   <img src="./Source/CEREBRO AI/4_분석/GIF/분석_전처리_차트시각화_구성파이그래프.gif">
-> </p>
-
-<!-- 부연설명 구분 -->
-
-> **💡 부연설명: 스택막대**
->
-> - 스택막대를 통해 속성별 데이터 비율을 확인할 수 있습니다.
->     - 그래프 선택에서 구성 - '스택막대' 항목을 선택합니다.
->     - 스택막대에 사용할 분류 항목을 지정 후 드래그합니다.
->     - 스택막대에 사용할 측정값을 드래그합니다.
->     - '차트 생성' <img src="./Source/CEREBRO AI/공통/버튼/analysis-create-chart.png" alt="차트 생성 버튼" title="차트 생성" height="26" style="vertical-align: middle;">을 클릭하여 그래프를 생성합니다.
->
-> <p align = "center">
->   <img src="./Source/CEREBRO AI/4_분석/GIF/분석_전처리_차트시각화_스택막대.gif">
-> </p>
-
-<!-- 부연설명 구분 -->
-
-> **💡 부연설명: 트리맵**
->
-> - 트리맵을 통해 컬럼별 데이터 비율을 맵으로 확인할 수 있습니다.
->     - 그래프 선택에서 구성 - '트리맵' 항목을 선택합니다.
->     - 트리맵에 사용할 비교 항목을 지정 후 드래그합니다.
->     - 트리맵에 사용할 측정값을 지정 후 드래그합니다.
->     - '차트 생성' <img src="./Source/CEREBRO AI/공통/버튼/analysis-create-chart.png" alt="차트 생성 버튼" title="차트 생성" height="26" style="vertical-align: middle;">을 클릭하여 그래프를 생성합니다.
->
-> <p align = "center">
->   <img src="./Source/CEREBRO AI/4_분석/GIF/분석_전처리_차트시각화_트리맵.gif">
-> </p>
-
-<!-- 부연설명 구분 -->
-
-> **💡 부연설명: 센키**
->
-> - 샌키를 통해 데이터의 흐름, 이동, 변화를 확인 할 수 있습니다.
->     - 그래프 선택에서 흐름 - '샌키' 항목을 선택합니다.
->     - 샌키에 사용할 출발기준, 도착기준을 지정 후 드래그합니다.
->     - 샌키에 사용할 측정값을 지정 후 드래그 합니다.
->     - '차트 생성' <img src="./Source/CEREBRO AI/공통/버튼/analysis-create-chart.png" alt="차트 생성 버튼" title="차트 생성" height="26" style="vertical-align: middle;">을 클릭하여 그래프를 생성합니다.
->
-> <p align = "center">
->   <img src="./Source/CEREBRO AI/4_분석/GIF/분석_전처리_차트시각화_센키.gif">
-> </p>
-
-<!-- 부연설명 구분 -->
-
-> **💡 부연설명: 스트림 그래프**
->
-> - 스트림그래프를 통해 데이터의 변화를 확인할 수 있습니다.
->     - 그래프 선택에서 흐름 - '스트림그래프' 항목을 선택합니다.
->     - 스트림그래프에 사용할 가로축, 흐름기준, 측정값을 지정 후 드래그합니다.
->         - 가로축은 숫자 또는 날짜 항목만 사용가능합니다.
->     - '차트 생성' <img src="./Source/CEREBRO AI/공통/버튼/analysis-create-chart.png" alt="차트 생성 버튼" title="차트 생성" height="26" style="vertical-align: middle;">을 클릭하여 그래프를 생성합니다.
->
-> <p align = "center">
->   <img src="./Source/CEREBRO AI/4_분석/GIF/분석_전처리_차트시각화_스트림그래프.gif">
-> </p>
+- 차트 유형별 설정 및 생성 방법은 [**3.2.3 차트 시각화**](#original-chart-visualization)를 참조하세요.
 
 <!-- /auth -->
 

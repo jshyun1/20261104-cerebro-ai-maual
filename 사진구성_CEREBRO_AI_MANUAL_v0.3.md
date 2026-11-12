@@ -291,7 +291,7 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 
 - PDF·HWP·DOCX 등 비정형 문서를 업로드하여 GPT 대화에서 활용하는 기능입니다.
 
-1. <img src="./Source/CEREBRO AI/4_분석/버튼/새_데이터셋_등록.png" alt="+ 새 데이터셋 등록" height="30" style="vertical-align: middle;"> 버튼을 클릭하고 **문서 업로드** <img src="./Source/CEREBRO AI/공통/버튼/mart-document.png" alt="문서 업로드 버튼" title="문서 업로드" height="26" style="vertical-align: middle;">를 선택합니다.
+1. <img src="./Source/CEREBRO AI/4_분석/버튼/새_데이터셋_등록.png" alt="+ 새 데이터셋 등록" height="30" style="vertical-align: middle;"> 버튼을 클릭하고 **문서 업로드** 를 선택합니다.
 2. **문서 업로드** <img src="./Source/CEREBRO AI/공통/버튼/mart-document.png" alt="문서 업로드 버튼" title="문서 업로드" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 파일을 선택합니다.
 3. 선택한 파일을 확인하고 **업로드** <img src="./Source/CEREBRO AI/공통/버튼/mart-upload.png" alt="업로드 버튼" title="업로드" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
 4. 등록이 완료되면 데이터마트의 **비정형 문서** 목록에서 문서를 확인합니다.
@@ -309,7 +309,7 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
   <img src="./Source/CEREBRO AI/사진구성/007_분석_데이터셋등록_문서업로드_02.png" alt="비정형 문서 목록에서 업로드한 PDF와 처리 상태를 확인합니다." width="1100">
 </p>
 
-> **💡 부연설명: 공유 설정**
+> **💡 참고 : 공유 설정**
 >
 > - 데이터셋을 다른 사용자 또는 그룹과 공유합니다.
 >     - 데이터셋 행의 작업 열에서 공유 <img src="./Source/CEREBRO AI/공통/버튼/mart-share.png" alt="공유 버튼" title="공유" height="24" style="vertical-align: middle;"> 버튼을 클릭합니다.
@@ -317,15 +317,14 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 >     - 대상별로 조회, 조회·분석, 편집 권한을 지정하며 변경 내용은 바로 저장됩니다.
 >     - 일반 액세스를 전체 공유로 바꾸면 사이트 내 모든 로그인 사용자가 접근할 수 있습니다.
 >
-> 공유 설정에서 사용자·그룹 검색과 대상별 권한을 확인합니다.
 >
 > <p align="center">
->   <img src="./Source/CEREBRO AI/사진구성/008_분석_데이터공유설정_01.png" alt="공유 설정에서 사용자·그룹 검색과 대상별 권한을 확인합니다." width="706">
+>   <img src="./Source/CEREBRO AI/사진구성/008_분석_데이터공유설정_01.png" alt="홍길동 예시 대상의 권한 드롭다운에서 조회, 조회·분석, 편집 옵션을 확인합니다." width="690">
 > </p>
 
 <!-- 부연설명 구분 -->
 
-> **💡 부연설명: 컬럼 메타 · 재업로드**
+> **💡 참고 : 컬럼 메타 · 재업로드**
 >
 > - 데이터셋의 컬럼 정보를 관리하고 원본 파일을 갱신합니다.
 >     - 작업 열의 컬럼 메타 <img src="./Source/CEREBRO AI/공통/버튼/mart-column-meta.png" alt="컬럼 메타 버튼" title="컬럼 메타" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 컬럼별 표시 이름과 역할(차원, 측정값, 기간, 속성)을 지정합니다.
@@ -377,11 +376,11 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 
 <!-- auth: LV3, LV2_321 -->
 
-> **💡 부연설명: CerebroGPT 요약**
+> **💡 참고 : CerebroGPT 요약**
 >
 > - CEREBRO AI가 업로드한 데이터 정보를 분석하여 요약본을 볼 수 있는 기능입니다.
 >     - 상단 CerebroGPT 영역의 자세히 보기 <img src="./Source/CEREBRO AI/공통/버튼/analysis-details.png" alt="자세히 보기 버튼" title="자세히 보기" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 요약 정보를 펼쳐 확인 할 수 있습니다.
->     - X <img src="./Source/CEREBRO AI/공통/버튼/analysis-close.png" alt="닫기 버튼" title="닫기" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 요약 영역을 닫습니다.
+>     - <img src="./Source/CEREBRO AI/공통/버튼/analysis-close.png" alt="닫기 버튼" title="닫기" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 요약 영역을 닫습니다.
 >
 > **화면 1.** 원본 데이터의 컬럼별 형식·건수·결측값·통계 정보를 확인합니다.
 >
@@ -397,7 +396,7 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 
 <!-- 부연설명 구분 -->
 
-> **💡 부연설명: 컬럼 차트 화면**
+> **💡 참고 : 컬럼 차트 화면**
 >
 > - 컬럼 값의 데이터 분포를 차트로 표시합니다
 >     - 컬럼명 옆 차트 <img src="./Source/CEREBRO AI/공통/버튼/analysis-column-chart.png" alt="차트 버튼" title="차트" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 데이터 분포(히스토그램, 박스플롯)를 확인할 수 있습니다.
@@ -425,7 +424,7 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 
 <!-- auth: LV3, LV2_322 -->
 
-> **💡 부연설명: 그룹 색 적용**
+> **💡 참고 : 그룹 색 적용**
 >
 > - 컬럼별 데이터에 따른 색을 부여하여 화면에 표시합니다.
 >     - 왼쪽 위 그룹 색 적용 <img src="./Source/CEREBRO AI/공통/버튼/analysis-color.png" alt="그룹 색 적용 버튼" title="그룹 색 적용" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 컬럼별 같은 데이터를 확인할 수 있습니다.
@@ -444,7 +443,7 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 
 <!-- 부연설명 구분 -->
 
-> **💡 부연설명: 데이터 다운로드**
+> **💡 참고 : 데이터 다운로드**
 >
 > - 조회한 데이터를 csv, xlsx 파일로 변환하여 다운로드합니다.
 >     - 그룹 색 적용 옆 CSV 다운로드, 엑셀 다운로드 <img src="./Source/CEREBRO AI/공통/버튼/analysis-excel.png" alt="엑셀 다운로드 버튼" title="엑셀 다운로드" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 저장합니다.
@@ -457,7 +456,7 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 
 <!-- 부연설명 구분 -->
 
-> **💡 부연설명: 너비 간격 조절**
+> **💡 참고 : 너비 간격 조절**
 >
 > - 화면에 표시된 표의 너비를 변경합니다
 >     - 다운로드 <img src="./Source/CEREBRO AI/공통/버튼/analysis-csv.png" alt="CSV 다운로드 버튼" title="CSV 다운로드" height="24" style="vertical-align: middle;"> 버튼 옆 간격 바를 드래그 하여 전체 열의 너비를 조절합니다.
@@ -471,7 +470,7 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 
 <!-- 부연설명 구분 -->
 
-> **💡 부연설명: 데이터 정렬**
+> **💡 참고 : 데이터 정렬**
 >
 > - 컬럼의 데이터를 오름차순 또는 내림차순으로 정렬합니다.
 >     - 컬럼 옆 정렬 <img src="./Source/CEREBRO AI/공통/버튼/analysis-sort.png" alt="정렬 버튼" title="정렬" height="24" style="vertical-align: middle;"> 버튼을 통해 데이터를 오름차순/내림차순으로 정렬합니다.
@@ -485,7 +484,7 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 
 <!-- 부연설명 구분 -->
 
-> **💡 부연설명: 데이터 필터**
+> **💡 참고 : 데이터 필터**
 >
 > - 특정 데이터만 조회하도록 필터링합니다.
 >     - 컬럼 옆 필터 <img src="./Source/CEREBRO AI/공통/버튼/analysis-filter.png" alt="필터 버튼" title="필터" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 조회할 특정 데이터를 선택한 후 체크 <img src="./Source/CEREBRO AI/공통/버튼/analysis-check.png" alt="체크 버튼" title="체크" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
@@ -1276,7 +1275,7 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 
 <!-- /auth -->
 
-> **💡 부연설명: 전처리 결과 확인**
+> **💡 참고 : 전처리 결과 확인**
 >
 > 아래 기능의 사용 방법은 원본 데이터와 동일하며, 조회·분석 대상은 전처리가 적용된 데이터입니다.
 
@@ -1469,7 +1468,7 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
   <img src="./Source/CEREBRO AI/사진구성/052_분석_연관관계분석_분석항목선택_시연_02.png" alt="선택한 항목의 연결 관계가 분석도에 표시됩니다." width="1100">
 </p>
 
-> **💡 부연설명: 분석 대상 선택**
+> **💡 참고 : 분석 대상 선택**
 >
 > - 연관관계 분석도에 표기할 대상 항목을 선택합니다.
 >     - 좌측 분석 항목 목록에서 항목명을 클릭합니다.
@@ -1585,7 +1584,7 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
   <img src="./Source/CEREBRO AI/사진구성/058_분석_연관관계분석_관계_시연_02.png" alt="노드 연관관계 패널에서 연결된 항목과 값을 확인합니다." width="1100">
 </p>
 
-> **💡 부연설명: 연계분석**
+> **💡 참고 : 연계분석**
 >
 > - 선택한 노드의 값을 다른 데이터셋의 컬럼과 연결하여 관련 데이터를 함께 확인할 수 있습니다.
 >     - 저장된 위젯 **테스트1**을 불러온 뒤, **관계** <img src="./Source/CEREBRO AI/공통/버튼/relation-relation.png" alt="관계 버튼" title="관계" height="24" style="vertical-align: middle;"> 버튼을 클릭하고 **보험사기여부**의 **사기** 노드를 선택합니다.
@@ -2074,7 +2073,7 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 <!-- auth: LV3, LV2_41 -->
 
 
-> **💡 부연설명: 보고서 주제 선정**
+> **💡 참고 : 보고서 주제 선정**
 >
 > - 보고서 작성을 위한 주제를 선정하는 기능입니다.
 > - 업로드된 데이터와 연관된 주제로 작성해야 합니다.
@@ -2091,7 +2090,7 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 
 <!-- 부연설명 구분 -->
 
-> **💡 부연설명: 데이터셋 선택**
+> **💡 참고 : 데이터셋 선택**
 >
 > - 작성할 보고서의 주요 데이터 셋을 지정합니다.
 >     - 최대 8개의 데이터셋을 선택할 수 있습니다.
@@ -2105,7 +2104,7 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 
 <!-- 부연설명 구분 -->
 
-> **💡 부연설명: 위젯 추천 · 기존 대시보드 위젯**
+> **💡 참고 : 위젯 추천 · 기존 대시보드 위젯**
 >
 > - 작성한 주제와 선택한 데이터를 AI가 분석하여 위젯을 자동 생성합니다.
 > - 주제 관련도와 신뢰도를 기준으로 정렬하며, 채택을 통해 본문 보고서에 추가됩니다.
@@ -2123,7 +2122,7 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 
 <!-- 부연설명 구분 -->
 
-> **💡 부연설명: 미리보기 & 저장**
+> **💡 참고 : 미리보기 & 저장**
 >
 > - 작성한 주제와 선택한 데이터를 바탕으로 보고서 본문을 작성합니다.
 >     - 본문 다시 만들기 <img src="./Source/CEREBRO AI/공통/버튼/report-regenerate.png" alt="본문 다시 만들기 버튼" title="본문 다시 만들기" height="26" style="vertical-align: middle;">를 클릭하여 본문을 재생성할 수 있습니다.
@@ -2144,7 +2143,7 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 
 <!-- 부연설명 구분 -->
 
-> **💡 부연설명: 생성된 AI 기반 보고서**
+> **💡 참고 : 생성된 AI 기반 보고서**
 >
 > <p align = "center">
 >   <img src = "./Source/CEREBRO AI/7_보고서/보고서_AI보고서만들기_본문생성결과.png">
@@ -2176,7 +2175,7 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 
 <!-- auth: LV3, LV2_42 -->
 
-> **💡 부연설명: 템플릿 보고서 만들기**
+> **💡 참고 : 템플릿 보고서 만들기**
 >
 > - 작성된 템플릿으로 신규 보고서를 작성합니다.
 >     - '템플릿에서 만들기' <img src="./Source/CEREBRO AI/공통/버튼/report-from-template.png" alt="템플릿에서 만들기 버튼" title="템플릿에서 만들기" height="26" style="vertical-align: middle;">를 클릭하고 템플릿을 선택합니다.
@@ -2268,7 +2267,7 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
   <img src="./Source/CEREBRO AI/사진구성/081_스튜디오_51_대시보드생성_02.png" alt="저장 창에서 대시보드 제목을 확인하고 저장을 완료합니다." width="687">
 </p>
 
-> **💡 부연설명: 다른 이름으로 저장 · 실행 취소 · 다시 실행**
+> **💡 참고 : 다른 이름으로 저장 · 실행 취소 · 다시 실행**
 >
 > **다른 이름으로 저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save-as.png" alt="다른 이름으로 저장 버튼" title="다른 이름으로 저장" height="24" style="vertical-align: middle;">으로 현재 대시보드를 새 이름의 사본으로 저장합니다. **실행 취소** <img src="./Source/CEREBRO AI/공통/버튼/studio-undo.png" alt="실행 취소 버튼" title="실행 취소" height="24" style="vertical-align: middle;">는 직전 편집을 되돌리고, **다시 실행** <img src="./Source/CEREBRO AI/공통/버튼/studio-redo.png" alt="다시 실행 버튼" title="다시 실행" height="24" style="vertical-align: middle;">은 취소한 편집을 다시 적용합니다.
 
@@ -2282,7 +2281,7 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 
 <!-- auth: LV3, LV2_53 -->
 
-> **💡 부연설명: 대시보드 목록 관리**
+> **💡 참고 : 대시보드 목록 관리**
 >
 > 스튜디오 목록에서 **전체·내 대시보드·공유받음**을 선택하여 목록을 확인합니다. **열기** <img src="./Source/CEREBRO AI/공통/버튼/studio-open.png" alt="열기 버튼" title="열기" height="26" style="vertical-align: middle;">로 편집 화면에 들어가고, **복제** <img src="./Source/CEREBRO AI/공통/버튼/studio-duplicate.png" alt="복제 버튼" title="복제" height="24" style="vertical-align: middle;">로 사본을 만들거나 **삭제** <img src="./Source/CEREBRO AI/공통/버튼/studio-delete.png" alt="삭제 버튼" title="삭제" height="24" style="vertical-align: middle;">로 불필요한 대시보드를 제거합니다.
 
@@ -2323,7 +2322,7 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
   <img src="./Source/CEREBRO AI/사진구성/085_스튜디오_52_캔버스속성_01.png" alt="페이지 설정에서 배경색·캔버스 크기·위젯 간격을 조절합니다." width="1100">
 </p>
 
-> **💡 부연설명: 배경 페이지**
+> **💡 참고 : 배경 페이지**
 >
 > 왼쪽 **배경 페이지 추가** <img src="./Source/CEREBRO AI/공통/버튼/studio-background-add.png" alt="배경 페이지 추가 버튼" title="배경 페이지 추가" height="26" style="vertical-align: middle;">로 공통 제목이나 안내를 구성합니다. 일반 페이지의 **페이지 설정 → 배경 페이지**에서 해당 배경을 선택하면 여러 페이지에 공통 구성을 사용할 수 있습니다.
 
@@ -2399,7 +2398,7 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
   <img src="./Source/CEREBRO AI/사진구성/089_스튜디오_5313_게이지_01.png" alt="보험금 평균을 게이지의 값으로 지정합니다. 표시 범위와 색상은 스타일에서 조정합니다." width="1100">
 </p>
 
-> **💡 부연설명: 게이지 설정 기준**
+> **💡 참고 : 게이지 설정 기준**
 >
 > 예시의 최대값 1천만 원은 게이지 표시 범위입니다. 목표 금액이나 달성률을 의미하지 않습니다. 비율을 표시하려면 값 형태에서 비율을 선택하고 분자·분모를 지정합니다.
 
@@ -2739,11 +2738,11 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
   <img src="./Source/CEREBRO AI/사진구성/110_스튜디오_538_저장된위젯_02.png" alt="가져온 피벗 위젯을 캔버스에 배치하고 데이터와 스타일을 확인합니다." width="1100">
 </p>
 
-> **💡 부연설명: 가져올 수 있는 위젯**
+> **💡 참고 : 가져올 수 있는 위젯**
 >
 > 차트 시각화의 차트, BI(OLAP)의 피벗, 연관관계분석의 저장 화면을 가져올 수 있습니다. 차트의 필터 조건과 정렬은 가져오지 않으므로 추가한 뒤 확인합니다.
 
-> **💡 부연설명: 저장된 위젯 관리**
+> **💡 참고 : 저장된 위젯 관리**
 >
 > 스튜디오 목록의 **저장된 위젯** 탭에서 원본 데이터, 타입, 이름, 사용처와 저장일을 확인합니다. 위젯 이름을 클릭하여 미리보기·속성을 확인하고 수정하거나 **스튜디오로 가져오기** <img src="./Source/CEREBRO AI/공통/버튼/studio-import.png" alt="스튜디오로 가져오기 버튼" title="스튜디오로 가져오기" height="26" style="vertical-align: middle;">를 선택합니다.
 
@@ -2765,7 +2764,7 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 4. 겹치는 위젯은 **앞으로** <img src="./Source/CEREBRO AI/공통/버튼/studio-front.png" alt="앞으로 버튼" title="앞으로" height="24" style="vertical-align: middle;"> · **뒤로** <img src="./Source/CEREBRO AI/공통/버튼/studio-back.png" alt="뒤로 버튼" title="뒤로" height="24" style="vertical-align: middle;"> 도구나 왼쪽 **레이어**의 순서를 조절하여 표시 순서를 바꿉니다.
 5. 배치 결과를 확인하고 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
 
-> **💡 부연설명: 드래그 중 스냅 해제**
+> **💡 참고 : 드래그 중 스냅 해제**
 >
 > 위젯을 드래그하는 동안 Alt 또는 Cmd 키를 누르면 스냅을 일시적으로 해제할 수 있습니다.
 
@@ -2810,7 +2809,7 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 5. 공간 부족 안내가 표시되면 **배치** 탭에서 기존 위젯의 위치·크기를 조절하고, 빈 영역에 필요한 위젯만 추가해 달라고 요청합니다.
 6. 완성된 대시보드를 미리보기로 확인하고 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
 
-> **💡 부연설명: 보험금 지급 현황 요청 예시**
+> **💡 참고 : 보험금 지급 현황 요청 예시**
 >
 > “보험금지급현황 데이터로 보험금 총액·평균 보험금·지급 건수 KPI를 상단에 배치해 주세요. 기존 보험종류별 보험금 합계 차트는 아래쪽 왼편으로 옮기고, 오른편에는 보험사기여부별 건수를 파이 차트로 추가해 주세요. 캔버스 안에서 겹치지 않게 배치해 주세요.”
 
@@ -2822,7 +2821,7 @@ AI 도우미에서 원하는 위젯과 배치를 자연어로 요청하고 결�
   <img src="./Source/CEREBRO AI/사진구성/114_스튜디오_56_AI도우미_01.png" alt="AI 도우미에서 원하는 위젯과 배치를 자연어로 요청하고 결과를 확인합니다." width="1100">
 </p>
 
-> **💡 부연설명: 목록에서 AI 대시보드 생성**
+> **💡 참고 : 목록에서 AI 대시보드 생성**
 >
 > 스튜디오 목록의 **AI 대시보드 생성** <img src="./Source/CEREBRO AI/공통/버튼/studio-ai-create.png" alt="AI 대시보드 생성 버튼" title="AI 대시보드 생성" height="26" style="vertical-align: middle;">에서 데이터셋을 선택합니다. **바로 생성** <img src="./Source/CEREBRO AI/공통/버튼/studio-direct-create.png" alt="바로 생성 버튼" title="바로 생성" height="26" style="vertical-align: middle;">은 데이터 통계를 바탕으로 위젯을 자동 배치하고, **대화로 만들기** <img src="./Source/CEREBRO AI/공통/버튼/studio-chat-create.png" alt="대화로 만들기 버튼" title="대화로 만들기" height="26" style="vertical-align: middle;">는 요청을 입력해 구성한 결과를 확인한 뒤 **대시보드 만들기** <img src="./Source/CEREBRO AI/공통/버튼/studio-create.png" alt="대시보드 만들기 버튼" title="대시보드 만들기" height="26" style="vertical-align: middle;">로 저장합니다.
 
@@ -2859,7 +2858,7 @@ AI 대시보드 생성에서 분석할 데이터셋을 선택하고 생성 방�
   <img src="./Source/CEREBRO AI/사진구성/117_스튜디오_571_멤버공유_01.png" alt="멤버 공유에서 공유할 사용자·그룹을 검색하고 대상별 접근 권한을 지정합니다." width="586">
 </p>
 
-> **💡 부연설명: 원본 데이터셋 조회 권한**
+> **💡 참고 : 원본 데이터셋 조회 권한**
 >
 > 대시보드 공유와 원본 데이터셋의 권한은 별도로 확인합니다. 데이터셋 권한 부족 안내가 표시되면 데이터마트의 해당 데이터셋 **공유 설정**에서 같은 멤버에게 **조회** 권한을 부여합니다. 예시는 지정한 멤버에게만 권한을 추가하며 일반 액세스는 제한 상태로 유지합니다.
 
@@ -2911,7 +2910,7 @@ AI 대시보드 생성에서 분석할 데이터셋을 선택하고 생성 방�
 
 ### 6.1 GPT에게 질의하기
 
-> **💡 부연설명: 문서에 대한 질문**
+> **💡 참고 : 문서에 대한 질문**
 >
 > - 문서를 업로드 하여 GPT에게 질문합니다.
 >     - 새 대화 <img src="./Source/CEREBRO AI/공통/버튼/gpt-new.png" alt="새 대화 버튼" title="새 대화" height="26" style="vertical-align: middle;"> 버튼을 클릭한 후 내문서 <img src="./Source/CEREBRO AI/공통/버튼/gpt-documents.png" alt="내 문서 버튼" title="내 문서" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
@@ -2940,7 +2939,7 @@ AI 대시보드 생성에서 분석할 데이터셋을 선택하고 생성 방�
 
 <!-- 부연설명 구분 -->
 
-> **💡 부연설명: 분석데이터에 대한 질문**
+> **💡 참고 : 분석데이터에 대한 질문**
 >
 > - 분석데이터를 통하여 GPT에게 질문 합니다.
 >     - 새 대화 <img src="./Source/CEREBRO AI/공통/버튼/gpt-new.png" alt="새 대화 버튼" title="새 대화" height="26" style="vertical-align: middle;"> 버튼을 클릭한 후 내문서 <img src="./Source/CEREBRO AI/공통/버튼/gpt-documents.png" alt="내 문서 버튼" title="내 문서" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.

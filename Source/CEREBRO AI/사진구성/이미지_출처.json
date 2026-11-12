@@ -264,18 +264,22 @@
   },
   {
     "file": "008_분석_데이터공유설정_01.png",
-    "caption": "공유 설정에서 사용자·그룹 검색과 대상별 권한을 확인합니다.",
-    "source": "live",
-    "capturedAt": "2026-11-11T05:29:58.699Z",
+    "caption": "홍길동 예시 대상의 권한 드롭다운에서 조회, 조회·분석, 편집 옵션을 확인합니다.",
+    "source": "live_ui_demo",
+    "capturedAt": "2026-11-12T01:57:20.554Z",
     "topic_index": 8,
     "section": "##### 3.1.1.5 문서 업로드",
     "size": [
-      706,
-      309
+      690,
+      285
     ],
-    "sha256": "97468836a60041d16c04da84b45ff875b08e9c40ef1fc0b75b27624aaf1410a9",
+    "sha256": "24b0e10a13a27d9c2d0573cc74e3d54afd7f222abde7d67bd6e153b2ac535c63",
     "account_name_masked": true,
-    "cropped": true
+    "cropped": true,
+    "subject_name_hidden": false,
+    "subject_name_visible_by_user_request": true,
+    "server_acl_modified": false,
+    "source_note": "실제 서비스의 권한 UI에 브라우저 로컬 예시 대상만 표시하여 촬영. 공유 저장 요청 차단 및 실제 서버 ACL 유지 확인."
   },
   {
     "file": "009_분석_컬럼메타_01.png",

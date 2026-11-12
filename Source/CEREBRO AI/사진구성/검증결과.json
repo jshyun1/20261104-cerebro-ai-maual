@@ -49,5 +49,23 @@
     "preview_verified": true,
     "registered_structure_verified": true,
     "account_name_hidden": true
+  },
+  "share_dropdown_correction": {
+    "checked_at": "2026-11-12T01:57:20.554Z",
+    "file": "008_분석_데이터공유설정_01.png",
+    "permissions": [
+      "조회",
+      "조회·분석",
+      "편집"
+    ],
+    "subject_name": "홍길동",
+    "subject_name_visible_by_user_request": true,
+    "source": "live_ui_demo",
+    "server_acl_modified": false,
+    "actual_server_acl_count_after": 0,
+    "image_size": [
+      690,
+      285
+    ]
   }
 }

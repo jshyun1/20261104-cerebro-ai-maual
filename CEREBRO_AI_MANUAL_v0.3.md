@@ -778,7 +778,7 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
     - 데이터 내 컬럼을 합치거나 가공하여 신규 생성 및 기존 컬럼을 삭제 할 수 있습니다.
     - 데이터 내 결측값, 중복값이 있을 경우 대체하여 가공할 수 있습니다.
     - 이상치를 처리하고 정규화 기능을 통해 데이터 스케일링을 지원합니다.
-    - 왼쪽 단계 목록에 추가한 전처리가 순서대로 표시되며, 적용 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하면 모든 단계가 실행되어 결과가 저장됩니다.
+    - 왼쪽 단계 목록에 추가한 전처리가 순서대로 표시되며, <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하면 모든 단계가 실행되어 결과가 저장됩니다.
     - 오른쪽 현재 단계 데이터 미리보기에서 단계별 결과 건수를 확인합니다.
 
 <p align = "center">
@@ -789,7 +789,7 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 
 ##### 3.3.1.1 AI
 
-- AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자가 입력한 요청에 따라 전처리 항목을 생성하는 기능입니다.
+AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자가 입력한 요청에 따라 전처리 항목을 생성하는 기능입니다.
 
 ###### 3.3.1.1.1 AI전처리
 
@@ -797,34 +797,36 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
     -  상단에서 AI 전처리 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-ai.png" alt="AI 전처리 버튼" title="AI 전처리" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
     -  GPT가 내부 데이터를 분석한 결과와 전처리 대상항목을 확인합니다.
     -  왼쪽 단계 목록에 '새로 추가' 로 표시된 항목을 클릭하여 내용을 확인합니다.
-    -  적용 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
+    -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
 
 <p align = "center">
-  <img src = "./Source/CEREBRO AI/4_분석/GIF/분석_전처리_AI전처리.gif">
+  <img src = "./Source/CEREBRO AI/4_분석/GIF/분석_전처리_AI전처리_단독실행.gif" alt="기존 전처리 단계가 없는 상태에서 AI 전처리만 실행하여 추천된 단계를 확인합니다.">
 </p>
 
 ###### 3.3.1.1.2 AI 직접입력
 
 - 사용자가 GPT에게 전처리 요구내역을 입력하여 자동으로 전처리 항목을 생성합니다.
     -  상단에서 직접 입력 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-direct.png" alt="직접 입력 버튼" title="직접 입력" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
-    -  옆에 표시되는 입력창에 전처리 요청사항을 입력 후 송신 <img src="./Source/CEREBRO AI/공통/버튼/gpt-send.png" alt="전송 버튼" title="전송" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
+    -  옆에 표시되는 입력창에 전처리 요청사항을 입력 후 송신 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-send.png" alt="송신 버튼" title="송신" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
     -  요청사항에 따라 GPT가 분석한 결과 및 전처리 대상항목을 확인합니다.
-    -  적용 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
+    -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
 
 <p align = "center">
-  <img src = "./Source/CEREBRO AI/4_분석/GIF/분석_전처리_AI직접입력.gif">
+  <img src = "./Source/CEREBRO AI/4_분석/GIF/분석_전처리_AI직접입력_단독실행예시.gif" alt="기존 전처리 단계가 없는 상태에서 직접입력 요청과 지급연도 항목생성 한 단계의 설정을 보여주는 설명용 예시입니다.">
 </p>
+
+※ 기존 시연의 결과 설정을 기준으로 재구성한 설명용 예시입니다. 기존 전처리 내역 없이 지급연도 항목생성 한 단계만 표시합니다.
 
 ##### 3.3.1.2 데이터 정제
 
-- 분석에 필요한 데이터만 선택하고, 컬럼의 값이나 데이터 형식을 변경하여 데이터를 정리하는 기능입니다.
+분석에 필요한 데이터만 선택하고, 컬럼의 값이나 데이터 형식을 변경하여 데이터를 정리하는 기능입니다.
 
 ###### 3.3.1.2.1 필터링
 
 - 컬럼 내 특정 값만 사용하도록 필터링 합니다.
     -  상단에서 필터링 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-filter.png" alt="필터링 버튼" title="필터링" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
     -  필터링할 컬럼, 조건, 값을 지정합니다.
-    -  적용 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
+    -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
 
 <p align = "center">
   <img src = "./Source/CEREBRO AI/4_분석/GIF/분석_전처리_데이터정제_필터링.gif">
@@ -835,7 +837,7 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 - 컬럼 내 특정 값을 다른 값으로 바꿉니다.
     -  상단에서 값변경 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-replace.png" alt="값 변경 버튼" title="값 변경" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
     -  값을 변경할 컬럼을 선택하고 대상값과 치환값을 입력합니다.
-    -  적용 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
+    -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
 
 <p align = "center">
   <img src = "./Source/CEREBRO AI/4_분석/GIF/분석_전처리_데이터정제_값변경.gif">
@@ -846,7 +848,7 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 - 컬럼의 데이터 형식을 변경합니다.
     -  상단에서 형변환 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-cast.png" alt="형 변환 버튼" title="형 변환" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
     -  형변환할 컬럼과 처리방법(정수형, 부동소수점, 문자열, 날짜 및 시간, 참/거짓, 범주)을 선택합니다.
-    -  적용 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
+    -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
 
 <p align = "center">
   <img src = "./Source/CEREBRO AI/4_분석/GIF/분석_전처리_데이터정제_형변환.gif">
@@ -854,14 +856,14 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 
 ##### 3.3.1.3 결측/중복
 
-- 중복된 데이터를 제거하고, 결측값을 제거하거나 다른 값으로 대체하여 데이터의 품질을 높이는 기능입니다.
+중복된 데이터를 제거하고, 결측값을 제거하거나 다른 값으로 대체하여 데이터의 품질을 높이는 기능입니다.
 
 ###### 3.3.1.3.1 중복값
 
 - 컬럼 내 중복 된 데이터 값을 제거합니다.
     -  상단에서 중복값 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-duplicate.png" alt="중복값 버튼" title="중복값" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
     -  중복을 검사할 컬럼을 선택합니다. 여러 컬럼을 선택하면 모든 컬럼 값이 같은 행만 중복으로 봅니다.
-    -  적용 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
+    -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
 
 <p align = "center">
   <img src = "./Source/CEREBRO AI/4_분석/GIF/분석_전처리_결측중복_중복값.gif">
@@ -872,7 +874,7 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 - 데이터 내 결측값(#N/A, nan)이 있을 경우 이를 제거하거나 대체합니다.
     -  상단에서 결측값 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-missing.png" alt="결측값 버튼" title="결측값" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
     -  모든 결측 항목 추가를 클릭하거나 결측값을 처리할 컬럼을 선택하고 처리방법을 선택합니다.
-    -  적용 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
+    -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
 
 <p align = "center">
   <img src = "./Source/CEREBRO AI/4_분석/GIF/분석_전처리_결측중복_결측값.gif">
@@ -880,14 +882,14 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 
 ##### 3.3.1.4 컬럼 관리
 
-- 분석 목적에 맞게 컬럼을 삭제하거나 이름을 변경하고, 수식을 이용하여 새로운 컬럼을 생성하는 기능입니다.
+분석 목적에 맞게 컬럼을 삭제하거나 이름을 변경하고, 수식을 이용하여 새로운 컬럼을 생성하는 기능입니다.
 
 ###### 3.3.1.4.1 항목삭제
 
 - 데이터 내 컬럼을 삭제합니다.
     -  상단에서 항목삭제 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-drop.png" alt="항목삭제 버튼" title="항목삭제" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
     -  사용하지 않을 컬럼을 체크해제 합니다.
-    -  적용 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
+    -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
 
 <p align = "center">
   <img src = "./Source/CEREBRO AI/4_분석/GIF/분석_전처리_컬럼관리_항목삭제.gif">
@@ -898,7 +900,7 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 - 데이터 컬럼명을 변경합니다.
     -  상단에서 항목명변경 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-rename.png" alt="항목명변경 버튼" title="항목명변경" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
     -  변경할 기존 항목명을 선택하고 변경할 항목명을 입력합니다.
-    -  적용 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
+    -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
 
 <p align = "center">
   <img src = "./Source/CEREBRO AI/4_분석/GIF/분석_전처리_컬럼관리_항목명변경.gif">
@@ -911,7 +913,7 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
     -  수식옆 [?] <img src="./Source/CEREBRO AI/공통/버튼/preprocess-help.png" alt="수식 도움말 버튼" title="수식 도움말" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 변경에 사용할 수식 및 예시를 확인합니다.
     -  수식을 확인하여 입력한 후 추가할 항목명을 입력합니다.
         - 수식에서 컬럼명은 `보험금` 처럼 ` 기호로 감싸서 입력합니다.
-    -  적용 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
+    -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
 
 <p align = "center">
   <img src = "./Source/CEREBRO AI/4_분석/GIF/분석_전처리_컬럼관리_항목생성.gif">
@@ -919,14 +921,14 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 
 ##### 3.3.1.5 스케일링
 
-- 수치 데이터의 분포와 범위를 조정하고 이상치를 처리하여 분석에 적합한 형태로 변환하는 기능입니다.
+수치 데이터의 분포와 범위를 조정하고 이상치를 처리하여 분석에 적합한 형태로 변환하는 기능입니다.
 
 ###### 3.3.1.5.1 정규화
 
 - 데이터 내 분포나 범위를 초과한 값을 정규화합니다.
     -  상단에서 정규화 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-normalize.png" alt="정규화 버튼" title="정규화" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
     -  정규화할 컬럼 및 처리방법(StandardScaler, MinMaxScaler, MaxAbsScaler, RobustScaler)을 선택합니다.
-    -  적용 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
+    -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
 
 | 처리방법 | 간단한 설명 |
 |---|---|
@@ -944,7 +946,7 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 - 데이터 이상치를 변환합니다.
     -  상단에서 이상치 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-outlier.png" alt="이상치 버튼" title="이상치" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
     -  전처리할 이상치 컬럼을 선택하고 방법,처리,옵션을 입력합니다.
-    -  적용 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
+    -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
 
 - **방법**은 이상치를 판단하는 기준, **처리**는 이상치로 판단한 값이나 해당 행을 처리하는 방식, **옵션**은 판단 기준의 범위를 조절하는 설정입니다.
 
@@ -981,10 +983,11 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 
 ##### 3.3.1.6 되돌리기
 
-- 적용하기 전 추가한 전처리 항목을 취소합니다.
-    -  전처리 항목을 추가한 뒤 적용 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 누르기 전에 되돌리기 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-undo.png" alt="되돌리기 버튼" title="되돌리기" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
-    -  추가한 항목이 사라지고 마지막으로 적용한 상태로 돌아갑니다.
-    -  이미 적용한 단계는 왼쪽 단계 목록의 휴지통 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-trash.png" alt="휴지통 버튼" title="휴지통" height="24" style="vertical-align: middle;"> 버튼으로 삭제한 뒤 적용합니다.
+적용하기 전 추가한 전처리 항목을 취소합니다.
+
+-  전처리 항목을 추가한 뒤 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 누르기 전에 되돌리기 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-undo.png" alt="되돌리기 버튼" title="되돌리기" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
+-  추가한 항목이 사라지고 마지막으로 적용한 상태로 돌아갑니다.
+-  이미 적용한 단계는 왼쪽 단계 목록의 휴지통 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-trash.png" alt="휴지통 버튼" title="휴지통" height="24" style="vertical-align: middle;"> 버튼으로 삭제한 뒤 적용합니다.
 
 <p align = "center">
   <img src = "./Source/CEREBRO AI/4_분석/GIF/분석_전처리_되돌리기.gif">

@@ -942,67 +942,85 @@
     "cropped": false
   },
   {
-    "file": "034_분석_전처리_AI전처리_01.png",
-    "caption": "AI 전처리 버튼으로 데이터에 필요한 처리 단계를 추천받습니다.",
+    "file": "034_분석_전처리_AI전처리_초기상태.png",
+    "caption": "등록된 전처리 단계가 없는 초기 상태에서 AI 전처리를 실행합니다.",
     "source": "live",
-    "capturedAt": "2026-11-11T05:39:40.010Z",
+    "capturedAt": "2026-11-12T15:11:28+09:00",
     "topic_index": 34,
     "section": "###### 3.3.1.1.1 AI전처리",
     "size": [
       1600,
       1000
     ],
-    "sha256": "3f2819675a77ab50200ef61f9a2b5140d4929ea762a117b3fa2303a684dde2ec",
+    "sha256": "3b5c628250fda95313db46d5d4f7d4f3b972f0b79cd8c35f86726c26917678a3",
     "account_name_masked": true,
-    "cropped": false
+    "cropped": false,
+    "initial_preprocessing_steps": 0,
+    "visible_preprocessing_steps": 0,
+    "supersedes": "034_분석_전처리_AI전처리_01.png"
   },
   {
-    "file": "034_분석_전처리_AI전처리_시연_01.png",
-    "caption": "AI가 추천한 처리 단계와 단계별 설정을 검토합니다.",
-    "source": "gif",
-    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_전처리_AI전처리.gif",
-    "frame": 132,
+    "file": "034_분석_전처리_AI전처리_단독실행결과.png",
+    "caption": "AI 전처리만 실행하여 새로 추천된 결측값·형 변환·이상치 세 단계와 설정을 확인합니다.",
+    "source": "live",
     "topic_index": 34,
     "section": "###### 3.3.1.1.1 AI전처리",
     "size": [
-      1920,
-      1080
+      1600,
+      1000
     ],
-    "sha256": "3e264e57edbc93174d2be79e5b70b3c29f9cdc510fc22f7bdfacb0845499062f",
-    "account_name_masked": false,
-    "cropped": false
+    "sha256": "872867e36bbb67ec8336deb2f27a6f21a0da4f9e2d90fbeeba85588de9ade3d0",
+    "account_name_masked": true,
+    "cropped": false,
+    "capturedAt": "2026-11-12T15:11:28+09:00",
+    "initial_preprocessing_steps": 0,
+    "visible_preprocessing_steps": 3,
+    "supersedes": "034_분석_전처리_AI전처리_시연_01.png"
   },
   {
-    "file": "035_분석_전처리_AI직접입력_시연_01.png",
-    "caption": "직접 입력에서 원하는 전처리 내용을 자연어로 작성합니다.",
-    "source": "gif",
-    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_전처리_AI직접입력.gif",
-    "frame": 77,
+    "file": "035_분석_전처리_AI직접입력_초기상태요청.png",
+    "caption": "기존 단계가 없는 상태에서 지급연도 컬럼 생성을 요청합니다.",
+    "source": "live",
     "topic_index": 35,
     "section": "###### 3.3.1.1.2 AI 직접입력",
     "size": [
       1920,
       1080
     ],
-    "sha256": "ac46f3cfd0048b3b8b969f3b16a421d12b205c92639f198d0edb50efe6b54dab",
-    "account_name_masked": false,
-    "cropped": false
+    "sha256": "8aeae26409f9dbe8168355cc2909bb6d703c8aee83e0a299be56988d221782e0",
+    "account_name_masked": true,
+    "cropped": false,
+    "capturedAt": "2026-11-12T15:11:28+09:00",
+    "initial_preprocessing_steps": 0,
+    "visible_preprocessing_steps": 0,
+    "supersedes": "035_분석_전처리_AI직접입력_시연_01.png"
   },
   {
-    "file": "035_분석_전처리_AI직접입력_시연_02.png",
-    "caption": "요청에 따라 추가된 전처리 단계와 조건을 확인한 뒤 적용합니다.",
-    "source": "gif",
-    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_전처리_AI직접입력.gif",
-    "frame": 184,
+    "file": "035_분석_전처리_AI직접입력_결과설정예시.png",
+    "caption": "기존 시연을 기준으로 재구성한 설명용 예시: 지급연도 항목생성 한 단계의 수식과 컬럼명을 확인합니다.",
+    "source": "live_ui_reconstructed_example",
     "topic_index": 35,
     "section": "###### 3.3.1.1.2 AI 직접입력",
     "size": [
       1920,
       1080
     ],
-    "sha256": "8e9b573b158c3a0e1ddc90876eeae896ebec23aa4436a1503c843c95dfa5a448",
-    "account_name_masked": false,
-    "cropped": false
+    "sha256": "ee8450fa3b86a52c7fbba9c21ef111e9831a301214abd9de9c709cc1fe6844b7",
+    "account_name_masked": true,
+    "cropped": false,
+    "capturedAt": "2026-11-12T15:11:28+09:00",
+    "initial_preprocessing_steps": 0,
+    "visible_preprocessing_steps": 1,
+    "supersedes": "035_분석_전처리_AI직접입력_시연_02.png",
+    "reference_original": "./Source/CEREBRO AI/4_분석/GIF/분석_전처리_AI직접입력.gif",
+    "reference_frame": 184,
+    "reconstructed_settings": {
+      "formula": "year('지급일자')",
+      "new_column": "지급연도"
+    },
+    "server_applied": false,
+    "live_ai_execution_succeeded": false,
+    "user_approved_reconstruction": true
   },
   {
     "file": "036_분석_전처리_데이터정제_필터링_01.png",

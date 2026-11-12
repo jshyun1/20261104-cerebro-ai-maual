@@ -67,5 +67,136 @@
       690,
       285
     ]
+  },
+  "ai_clean_start_correction": {
+    "checked_at": "2026-11-12T15:11:28+09:00",
+    "auto": {
+      "source": "live",
+      "initial_steps": 0,
+      "result_steps": [
+        "결측값",
+        "형 변환",
+        "이상치"
+      ]
+    },
+    "direct": {
+      "source": "existing_demo_reconstructed_in_live_ui",
+      "user_approved": true,
+      "initial_steps": 0,
+      "result_steps": [
+        "항목생성"
+      ],
+      "formula": "year('지급일자')",
+      "new_column": "지급연도",
+      "live_execution_error": "LLM이 전처리 함수를 호출하지 않았습니다. 요청을 더 구체적으로 작성해주세요.",
+      "illustrative_source_disclosed_in_both_documents": true
+    },
+    "server_preprocess_saved": false,
+    "restored_state": {
+      "persistedSteps": 0,
+      "noSavedChanges": true,
+      "capturedAt": "2026-11-12T06:10:43.623Z"
+    },
+    "documents": [
+      {
+        "document": "CEREBRO_AI_MANUAL_v0.3.md",
+        "only_ai_section_changed": true,
+        "headings_preserved": true,
+        "missing_attachments": []
+      },
+      {
+        "document": "사진구성_CEREBRO_AI_MANUAL_v0.3.md",
+        "only_ai_section_changed": true,
+        "headings_preserved": true,
+        "missing_attachments": []
+      }
+    ],
+    "assets": [
+      {
+        "file": "Source/CEREBRO AI/사진구성/034_분석_전처리_AI전처리_초기상태.png",
+        "bytes": 143164,
+        "sha256": "3b5c628250fda95313db46d5d4f7d4f3b972f0b79cd8c35f86726c26917678a3"
+      },
+      {
+        "file": "Source/CEREBRO AI/사진구성/034_분석_전처리_AI전처리_단독실행결과.png",
+        "bytes": 171541,
+        "sha256": "872867e36bbb67ec8336deb2f27a6f21a0da4f9e2d90fbeeba85588de9ade3d0"
+      },
+      {
+        "file": "Source/CEREBRO AI/사진구성/035_분석_전처리_AI직접입력_초기상태요청.png",
+        "bytes": 156989,
+        "sha256": "8aeae26409f9dbe8168355cc2909bb6d703c8aee83e0a299be56988d221782e0"
+      },
+      {
+        "file": "Source/CEREBRO AI/사진구성/035_분석_전처리_AI직접입력_결과설정예시.png",
+        "bytes": 168929,
+        "sha256": "ee8450fa3b86a52c7fbba9c21ef111e9831a301214abd9de9c709cc1fe6844b7"
+      },
+      {
+        "file": "Source/CEREBRO AI/4_분석/GIF/분석_전처리_AI전처리_단독실행.gif",
+        "bytes": 241187,
+        "size": [
+          1600,
+          1000
+        ],
+        "frames": 41,
+        "duration_ms": 14750,
+        "loop": 0,
+        "sha256": "1a213fa9a4372088d4aeafa316d7fb414e29d264415f5d37de8bf5e5986dfe88"
+      },
+      {
+        "file": "Source/CEREBRO AI/4_분석/GIF/분석_전처리_AI직접입력_단독실행예시.gif",
+        "bytes": 268464,
+        "size": [
+          1920,
+          1080
+        ],
+        "frames": 16,
+        "duration_ms": 12000,
+        "loop": 0,
+        "sha256": "cd610148ae64bd8fdef7799e31f576a1805ef7686d01bf4bfb1fe9e756f33466"
+      }
+    ],
+    "browser_validation": {
+      "images": [
+        {
+          "name": "AI 전처리 GIF",
+          "complete": true,
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "name": "AI 전처리 초기 상태",
+          "complete": true,
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "name": "AI 전처리 결과",
+          "complete": true,
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "name": "직접입력 GIF — 기존 시연 기반 설명용 예시",
+          "complete": true,
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "name": "직접입력 초기 상태",
+          "complete": true,
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "name": "직접입력 결과 설정 — 설명용 예시",
+          "complete": true,
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "checkedAt": "2026-11-12T06:12:14.904Z"
+    }
   }
 }

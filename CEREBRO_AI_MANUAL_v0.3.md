@@ -294,7 +294,6 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 #### 3.2.1 데이터 구조
 
 - 원본 자료에 대한 데이터 정보를 조회하는 기능입니다.
-    - GPT를 통하여 해당 자료의 컬럼 정보를 요약하여 확인 할 수 있습니다.
     - 자료 내 컬럼별로 데이터 형식, 건수, 중복제거건수, 결측건수, 통계정보 등을 파악하여 컬럼 간 문제점을 확인 할 수 있습니다.
     - 자료 컬럼 별 차트를 통해 데이터 분포 현황등을 파악할 수 있습니다.
 
@@ -337,66 +336,58 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
     - 오른쪽 위에 현재 조회 건수와 전체 건수가 표시됩니다.
 
 <p align = "center">
-  <img src = "./Source/CEREBRO AI/4_분석/분석_원본_데이터보기화면.png">
+  <img src="./Source/CEREBRO AI/4_분석/분석_원본_데이터보기_기능안내.png" alt="1 데이터 필터, 2 데이터 정렬, 3 그룹색 적용, 4 데이터 다운로드, 5 너비간격 조절" width="1100">
 </p>
 
 <!-- auth: LV3, LV2_322 -->
 
-> **💡 참고 : 그룹 색 적용**
->
-> - 컬럼별 데이터에 따른 색을 부여하여 화면에 표시합니다.
->     - 왼쪽 위 그룹 색 적용 <img src="./Source/CEREBRO AI/공통/버튼/analysis-color.png" alt="그룹 색 적용 버튼" title="그룹 색 적용" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 컬럼별 같은 데이터를 확인할 수 있습니다.
->
-> <p align = "center">
->   <img src = "./Source/CEREBRO AI/4_분석/GIF/분석_원본_데이터보기_그룹색적용.gif">
-> </p>
+##### 3.2.2.1 데이터 필터
 
-<!-- 부연설명 구분 -->
+- 특정 데이터만 조회하도록 필터링합니다.
+    - 컬럼 옆 필터 <img src="./Source/CEREBRO AI/공통/버튼/analysis-filter.png" alt="필터 버튼" title="필터" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 조회할 특정 데이터를 선택한 후 체크 <img src="./Source/CEREBRO AI/공통/버튼/analysis-check.png" alt="체크 버튼" title="체크" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
+    - 쓰레기통 <img src="./Source/CEREBRO AI/공통/버튼/analysis-trash.png" alt="쓰레기통 버튼" title="쓰레기통" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 필터링을 초기화합니다.
 
-> **💡 참고 : 데이터 다운로드**
->
-> - 조회한 데이터를 csv, xlsx 파일로 변환하여 다운로드합니다.
->     - 그룹 색 적용 옆 CSV 다운로드, 엑셀 다운로드 <img src="./Source/CEREBRO AI/공통/버튼/analysis-excel.png" alt="엑셀 다운로드 버튼" title="엑셀 다운로드" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 저장합니다.
->
-> <p align = "center">
->   <img src = "./Source/CEREBRO AI/4_분석/GIF/분석_원본_데이터보기_데이터다운로드.gif">
-> </p>
+<p align = "center">
+  <img src = "./Source/CEREBRO AI/4_분석/GIF/분석_원본_데이터보기_필터링.gif">
+</p>
 
-<!-- 부연설명 구분 -->
+##### 3.2.2.2 데이터 정렬
 
-> **💡 참고 : 너비 간격 조절**
->
-> - 화면에 표시된 표의 너비를 변경합니다
->     - 다운로드 <img src="./Source/CEREBRO AI/공통/버튼/analysis-csv.png" alt="CSV 다운로드 버튼" title="CSV 다운로드" height="24" style="vertical-align: middle;"> 버튼 옆 간격 바를 드래그 하여 전체 열의 너비를 조절합니다.
->     - 컬럼 머리글의 오른쪽 경계선을 드래그 하여 해당 열의 너비만 조절할 수 있습니다.
->
-> <p align = "center">
->   <img src = "./Source/CEREBRO AI/4_분석/GIF/분석_원본_데이터보기_너비간격조정.gif">
-> </p>
+- 컬럼의 데이터를 오름차순 또는 내림차순으로 정렬합니다.
+    - 컬럼 옆 정렬 <img src="./Source/CEREBRO AI/공통/버튼/analysis-sort.png" alt="정렬 버튼" title="정렬" height="24" style="vertical-align: middle;"> 버튼을 통해 데이터를 오름차순/내림차순으로 정렬합니다.
+    - Shift 키를 누른 채 다른 컬럼의 정렬 <img src="./Source/CEREBRO AI/공통/버튼/analysis-sort.png" alt="정렬 버튼" title="정렬" height="24" style="vertical-align: middle;"> 버튼을 클릭하면 여러 컬럼 기준으로 정렬합니다.
 
-<!-- 부연설명 구분 -->
+<p align = "center">
+  <img src = "./Source/CEREBRO AI/4_분석/GIF/분석_원본_데이터보기_컬럼정렬.gif">
+</p>
 
-> **💡 참고 : 데이터 정렬**
->
-> - 컬럼의 데이터를 오름차순 또는 내림차순으로 정렬합니다.
->     - 컬럼 옆 정렬 <img src="./Source/CEREBRO AI/공통/버튼/analysis-sort.png" alt="정렬 버튼" title="정렬" height="24" style="vertical-align: middle;"> 버튼을 통해 데이터를 오름차순/내림차순으로 정렬합니다.
->     - Shift 키를 누른 채 다른 컬럼의 정렬 <img src="./Source/CEREBRO AI/공통/버튼/analysis-sort.png" alt="정렬 버튼" title="정렬" height="24" style="vertical-align: middle;"> 버튼을 클릭하면 여러 컬럼 기준으로 정렬합니다.
->
-> <p align = "center">
->   <img src = "./Source/CEREBRO AI/4_분석/GIF/분석_원본_데이터보기_컬럼정렬.gif">
-> </p>
+##### 3.2.2.3 그룹색 적용
 
-<!-- 부연설명 구분 -->
+- 컬럼별 데이터에 따른 색을 부여하여 화면에 표시합니다.
+    - 왼쪽 위 그룹 색 적용 <img src="./Source/CEREBRO AI/공통/버튼/analysis-color.png" alt="그룹 색 적용 버튼" title="그룹 색 적용" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 컬럼별 같은 데이터를 확인할 수 있습니다.
 
-> **💡 참고 : 데이터 필터**
->
-> - 특정 데이터만 조회하도록 필터링합니다.
->     - 컬럼 옆 필터 <img src="./Source/CEREBRO AI/공통/버튼/analysis-filter.png" alt="필터 버튼" title="필터" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 조회할 특정 데이터를 선택한 후 체크 <img src="./Source/CEREBRO AI/공통/버튼/analysis-check.png" alt="체크 버튼" title="체크" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
->     - 쓰레기통 <img src="./Source/CEREBRO AI/공통/버튼/analysis-trash.png" alt="쓰레기통 버튼" title="쓰레기통" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 필터링을 초기화합니다.
->
-> <p align = "center">
->   <img src = "./Source/CEREBRO AI/4_분석/GIF/분석_원본_데이터보기_필터링.gif">
-> </p>
+<p align = "center">
+  <img src = "./Source/CEREBRO AI/4_분석/GIF/분석_원본_데이터보기_그룹색적용.gif">
+</p>
+
+##### 3.2.2.4 데이터 다운로드
+
+- 조회한 데이터를 csv, xlsx 파일로 변환하여 다운로드합니다.
+    - 그룹 색 적용 옆 CSV 다운로드, 엑셀 다운로드 <img src="./Source/CEREBRO AI/공통/버튼/analysis-excel.png" alt="엑셀 다운로드 버튼" title="엑셀 다운로드" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 저장합니다.
+
+<p align = "center">
+  <img src = "./Source/CEREBRO AI/4_분석/GIF/분석_원본_데이터보기_데이터다운로드.gif">
+</p>
+
+##### 3.2.2.5 너비간격 조절
+
+- 화면에 표시된 표의 너비를 변경합니다
+    - 다운로드 <img src="./Source/CEREBRO AI/공통/버튼/analysis-csv.png" alt="CSV 다운로드 버튼" title="CSV 다운로드" height="24" style="vertical-align: middle;"> 버튼 옆 간격 바를 드래그 하여 전체 열의 너비를 조절합니다.
+    - 컬럼 머리글의 오른쪽 경계선을 드래그 하여 해당 열의 너비만 조절할 수 있습니다.
+
+<p align = "center">
+  <img src = "./Source/CEREBRO AI/4_분석/GIF/분석_원본_데이터보기_너비간격조정.gif">
+</p>
 
 <!-- /auth -->
 

@@ -429,8 +429,6 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
     - 컬럼 옆 필터 <img src="./Source/CEREBRO AI/공통/버튼/analysis-filter.png" alt="필터 버튼" title="필터" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 조회할 특정 데이터를 선택한 후 체크 <img src="./Source/CEREBRO AI/공통/버튼/analysis-check.png" alt="체크 버튼" title="체크" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
     - 쓰레기통 <img src="./Source/CEREBRO AI/공통/버튼/analysis-trash.png" alt="쓰레기통 버튼" title="쓰레기통" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 필터링을 초기화합니다.
 
-필터 창에서 조회할 조건을 지정합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/016_분석_원본_데이터보기_필터링_01.png" alt="필터 창에서 조회할 조건을 지정합니다." width="1100">
 </p>
@@ -440,8 +438,6 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 - 컬럼의 데이터를 오름차순 또는 내림차순으로 정렬합니다.
     - 컬럼 옆 정렬 <img src="./Source/CEREBRO AI/공통/버튼/analysis-sort.png" alt="정렬 버튼" title="정렬" height="24" style="vertical-align: middle;"> 버튼을 통해 데이터를 오름차순/내림차순으로 정렬합니다.
     - Shift 키를 누른 채 다른 컬럼의 정렬 <img src="./Source/CEREBRO AI/공통/버튼/analysis-sort.png" alt="정렬 버튼" title="정렬" height="24" style="vertical-align: middle;"> 버튼을 클릭하면 여러 컬럼 기준으로 정렬합니다.
-
-정렬 버튼으로 컬럼 값의 표시 순서를 변경합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/015_분석_원본_데이터보기_컬럼정렬_01.png" alt="정렬 버튼으로 컬럼 값의 표시 순서를 변경합니다." width="1100">
@@ -469,8 +465,6 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 - 조회한 데이터를 csv, xlsx 파일로 변환하여 다운로드합니다.
     - 그룹 색 적용 옆 CSV 다운로드, 엑셀 다운로드 <img src="./Source/CEREBRO AI/공통/버튼/analysis-excel.png" alt="엑셀 다운로드 버튼" title="엑셀 다운로드" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 저장합니다.
 
-상단의 CSV·엑셀 다운로드 버튼으로 조회 데이터를 파일로 저장합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/013_분석_원본_데이터보기_데이터다운로드_01.png" alt="상단의 CSV·엑셀 다운로드 버튼으로 조회 데이터를 파일로 저장합니다." width="900">
 </p>
@@ -480,8 +474,6 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 - 화면에 표시된 표의 너비를 변경합니다
     - 다운로드 <img src="./Source/CEREBRO AI/공통/버튼/analysis-csv.png" alt="CSV 다운로드 버튼" title="CSV 다운로드" height="24" style="vertical-align: middle;"> 버튼 옆 간격 바를 드래그 하여 전체 열의 너비를 조절합니다.
     - 컬럼 머리글의 오른쪽 경계선을 드래그 하여 해당 열의 너비만 조절할 수 있습니다.
-
-간격 슬라이더로 전체 열의 너비를 조절하고 컬럼 경계선을 끌어 개별 너비를 바꿉니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/014_분석_원본_데이터보기_너비간격조정_01.png" alt="간격 슬라이더로 전체 열의 너비를 조절하고 컬럼 경계선을 끌어 개별 너비를 바꿉니다." width="1100">

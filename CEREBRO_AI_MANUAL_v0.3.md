@@ -1064,10 +1064,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 ##### 3.4.1.1 피벗그래프
 
 - 피벗 그래프를 통해 데이터간 비율 및 건수를 파악할 수 있습니다.
-    - 그래프 선택에서 'PIVOT 그래프' 항목을 선택합니다.
-    - 피벗그래프에 사용할 Column(열), Row(행) 항목을 지정 후 드래그합니다.
-    - 피벗그래프에 사용할 Measure(측정값)를 지정 후 드래그합니다.
-    - '분석 실행' <img src="./Source/CEREBRO AI/공통/버튼/bi-run.png" alt="분석 실행 버튼" title="분석 실행" height="26" style="vertical-align: middle;">을 클릭하여 그래프를 생성합니다.
     - 표시 숫자단위 간략화 <img src="./Source/CEREBRO AI/공통/버튼/bi-compact.png" alt="표시 숫자단위 간략화 버튼" title="표시 숫자단위 간략화" height="24" style="vertical-align: middle;">를 클릭하여 천단위 이상의 숫자건을 간략하게 확인할 수 있습니다.
     - 피벗셀을 클릭하여 해당 조건에 맞는 상세건을 확인할 수 있습니다.
 
@@ -1078,10 +1074,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 ##### 3.4.1.2 선그래프
 
 - 선 그래프를 통해 데이터간 관계를 선으로 확인할 수 있습니다.
-    - 그래프 선택에서 '선 그래프' 항목을 선택합니다.
-    - 선그래프에 사용할 Column(열), Row(행) 항목을 지정 후 드래그합니다.
-    - 선그래프에 사용할 Measure(측정값)를 지정 후 드래그합니다.
-    - '분석 실행' <img src="./Source/CEREBRO AI/공통/버튼/bi-run.png" alt="분석 실행 버튼" title="분석 실행" height="26" style="vertical-align: middle;">을 클릭하여 그래프를 생성합니다.
     - 축 분리 <img src="./Source/CEREBRO AI/공통/버튼/bi-split.png" alt="축 분리 버튼" title="축 분리" height="24" style="vertical-align: middle;">를 클릭하여 피벗 항목간의 차를 비교 할 수 있습니다.
     - 축 반전 <img src="./Source/CEREBRO AI/공통/버튼/bi-invert.png" alt="축 반전 버튼" title="축 반전" height="24" style="vertical-align: middle;">을 클릭하여 X,Y축을 반전시켜 그릴 수 있습니다.
     - 위젯 등록 <img src="./Source/CEREBRO AI/공통/버튼/bi-widget.png" alt="위젯 등록 버튼" title="위젯 등록" height="26" style="vertical-align: middle;">을 눌러 그래프를 저장할 수 있습니다.
@@ -1093,10 +1085,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 ##### 3.4.1.3 막대그래프
 
 - 막대 그래프를 통해 데이터간 관계를 막대로 확인할 수 있습니다.
-    - 그래프 선택에서 '막대 그래프' 항목을 선택합니다.
-    - 막대그래프에 사용할 Column(열), Row(행) 항목을 지정 후 드래그합니다.
-    - 막대그래프에 사용할 Measure(측정값)를 지정 후 드래그합니다.
-    - '분석 실행' <img src="./Source/CEREBRO AI/공통/버튼/bi-run.png" alt="분석 실행 버튼" title="분석 실행" height="26" style="vertical-align: middle;">을 클릭하여 그래프를 생성합니다.
     - 축 분리 <img src="./Source/CEREBRO AI/공통/버튼/bi-split.png" alt="축 분리 버튼" title="축 분리" height="24" style="vertical-align: middle;">를 클릭하여 피벗 항목간의 차를 비교 할 수 있습니다.
     - 축 반전 <img src="./Source/CEREBRO AI/공통/버튼/bi-invert.png" alt="축 반전 버튼" title="축 반전" height="24" style="vertical-align: middle;">을 클릭하여 X,Y축을 반전시켜 그릴 수 있습니다.
     - 적층형 그래프 <img src="./Source/CEREBRO AI/공통/버튼/bi-stack.png" alt="적층형 그래프 버튼" title="적층형 그래프" height="24" style="vertical-align: middle;">를 클릭하여 값에 대하여 적층형으로 확인 할 수 있습니다.
@@ -1110,10 +1098,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 ##### 3.4.1.4 표그래프
 
 - 표 그래프를 통해 데이터간 집계 정보를 확인할 수 있습니다.
-    - 그래프 선택에서 '표 그래프' 항목을 선택합니다.
-    - 표그래프에 사용할 Column(열), Row(행) 항목을 지정 후 드래그합니다.
-    - 표그래프에 사용할 Measure(측정값)를 지정 후 드래그합니다.
-    - '분석 실행' <img src="./Source/CEREBRO AI/공통/버튼/bi-run.png" alt="분석 실행 버튼" title="분석 실행" height="26" style="vertical-align: middle;">을 클릭하여 그래프를 생성합니다.
     - 표시 숫자단위 간략화 <img src="./Source/CEREBRO AI/공통/버튼/bi-compact.png" alt="표시 숫자단위 간략화 버튼" title="표시 숫자단위 간략화" height="24" style="vertical-align: middle;">를 클릭하여 천단위 이상의 숫자건을 간략하게 확인할 수 있습니다.
     - 위젯 등록 <img src="./Source/CEREBRO AI/공통/버튼/bi-widget.png" alt="위젯 등록 버튼" title="위젯 등록" height="26" style="vertical-align: middle;">을 눌러 그래프를 저장할 수 있습니다.
 
@@ -1124,10 +1108,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 ##### 3.4.1.5 필터그래프
 
 - 필터그래프를 통하여 원본자료에 대한 정보를 확인할 수 있습니다.
-    - 그래프 선택에서 '필터 그래프' 항목을 선택합니다.
-    - 필터그래프에 사용할 Column(열), Row(행) 항목을 지정 후 드래그합니다.
-    - 필터그래프에 사용할 Measure(측정값)를 지정 후 드래그합니다.
-    - '분석 실행' <img src="./Source/CEREBRO AI/공통/버튼/bi-run.png" alt="분석 실행 버튼" title="분석 실행" height="26" style="vertical-align: middle;">을 클릭하여 그래프를 생성합니다.
     - 표시 숫자단위 간략화 <img src="./Source/CEREBRO AI/공통/버튼/bi-compact.png" alt="표시 숫자단위 간략화 버튼" title="표시 숫자단위 간략화" height="24" style="vertical-align: middle;">를 클릭하여 천단위 이상의 숫자건을 간략하게 확인할 수 있습니다.
     - 위젯 등록 <img src="./Source/CEREBRO AI/공통/버튼/bi-widget.png" alt="위젯 등록 버튼" title="위젯 등록" height="26" style="vertical-align: middle;">을 눌러 그래프를 저장할 수 있습니다.
 
@@ -1187,8 +1167,8 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 
 - 항목별 검색 조건에 맞는 노드를 표시합니다.
     - 오른쪽 도구에서 검색필터 <img src="./Source/CEREBRO AI/공통/버튼/relation-search.png" alt="검색필터 버튼" title="검색필터" height="24" style="vertical-align: middle;"> 버튼을 클릭합니다.
-    - 등록하기 <img src="./Source/CEREBRO AI/공통/버튼/relation-register.png" alt="등록하기 버튼" title="등록하기" height="26" style="vertical-align: middle;">를 클릭하고 필터링할 항목을 선택 한 후 + <img src="./Source/CEREBRO AI/공통/버튼/relation-plus.png" alt="추가 버튼" title="추가" height="24" style="vertical-align: middle;"> 버튼을 클릭합니다.
-    - 검색할 조건(일치, 다중일치, 포함, 제외, 시작일치, 끝일치)을 선택하고 상세 조건을 입력한 후 불러오기 <img src="./Source/CEREBRO AI/공통/버튼/relation-load.png" alt="불러오기 버튼" title="불러오기" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
+    - 등록하기 <img src="./Source/CEREBRO AI/공통/버튼/relation-register.png" alt="등록하기 버튼" title="등록하기" height="26" style="vertical-align: middle;">를 클릭하고 필터링할 항목을 선택 한 후 <img src="./Source/CEREBRO AI/공통/버튼/relation-plus.png" alt="추가 버튼" title="추가" height="24" style="vertical-align: middle;"> 버튼을 클릭합니다.
+    - 검색할 조건(일치, 다중일치, 포함, 제외, 시작일치, 끝일치)을 선택하고 상세 조건을 입력한 후 <img src="./Source/CEREBRO AI/공통/버튼/relation-load.png" alt="불러오기 버튼" title="불러오기" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
 
 <p align = "center">
   <img src = "./Source/CEREBRO AI/4_분석/GIF/분석_연관관계분석_검색필터.gif">
@@ -1212,8 +1192,8 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
     - 글씨 크기를 드래그 하여 수정합니다.
     - 이름 표시 옆 스위치 <img src="./Source/CEREBRO AI/공통/버튼/relation-switch.png" alt="이름·엣지 표시 버튼" title="이름·엣지 표시" height="26" style="vertical-align: middle;">를 클릭하여 이름을 숨기거나 보이도록 합니다.
     - 엣지 표시 옆 스위치 <img src="./Source/CEREBRO AI/공통/버튼/relation-switch.png" alt="이름·엣지 표시 버튼" title="이름·엣지 표시" height="26" style="vertical-align: middle;">를 클릭하여 노드 간 선(엣지)을 숨기거나 보이도록 합니다.
-    - 엣지설정에서 + <img src="./Source/CEREBRO AI/공통/버튼/relation-plus.png" alt="추가 버튼" title="추가" height="24" style="vertical-align: middle;"> 를 클릭하여 노드 간 연결된 빈도수 별로 색상을 다르게 표기합니다.
-      <br>+ <img src="./Source/CEREBRO AI/공통/버튼/relation-plus.png" alt="추가 버튼" title="추가" height="24" style="vertical-align: middle;"> 버튼 클릭시 빈도수 기준이 차례로 추가되며 두께, 투명도를 조절할 수 있습니다.
+    - 엣지설정에서 <img src="./Source/CEREBRO AI/공통/버튼/relation-plus.png" alt="추가 버튼" title="추가" height="24" style="vertical-align: middle;"> 를 클릭하여 노드 간 연결된 빈도수 별로 색상을 다르게 표기합니다.
+      <br><img src="./Source/CEREBRO AI/공통/버튼/relation-plus.png" alt="추가 버튼" title="추가" height="24" style="vertical-align: middle;"> 버튼 클릭시 빈도수 기준이 차례로 추가되며 두께, 투명도를 조절할 수 있습니다.
 
 <p align = "center">
   <img src = "./Source/CEREBRO AI/4_분석/GIF/분석_연관관계분석_설정.gif">
@@ -1221,7 +1201,7 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 
 ##### 3.4.2.6 관계
 
-- 선택한 노드 간 1차 관계를 표시합니다.
+- 선택한 노드를 기준으로 직접 연결된 다른 노드(1차 관계)와 해당 항목의 값을 확인합니다. 관심 있는 값이 어떤 항목과 연결되어 있는지 살펴보고, 노드 간 관계를 구체적으로 파악할 때 활용합니다.
     - 오른쪽 도구에서 관계 <img src="./Source/CEREBRO AI/공통/버튼/relation-relation.png" alt="관계 버튼" title="관계" height="24" style="vertical-align: middle;"> 버튼을 클릭합니다.
     - 관계를 확인하고자 하는 노드 중 하나를 클릭합니다.
     - 노드 연관관계 창에서 클릭한 노드와 1차로 연결된 항목과 값을 확인할 수 있습니다.
@@ -1245,10 +1225,10 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 
 ##### 3.4.2.7 패턴분석
 
-- 특정 노드 간 경로 패턴을 표시합니다.
+- 관심 있는 노드를 지정하여 노드 사이에 어떤 경로가 이어져 있는지 확인합니다. 지정한 노드가 연결되는 경로를 분석도에 표시하여, 여러 항목이 어떤 조합으로 연결되는지 살펴볼 수 있습니다.
     - 오른쪽 도구에서 패턴분석 <img src="./Source/CEREBRO AI/공통/버튼/relation-pattern.png" alt="패턴분석 버튼" title="패턴분석" height="24" style="vertical-align: middle;"> 버튼을 클릭합니다.
-    - [+] <img src="./Source/CEREBRO AI/공통/버튼/relation-plus.png" alt="추가 버튼" title="추가" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 분석할 패턴을 추가합니다.
-    - 항목 및 노드를 선택한 후 + <img src="./Source/CEREBRO AI/공통/버튼/relation-plus.png" alt="추가 버튼" title="추가" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 패턴에 노드를 추가합니다.
+    - <img src="./Source/CEREBRO AI/공통/버튼/relation-plus.png" alt="추가 버튼" title="추가" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 분석할 패턴을 추가합니다.
+    - 항목 및 노드를 선택한 후 <img src="./Source/CEREBRO AI/공통/버튼/relation-plus.png" alt="추가 버튼" title="추가" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 패턴에 노드를 추가합니다.
     - 입력한 노드간 패턴 관계가 분포도에 표기됩니다.
 
 <p align = "center">
@@ -1259,7 +1239,7 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 
 - 각 기준마다 빈도가 많은 경로를 표시합니다.
     - 오른쪽 도구에서 빈도분석 <img src="./Source/CEREBRO AI/공통/버튼/relation-frequency.png" alt="빈도분석 버튼" title="빈도분석" height="24" style="vertical-align: middle;"> 버튼을 클릭합니다.
-    - [+] <img src="./Source/CEREBRO AI/공통/버튼/relation-plus.png" alt="추가 버튼" title="추가" height="24" style="vertical-align: middle;"> 버튼을 클릭할 때마다 1등, 2등, 3등 빈도 경로가 차례로 추가됩니다.
+    - <img src="./Source/CEREBRO AI/공통/버튼/relation-plus.png" alt="추가 버튼" title="추가" height="24" style="vertical-align: middle;"> 버튼을 클릭할 때마다 1등, 2등, 3등 빈도 경로가 차례로 추가됩니다.
     - 분포도 내 가장 많은 빈도를 가지고 있는 순서대로 분포도에 색상으로 표기됩니다.
     - 빈도 분석(상위 퍼센트)에서 1%, 5%, 10%, 20% 를 선택하여 상위 비율 경로를 표시할 수 있습니다.
 
@@ -1290,7 +1270,7 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 
 ##### 3.4.2.11 미러분석
 
-- 같은 분석도를 나란히 띄워 서로 다른 조건으로 비교합니다.
+- 같은 데이터의 분석도를 나란히 띄우고, 각 화면에 서로 다른 필터 조건을 적용하여 노드 간 관계를 비교합니다. 조건에 따라 연결되는 항목과 경로가 어떻게 달라지는지 확인할 때 유용합니다.
     - 오른쪽 도구에서 미러 분석 <img src="./Source/CEREBRO AI/공통/버튼/relation-mirror.png" alt="미러 분석 버튼" title="미러 분석" height="24" style="vertical-align: middle;"> 버튼을 클릭하면 화면이 A, B로 분할됩니다.
     - 화면 동기화에서 A → B, B → A 를 클릭하여 한쪽 화면의 상태를 다른 쪽으로 복사합니다.
     - 통합필터 <img src="./Source/CEREBRO AI/공통/버튼/relation-filter.png" alt="필터 버튼" title="필터" height="26" style="vertical-align: middle;">를 사용하면 분할된 모든 화면에 같은 검색 조건을 적용합니다.

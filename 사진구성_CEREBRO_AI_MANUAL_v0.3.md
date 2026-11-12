@@ -1053,7 +1053,7 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
   <img src="./Source/CEREBRO AI/사진구성/035_분석_전처리_AI직접입력_초기상태요청.png" alt="기존 전처리 단계가 없는 상태에서 지급연도 컬럼 생성을 요청합니다." width="1100">
 </p>
 
-**화면 2.** 기존 시연의 결과 설정을 기준으로 재구성한 설명용 예시입니다. 기존 전처리 내역 없이 지급연도 항목생성 한 단계와 수식만 확인합니다.
+**화면 2.** 화면 2. 요청에 따라 추가된 전처리 항목과 설정을 확인합니다. (예시: 지급연도 컬럼의 생성 수식과 컬럼명 확인)
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/035_분석_전처리_AI직접입력_결과설정예시.png" alt="기존 시연을 기준으로 재구성한 예시: 첫 단계인 항목생성에서 year('지급일자') 수식과 지급연도 컬럼명을 확인합니다." width="1100">
@@ -1070,8 +1070,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
     -  필터링할 컬럼, 조건, 값을 지정합니다.
     -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
 
-필터링할 컬럼과 조건을 지정하여 필요한 데이터만 남깁니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/036_분석_전처리_데이터정제_필터링_01.png" alt="필터링할 컬럼과 조건을 지정하여 필요한 데이터만 남깁니다." width="1100">
 </p>
@@ -1083,8 +1081,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
     -  값을 변경할 컬럼을 선택하고 대상값과 치환값을 입력합니다.
     -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
 
-변경할 컬럼과 기존 값·새 값을 지정합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/037_분석_전처리_데이터정제_값변경_01.png" alt="변경할 컬럼과 기존 값·새 값을 지정합니다." width="1100">
 </p>
@@ -1095,8 +1091,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
     -  상단에서 형변환 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-cast.png" alt="형 변환 버튼" title="형 변환" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
     -  형변환할 컬럼과 처리방법(정수형, 부동소수점, 문자열, 날짜 및 시간, 참/거짓, 범주)을 선택합니다.
     -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
-
-컬럼의 현재 데이터 형식과 변환할 형식을 지정합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/038_분석_전처리_데이터정제_형변환_01.png" alt="컬럼의 현재 데이터 형식과 변환할 형식을 지정합니다." width="1100">
@@ -1113,8 +1107,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
     -  중복을 검사할 컬럼을 선택합니다. 여러 컬럼을 선택하면 모든 컬럼 값이 같은 행만 중복으로 봅니다.
     -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
 
-중복 여부를 판단할 기준 컬럼과 처리 방식을 선택합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/039_분석_전처리_결측중복_중복값_01.png" alt="중복 여부를 판단할 기준 컬럼과 처리 방식을 선택합니다." width="1100">
 </p>
@@ -1125,8 +1117,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
     -  상단에서 결측값 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-missing.png" alt="결측값 버튼" title="결측값" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
     -  모든 결측 항목 추가를 클릭하거나 결측값을 처리할 컬럼을 선택하고 처리방법을 선택합니다.
     -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
-
-결측값을 처리할 컬럼과 삭제·대체 방법을 지정합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/040_분석_전처리_결측중복_결측값_01.png" alt="결측값을 처리할 컬럼과 삭제·대체 방법을 지정합니다." width="1100">
@@ -1143,8 +1133,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
     -  사용하지 않을 컬럼을 체크해제 합니다.
     -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
 
-분석에 필요하지 않은 컬럼을 선택합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/041_분석_전처리_컬럼관리_항목삭제_01.png" alt="분석에 필요하지 않은 컬럼을 선택합니다." width="1100">
 </p>
@@ -1155,8 +1143,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
     -  상단에서 항목명변경 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-rename.png" alt="항목명변경 버튼" title="항목명변경" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
     -  변경할 기존 항목명을 선택하고 변경할 항목명을 입력합니다.
     -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
-
-기존 컬럼 이름과 변경할 새 이름을 입력합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/042_분석_전처리_컬럼관리_항목명변경_01.png" alt="기존 컬럼 이름과 변경할 새 이름을 입력합니다." width="1100">
@@ -1170,8 +1156,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
     -  수식을 확인하여 입력한 후 추가할 항목명을 입력합니다.
         - 수식에서 컬럼명은 `보험금` 처럼 ` 기호로 감싸서 입력합니다.
     -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
-
-새 컬럼의 이름과 계산식을 지정합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/043_분석_전처리_컬럼관리_항목생성_01.png" alt="새 컬럼의 이름과 계산식을 지정합니다." width="1100">
@@ -1194,8 +1178,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 | **MinMaxScaler** | 최솟값과 최댓값을 기준으로 데이터의 범위를 조정합니다. 기본 범위는 0~1입니다. |
 | **MaxAbsScaler** | 각 값을 해당 컬럼의 가장 큰 절댓값으로 나눕니다. 0과 값의 부호를 유지하면서 데이터의 크기를 조정합니다. |
 | **RobustScaler** | 중앙값과 사분위 범위(상위 25% 경계값과 하위 25% 경계값의 차이)를 기준으로 크기를 조정하여, 이상치의 영향을 줄입니다. |
-
-수치 컬럼과 스케일링 방법을 선택합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/044_분석_전처리_스케일링_정규화_01.png" alt="수치 컬럼과 스케일링 방법을 선택합니다." width="1100">
@@ -1237,8 +1219,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 
 - 위 숫자는 설정의 의미를 설명하기 위한 예시입니다. 방법과 옵션으로 이상치를 판단한 뒤, 선택한 처리 방식에 따라 값을 변경하거나 해당 행을 삭제합니다.
 
-이상치 판단 기준과 처리 방법을 지정합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/045_분석_전처리_스케일링_이상치_01.png" alt="이상치 판단 기준과 처리 방법을 지정합니다." width="1100">
 </p>
@@ -1250,8 +1230,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 -  전처리 항목을 추가한 뒤 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 누르기 전에 되돌리기 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-undo.png" alt="되돌리기 버튼" title="되돌리기" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
 -  추가한 항목이 사라지고 마지막으로 적용한 상태로 돌아갑니다.
 -  이미 적용한 단계는 왼쪽 단계 목록의 휴지통 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-trash.png" alt="휴지통 버튼" title="휴지통" height="24" style="vertical-align: middle;"> 버튼으로 삭제한 뒤 적용합니다.
-
-되돌리기로 적용 전 변경 사항을 취소합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/046_분석_전처리_되돌리기_01.png" alt="되돌리기로 적용 전 변경 사항을 취소합니다." width="1100">

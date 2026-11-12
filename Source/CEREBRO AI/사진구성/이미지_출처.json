@@ -1128,34 +1128,66 @@
     "cropped": false
   },
   {
-    "file": "043_분석_전처리_컬럼관리_항목생성_01.png",
-    "caption": "새 컬럼의 이름과 계산식을 지정합니다.",
-    "source": "live",
-    "capturedAt": "2026-11-11T05:39:27.788Z",
+    "file": "043_분석_전처리_컬럼관리_항목생성_수식컬럼입력.png",
+    "caption": "보험금과 연간보험료의 비율을 계산하는 수식과 새 컬럼명 지급배율을 입력한 화면입니다.",
+    "source": "gif",
     "topic_index": 43,
     "section": "###### 3.3.1.4.3 항목생성",
     "size": [
-      1600,
-      1000
+      1920,
+      1080
     ],
-    "sha256": "5f045877bf4d53ceb902be9b9be36d21b5839e8078b95b74b78d5c00e11ef2a0",
+    "sha256": "729a722f94512eee43602492abdb1ace53e1f590a76f0a484bbd00cc6256821f",
     "account_name_masked": true,
-    "cropped": false
+    "cropped": false,
+    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_전처리_컬럼관리_항목생성.gif",
+    "frame": 219,
+    "formula": "`보험금` / `연간보험료`",
+    "new_column": "지급배율",
+    "updatedAt": "2026-11-12T16:01:08+09:00",
+    "supersedes": "043_분석_전처리_컬럼관리_항목생성_01.png"
   },
   {
-    "file": "044_분석_전처리_스케일링_정규화_01.png",
-    "caption": "수치 컬럼과 스케일링 방법을 선택합니다.",
-    "source": "live",
-    "capturedAt": "2026-11-11T05:39:31.489Z",
+    "file": "044_분석_전처리_스케일링_정규화_처리방법펼침.png",
+    "caption": "보험금 컬럼을 선택하고 처리방법 드롭다운의 네 가지 선택지를 펼친 설정 예시입니다.",
+    "source": "imagegen_edit",
     "topic_index": 44,
     "section": "###### 3.3.1.5.1 정규화",
     "size": [
       1600,
       1000
     ],
-    "sha256": "fb5004e6f5f5f54c73a0ae8af4b580f2147f11d6a80a45d6776560f99bbae6b8",
+    "sha256": "660f4d77e932fc0b2e85c4938e5f53124eb13f09c565e2fba27b176e397a8441",
     "account_name_masked": true,
-    "cropped": false
+    "cropped": false,
+    "generation_mode": "built-in",
+    "base_image": "./Source/CEREBRO AI/사진구성/044_분석_전처리_스케일링_정규화_01.png",
+    "column": "보험금",
+    "dropdown_open": true,
+    "options": [
+      "StandardScaler",
+      "MinMaxScaler",
+      "MaxAbsScaler",
+      "RobustScaler"
+    ],
+    "unchanged_outside_form": true,
+    "changed_regions": [
+      {
+        "x": 707,
+        "y": 211,
+        "width": 289,
+        "height": 42
+      },
+      {
+        "x": 1004,
+        "y": 211,
+        "width": 234,
+        "height": 171
+      }
+    ],
+    "live_capture": false,
+    "updatedAt": "2026-11-12T16:01:08+09:00",
+    "supersedes": "044_분석_전처리_스케일링_정규화_01.png"
   },
   {
     "file": "045_분석_전처리_스케일링_이상치_01.png",

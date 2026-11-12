@@ -198,5 +198,65 @@
       ],
       "checkedAt": "2026-11-12T06:12:14.904Z"
     }
+  },
+  "preprocess_filled_examples_correction": {
+    "checked_at": "2026-11-12T16:01:08+09:00",
+    "assets": [
+      {
+        "file": "043_분석_전처리_컬럼관리_항목생성_수식컬럼입력.png",
+        "source": "gif",
+        "size": [
+          1920,
+          1080
+        ],
+        "bytes": 986388
+      },
+      {
+        "file": "044_분석_전처리_스케일링_정규화_처리방법펼침.png",
+        "source": "imagegen_edit",
+        "size": [
+          1600,
+          1000
+        ],
+        "bytes": 258223
+      }
+    ],
+    "derive": {
+      "formula_filled": true,
+      "column_name_filled": true,
+      "new_column": "지급배율",
+      "source_gif_frame": 219
+    },
+    "normalization": {
+      "column": "보험금",
+      "dropdown_open": true,
+      "options": [
+        "StandardScaler",
+        "MinMaxScaler",
+        "MaxAbsScaler",
+        "RobustScaler"
+      ],
+      "source": "imagegen_edit",
+      "unchanged_outside_form": true
+    },
+    "server_dataset_modified": false,
+    "gif_manual_changed": false,
+    "browser_validation": {
+      "images": [
+        {
+          "name": "043_분석_전처리_컬럼관리_항목생성_수식컬럼입력.png",
+          "complete": true,
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "name": "044_분석_전처리_스케일링_정규화_처리방법펼침.png",
+          "complete": true,
+          "width": 1600,
+          "height": 1000
+        }
+      ],
+      "checkedAt": "2026-11-12T07:01:48.818Z"
+    }
   }
 }

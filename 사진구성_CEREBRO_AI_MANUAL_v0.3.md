@@ -1025,7 +1025,7 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
     -  상단에서 AI 전처리 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-ai.png" alt="AI 전처리 버튼" title="AI 전처리" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
     -  GPT가 내부 데이터를 분석한 결과와 전처리 대상항목을 확인합니다.
     -  왼쪽 단계 목록에 '새로 추가' 로 표시된 항목을 클릭하여 내용을 확인합니다.
-    -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
+    -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 결과를 확인합니다.
 
 **화면 1.** 등록된 전처리 단계가 없는 초기 상태에서 AI 전처리를 실행합니다.
 
@@ -1045,7 +1045,7 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
     -  상단에서 직접 입력 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-direct.png" alt="직접 입력 버튼" title="직접 입력" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
     -  옆에 표시되는 입력창에 전처리 요청사항을 입력 후 송신 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-send.png" alt="송신 버튼" title="송신" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
     -  요청사항에 따라 GPT가 분석한 결과 및 전처리 대상항목을 확인합니다.
-    -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
+    -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 결과를 확인합니다.
 
 **화면 1.** 요청내용을 작성합니다. (예시. 지급일자에서 연도를 추출해 지급연도 컬럼을 만들어줘)
 
@@ -1068,7 +1068,7 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 - 컬럼 내 특정 값만 사용하도록 필터링 합니다.
     -  상단에서 필터링 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-filter.png" alt="필터링 버튼" title="필터링" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
     -  필터링할 컬럼, 조건, 값을 지정합니다.
-    -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
+    -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 결과를 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/036_분석_전처리_데이터정제_필터링_01.png" alt="필터링할 컬럼과 조건을 지정하여 필요한 데이터만 남깁니다." width="1100">
@@ -1079,7 +1079,7 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 - 컬럼 내 특정 값을 다른 값으로 바꿉니다.
     -  상단에서 값변경 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-replace.png" alt="값 변경 버튼" title="값 변경" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
     -  값을 변경할 컬럼을 선택하고 대상값과 치환값을 입력합니다.
-    -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
+    -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 결과를 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/037_분석_전처리_데이터정제_값변경_01.png" alt="변경할 컬럼과 기존 값·새 값을 지정합니다." width="1100">
@@ -1090,7 +1090,7 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 - 컬럼의 데이터 형식을 변경합니다.
     -  상단에서 형변환 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-cast.png" alt="형 변환 버튼" title="형 변환" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
     -  형변환할 컬럼과 처리방법(정수형, 부동소수점, 문자열, 날짜 및 시간, 참/거짓, 범주)을 선택합니다.
-    -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
+    -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 결과를 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/038_분석_전처리_데이터정제_형변환_01.png" alt="컬럼의 현재 데이터 형식과 변환할 형식을 지정합니다." width="1100">
@@ -1105,7 +1105,7 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 - 컬럼 내 중복 된 데이터 값을 제거합니다.
     -  상단에서 중복값 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-duplicate.png" alt="중복값 버튼" title="중복값" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
     -  중복을 검사할 컬럼을 선택합니다. 여러 컬럼을 선택하면 모든 컬럼 값이 같은 행만 중복으로 봅니다.
-    -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
+    -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 결과를 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/039_분석_전처리_결측중복_중복값_01.png" alt="중복 여부를 판단할 기준 컬럼과 처리 방식을 선택합니다." width="1100">
@@ -1116,7 +1116,7 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 - 데이터 내 결측값(#N/A, nan)이 있을 경우 이를 제거하거나 대체합니다.
     -  상단에서 결측값 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-missing.png" alt="결측값 버튼" title="결측값" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
     -  모든 결측 항목 추가를 클릭하거나 결측값을 처리할 컬럼을 선택하고 처리방법을 선택합니다.
-    -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
+    -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 결과를 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/040_분석_전처리_결측중복_결측값_01.png" alt="결측값을 처리할 컬럼과 삭제·대체 방법을 지정합니다." width="1100">
@@ -1131,7 +1131,7 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 - 데이터 내 컬럼을 삭제합니다.
     -  상단에서 항목삭제 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-drop.png" alt="항목삭제 버튼" title="항목삭제" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
     -  사용하지 않을 컬럼을 체크해제 합니다.
-    -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
+    -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 결과를 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/041_분석_전처리_컬럼관리_항목삭제_01.png" alt="분석에 필요하지 않은 컬럼을 선택합니다." width="1100">
@@ -1142,7 +1142,7 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 - 데이터 컬럼명을 변경합니다.
     -  상단에서 항목명변경 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-rename.png" alt="항목명변경 버튼" title="항목명변경" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
     -  변경할 기존 항목명을 선택하고 변경할 항목명을 입력합니다.
-    -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
+    -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 결과를 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/042_분석_전처리_컬럼관리_항목명변경_01.png" alt="기존 컬럼 이름과 변경할 새 이름을 입력합니다." width="1100">
@@ -1155,10 +1155,10 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
     -  수식옆 [?] <img src="./Source/CEREBRO AI/공통/버튼/preprocess-help.png" alt="수식 도움말 버튼" title="수식 도움말" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 변경에 사용할 수식 및 예시를 확인합니다.
     -  수식을 확인하여 입력한 후 추가할 항목명을 입력합니다.
         - 수식에서 컬럼명은 `보험금` 처럼 ` 기호로 감싸서 입력합니다.
-    -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
+    -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 결과를 확인합니다.
 
 <p align="center">
-  <img src="./Source/CEREBRO AI/사진구성/043_분석_전처리_컬럼관리_항목생성_01.png" alt="새 컬럼의 이름과 계산식을 지정합니다." width="1100">
+  <img src="./Source/CEREBRO AI/사진구성/043_분석_전처리_컬럼관리_항목생성_수식컬럼입력.png" alt="보험금과 연간보험료의 비율을 계산하는 수식과 새 컬럼명 지급배율을 입력한 화면입니다." width="1100">
 </p>
 
 ##### 3.3.1.5 스케일링
@@ -1170,17 +1170,17 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 - 데이터 내 분포나 범위를 초과한 값을 정규화합니다.
     -  상단에서 정규화 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-normalize.png" alt="정규화 버튼" title="정규화" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
     -  정규화할 컬럼 및 처리방법(StandardScaler, MinMaxScaler, MaxAbsScaler, RobustScaler)을 선택합니다.
-    -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
+    -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 결과를 확인합니다.
 
 | 처리방법 | 간단한 설명 |
 |---|---|
 | **StandardScaler** | 각 값에서 평균을 빼고 표준편차로 나누어, 평균 0과 표준편차 1을 기준으로 데이터의 크기를 조정합니다. |
-| **MinMaxScaler** | 최솟값과 최댓값을 기준으로 데이터의 범위를 조정합니다. 기본 범위는 0~1입니다. |
+| **MinMaxScaler** | 최솟값과 최댓값을 기준으로 데이터의 범위를 조정합니다. 기본 범위는 0～1입니다. |
 | **MaxAbsScaler** | 각 값을 해당 컬럼의 가장 큰 절댓값으로 나눕니다. 0과 값의 부호를 유지하면서 데이터의 크기를 조정합니다. |
 | **RobustScaler** | 중앙값과 사분위 범위(상위 25% 경계값과 하위 25% 경계값의 차이)를 기준으로 크기를 조정하여, 이상치의 영향을 줄입니다. |
 
 <p align="center">
-  <img src="./Source/CEREBRO AI/사진구성/044_분석_전처리_스케일링_정규화_01.png" alt="수치 컬럼과 스케일링 방법을 선택합니다." width="1100">
+  <img src="./Source/CEREBRO AI/사진구성/044_분석_전처리_스케일링_정규화_처리방법펼침.png" alt="보험금 컬럼을 선택하고 처리방법 드롭다운에서 StandardScaler, MinMaxScaler, MaxAbsScaler, RobustScaler를 확인하는 설정 예시입니다." width="1100">
 </p>
 
 ###### 3.3.1.5.2 이상치
@@ -1188,40 +1188,40 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 - 데이터 이상치를 변환합니다.
     -  상단에서 이상치 <img src="./Source/CEREBRO AI/공통/버튼/preprocess-outlier.png" alt="이상치 버튼" title="이상치" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
     -  전처리할 이상치 컬럼을 선택하고 방법,처리,옵션을 입력합니다.
-    -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 적용합니다.
-
-- **방법**은 이상치를 판단하는 기준, **처리**는 이상치로 판단한 값이나 해당 행을 처리하는 방식, **옵션**은 판단 기준의 범위를 조절하는 설정입니다.
-
-**방법**
-
-| 방법 | 설명 | 예시 |
-|---|---|---|
-| **IQR (사분위수)** | 데이터를 작은 값부터 정렬했을 때 하위 25% 지점의 값(Q1)과 75% 지점의 값(Q3)을 기준으로 판단합니다. 두 값의 차이인 사분위 범위(IQR = Q3 − Q1)는 데이터 가운데 50%가 퍼져 있는 범위입니다. `Q1 − Factor × IQR`보다 작거나 `Q3 + Factor × IQR`보다 큰 값을 이상치로 판단합니다. | Q1이 100, Q3이 140이면 IQR은 40입니다. Factor를 1.5로 설정하면 하한은 40, 상한은 200이므로, 10과 250은 이상치로 판단합니다. |
-| **Z Score** | 값이 평균에서 표준편차의 몇 배만큼 떨어져 있는지 나타냅니다. `Z Score = (값 − 평균) ÷ 표준편차`로 계산하며, 절댓값이 설정한 기준값보다 크면 이상치로 판단합니다. | 평균이 100, 표준편차가 20일 때 값 180의 Z Score는 4입니다. 기준값을 3으로 설정하면 허용 범위는 40~160이므로, 180은 이상치로 판단합니다. |
-
-- 표준편차는 값들이 평균 주변에서 얼마나 퍼져 있는지 나타내는 수치입니다. Z Score가 4이면 평균보다 표준편차의 4배만큼 큰 값이라는 뜻입니다.
-
-**처리**
-
-| 처리 | 설명 | 예시 |
-|---|---|---|
-| **Clip (자르기)** | 하한보다 작은 값은 하한으로, 상한보다 큰 값은 상한으로 변경합니다. 해당 행을 삭제하지 않고 값만 경계값으로 바꿉니다. | IQR 예시의 허용 범위가 40~200이면, 10은 40으로, 250은 200으로 변경합니다. 범위 안의 값은 유지합니다. |
-| **Drop (삭제)** | 이상치가 포함된 행을 삭제합니다. 해당 행의 다른 컬럼 값도 함께 삭제되어 전체 데이터 건수가 줄어듭니다. | 선택한 컬럼의 값 250이 이상치라면, 그 값이 있는 행 전체를 삭제합니다. |
-| **Mean (평균대체)** | 이상치를 해당 컬럼의 평균값으로 바꿉니다. 평균은 값의 합을 개수로 나눈 값입니다. | 값 250이 이상치이고 대체에 사용할 평균값이 120이면, 250을 120으로 변경합니다. |
-| **Median (중위수대체)** | 이상치를 해당 컬럼의 중위수(중앙값)로 바꿉니다. 중위수는 값을 크기순으로 정렬했을 때 가운데 값이며, 개수가 짝수이면 가운데 두 값의 평균입니다. | 값 250이 이상치이고 대체에 사용할 중위수가 115이면, 250을 115로 변경합니다. |
-
-**옵션**
-
-| 옵션 | 의미 | 설정 예시 |
-|---|---|---|
-| **IQR의 Factor (배수)** | 사분위 범위에 곱하는 숫자입니다. 숫자가 작을수록 허용 범위가 좁아져 더 많은 값을 이상치로 판단하고, 클수록 허용 범위가 넓어집니다. | Q1이 100, Q3이 140일 때 Factor 1.5의 허용 범위는 40~200입니다. Factor를 3으로 높이면 −20~260으로 넓어져, 값 250은 이상치로 판단하지 않습니다. |
-| **Z Score의 기준값 (임계값)** | 평균에서 표준편차의 몇 배까지 허용할지 정하는 숫자입니다. IQR의 Factor와 마찬가지로 숫자가 작을수록 더 많은 값을 이상치로 판단합니다. | 평균이 100, 표준편차가 20일 때 기준값 3은 평균에서 ±60인 40~160을 허용합니다. 기준값을 2로 낮추면 60~140으로 좁아져, 값 150도 이상치로 판단합니다. |
-
-- 위 숫자는 설정의 의미를 설명하기 위한 예시입니다. 방법과 옵션으로 이상치를 판단한 뒤, 선택한 처리 방식에 따라 값을 변경하거나 해당 행을 삭제합니다.
+    -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 결과를 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/045_분석_전처리_스케일링_이상치_01.png" alt="이상치 판단 기준과 처리 방법을 지정합니다." width="1100">
 </p>
+
+**방법 (이상치를 판단하는 기준)** 
+
+| 방법 | 설명 | 예시 |
+|---|---|---|
+| **IQR (사분위수)** | 데이터를 작은 값부터 정렬했을 때 하위 25% 지점의 값(Q1)과 75% 지점의 값(Q3)을 기준으로 판단합니다. 두 값의 차이인 사분위 범위(IQR = Q3 − Q1)는 데이터 가운데 50%가 퍼져 있는 범위입니다. `Q1 − Factor × IQR`보다 작거나 `Q3 + Factor × IQR`보다 큰 값을 이상치로 판단합니다. | Q1이 100, Q3이 140이면 IQR은 40입니다. Factor를 1.5로 설정하면 하한은 40, 상한은 200이므로, 10과 250은 이상치로 판단합니다. |
+| **Z Score** | 값이 평균에서 표준편차의 몇 배만큼 떨어져 있는지 나타냅니다. `Z Score = (값 − 평균) ÷ 표준편차`로 계산하며, 절댓값이 설정한 기준값보다 크면 이상치로 판단합니다. | 평균이 100, 표준편차가 20일 때 값 180의 Z Score는 4입니다. 기준값을 3으로 설정하면 허용 범위는 40～160이므로, 180은 이상치로 판단합니다. |
+
+- 표준편차는 값들이 평균 주변에서 얼마나 퍼져 있는지 나타내는 수치입니다. Z Score가 4이면 평균보다 표준편차의 4배만큼 큰 값이라는 뜻입니다.
+
+**처리 (이상치로 판단한 값을 처리하는 방식)**
+
+| 처리 | 설명 | 예시 |
+|---|---|---|
+| **Clip (자르기)** | 하한보다 작은 값은 하한으로, 상한보다 큰 값은 상한으로 변경합니다. 해당 행을 삭제하지 않고 값만 경계값으로 바꿉니다. | IQR 예시의 허용 범위가 40～200이면, 10은 40으로, 250은 200으로 변경합니다. 범위 안의 값은 유지합니다. |
+| **Drop (삭제)** | 이상치가 포함된 행을 삭제합니다. 해당 행의 다른 컬럼 값도 함께 삭제되어 전체 데이터 건수가 줄어듭니다. | 선택한 컬럼의 값 250이 이상치라면, 그 값이 있는 행 전체를 삭제합니다. |
+| **Mean (평균대체)** | 이상치를 해당 컬럼의 평균값으로 바꿉니다. 평균은 값의 합을 개수로 나눈 값입니다. | 값 250이 이상치이고 대체에 사용할 평균값이 120이면, 250을 120으로 변경합니다. |
+| **Median (중위수대체)** | 이상치를 해당 컬럼의 중위수(중앙값)로 바꿉니다. 중위수는 값을 크기순으로 정렬했을 때 가운데 값이며, 개수가 짝수이면 가운데 두 값의 평균입니다. | 값 250이 이상치이고 대체에 사용할 중위수가 115이면, 250을 115로 변경합니다. |
+
+**옵션 (이상치로 판단할 범위 조정)**
+
+| 옵션 | 의미 | 설정 예시 |
+|---|---|---|
+| **IQR의 Factor (배수)** | 사분위 범위에 곱하는 숫자입니다. 숫자가 작을수록 허용 범위가 좁아져 더 많은 값을 이상치로 판단하고, 클수록 허용 범위가 넓어집니다. | Q1이 100, Q3이 140일 때 Factor 1.5의 허용 범위는 40～200입니다. Factor를 3으로 높이면 −20～260으로 넓어져, 값 250은 이상치로 판단하지 않습니다. |
+| **Z Score의 기준값 (임계값)** | 평균에서 표준편차의 몇 배까지 허용할지 정하는 숫자입니다. IQR의 Factor와 마찬가지로 숫자가 작을수록 더 많은 값을 이상치로 판단합니다. | 평균이 100, 표준편차가 20일 때 기준값 3은 평균에서 ±60인 40～160을 허용합니다. 기준값을 2로 낮추면 60～140으로 좁아져, 값 150도 이상치로 판단합니다. |
+
+- 위 숫자는 설정의 의미를 설명하기 위한 예시입니다. 방법과 옵션으로 이상치를 판단한 뒤, 선택한 처리 방식에 따라 값을 변경하거나 해당 행을 삭제합니다.
+
+
 
 ##### 3.3.1.6 되돌리기
 

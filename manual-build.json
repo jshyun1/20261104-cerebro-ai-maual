@@ -1,5 +1,5 @@
 {
-  "image_references": 501,
+  "image_references": 498,
   "gif_references": 122,
   "unique_gif_files": 122,
   "tables": 15,
@@ -8,20 +8,41 @@
   "broken_internal_anchors": [],
   "external_page_dependencies": [],
   "source": "CEREBRO_AI_MANUAL_v0.3.md",
-  "source_sha256": "ca3d9780cb19be4d8a6281d1e85758b1286ade3b9f156991c6b0abe86f061de7",
+  "source_sha256": "0d1ea3a4064708c389589f4e4301503d1ce6308fbfc374d5409bdce9dfa18140",
   "gif_policy": "Original animated GIFs retained without conversion.",
-  "referenced_media_files": 329,
-  "media_bytes": 678624081,
+  "referenced_media_files": 328,
+  "media_bytes": 678515606,
   "theme": "mkdocs-material 9.7.6",
   "browser_validation": {
     "initial": {
       "title": "CEREBRO AI MANUAL",
-      "images": 501,
+      "images": 498,
       "gifs": 122,
       "headings": 156,
       "tables": 15,
       "overflow": false,
       "brokenVisibleImages": []
+    },
+    "revisions": {
+      "numbered_subsections": true,
+      "preprocessing_sections": [
+        {
+          "section": "3.3.2",
+          "images": 0,
+          "reference_links": 1
+        },
+        {
+          "section": "3.3.3",
+          "images": 0,
+          "reference_links": 1
+        },
+        {
+          "section": "3.3.4",
+          "images": 0,
+          "reference_links": 1
+        }
+      ],
+      "example_pdf_links": 0
     },
     "layout": {
       "toc_width": 242,

@@ -1573,59 +1573,64 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 <!-- auth: LV3, LV2_41 -->
 
 
-> **💡 참고 : 보고서 주제 선정**
->
-> - 보고서 작성을 위한 주제를 선정하는 기능입니다.
-> - 업로드된 데이터와 연관된 주제로 작성해야 합니다.
->     - 제목 / 주제 : 보고서의 주제를 입력합니다.
->     - 톤 : 보고서 이용목적에 따라 공식 / 캐주얼 중 선택합니다.
->     - 분량 : 요약 / 표준 / 상세 중 하나를 선택합니다.
->
->
-> <p align = "center">
->   <img src="./Source/CEREBRO AI/7_보고서/GIF/보고서_2_AI작성 (1).gif">
-> </p>
+#### 4.1.1 보고서 주제 선정
+
+- 보고서 작성을 위한 주제를 선정하는 기능입니다.
+- 업로드된 데이터와 연관된 주제로 작성해야 합니다.
+    - 제목 / 주제 : 보고서의 주제를 입력합니다.
+    - 톤 : 보고서 이용목적에 따라 공식 / 캐주얼 중 선택합니다.
+    - 분량 : 요약 / 표준 / 상세 중 하나를 선택합니다.
+
+
+| 톤 | 표현 예시 | 활용 목적 |
+|---|---|---|
+| **공식** | “전월 대비 매출이 12% 증가했습니다.” | 업무 보고, 경영진 보고, 대외 제출 |
+| **캐주얼** | “지난달보다 매출이 12% 늘었어요.” | 팀 내 공유, 쉽고 친근한 설명 |
+
+<p align = "center">
+  <img src="./Source/CEREBRO AI/7_보고서/GIF/보고서_2_AI작성 (1).gif">
+</p>
 
 <!-- 부연설명 구분 -->
 
-> **💡 참고 : 데이터셋 선택**
->
-> - 작성할 보고서의 주요 데이터 셋을 지정합니다.
->     - 최대 8개의 데이터셋을 선택할 수 있습니다.
->     - 너무 많은 데이터셋은 AI 컨텍스트가 길어져 품질이 떨어질 수 있습니다.
->
-> <p align = "center">
->   <img src="./Source/CEREBRO AI/7_보고서/GIF/보고서_2_AI작성 (2).gif">
-> </p>
+#### 4.1.2 데이터셋 선택
+
+- 작성할 보고서의 주요 데이터 셋을 지정합니다.
+    - 최대 8개의 데이터셋을 선택할 수 있습니다.
+    - 너무 많은 데이터셋은 AI 컨텍스트가 길어져 품질이 떨어질 수 있습니다.
+
+<p align = "center">
+  <img src="./Source/CEREBRO AI/7_보고서/GIF/보고서_2_AI작성 (2).gif">
+</p>
 
 <!-- 부연설명 구분 -->
 
-> **💡 참고 : 위젯 추천 · 기존 대시보드 위젯**
->
-> - 작성한 주제와 선택한 데이터를 AI가 분석하여 위젯을 자동 생성합니다.
-> - 주제 관련도와 신뢰도를 기준으로 정렬하며, 채택을 통해 본문 보고서에 추가됩니다.
->     - 여러 위젯을 채택할 수 있으며, 모두 채택 <img src="./Source/CEREBRO AI/공통/버튼/report-all.png" alt="모두 채택 버튼" title="모두 채택" height="26" style="vertical-align: middle;"> / 모두 해제 <img src="./Source/CEREBRO AI/공통/버튼/report-none.png" alt="모두 해제 버튼" title="모두 해제" height="26" style="vertical-align: middle;"> / 추천 다시 받기 <img src="./Source/CEREBRO AI/공통/버튼/report-recommend.png" alt="추천 다시 받기 버튼" title="추천 다시 받기" height="26" style="vertical-align: middle;">를 사용할 수 있습니다.
->     - 보정 <img src="./Source/CEREBRO AI/공통/버튼/report-correct.png" alt="보정 버튼" title="보정" height="26" style="vertical-align: middle;"> 버튼으로 추천 위젯의 내용을 수정할 수 있습니다.
-> - 기존 대시보드 위젯 : 스튜디오에서 만든 대시보드와 위젯을 선택한 후 + 추가 <img src="./Source/CEREBRO AI/공통/버튼/report-add.png" alt="추가 버튼" title="추가" height="26" style="vertical-align: middle;">를 클릭하여 함께 넣습니다.
->     - 추가할 항목이 없는 경우 건너뛸 수 있습니다.
->     - 위젯을 선택하여 다음 <img src="./Source/CEREBRO AI/공통/버튼/report-next.png" alt="다음 버튼" title="다음" height="26" style="vertical-align: middle;">을 클릭합니다.
->
-> <p align = "center">
->  <img src="./Source/CEREBRO AI/7_보고서/GIF/보고서_2_AI작성 (3).gif">
-> </p>
+#### 4.1.3 위젯 추천 · 기존 대시보드 위젯
+
+- 작성한 주제와 선택한 데이터를 AI가 분석하여 위젯을 자동 생성합니다.
+- 주제 관련도와 신뢰도를 기준으로 정렬하며, 채택을 통해 본문 보고서에 추가됩니다.
+    - 여러 위젯을 채택할 수 있으며, 모두 채택 <img src="./Source/CEREBRO AI/공통/버튼/report-all.png" alt="모두 채택 버튼" title="모두 채택" height="26" style="vertical-align: middle;"> / 모두 해제 <img src="./Source/CEREBRO AI/공통/버튼/report-none.png" alt="모두 해제 버튼" title="모두 해제" height="26" style="vertical-align: middle;"> / 추천 다시 받기 <img src="./Source/CEREBRO AI/공통/버튼/report-recommend.png" alt="추천 다시 받기 버튼" title="추천 다시 받기" height="26" style="vertical-align: middle;">를 사용할 수 있습니다.
+    - 보정 <img src="./Source/CEREBRO AI/공통/버튼/report-correct.png" alt="보정 버튼" title="보정" height="26" style="vertical-align: middle;"> 버튼으로 추천 위젯의 내용을 수정할 수 있습니다.
+- 기존 대시보드 위젯 : 스튜디오에서 만든 대시보드와 위젯을 선택한 후 + 추가 <img src="./Source/CEREBRO AI/공통/버튼/report-add.png" alt="추가 버튼" title="추가" height="26" style="vertical-align: middle;">를 클릭하여 함께 넣습니다.
+    - 추가할 항목이 없는 경우 건너뛸 수 있습니다.
+    - 위젯을 선택하여 다음 <img src="./Source/CEREBRO AI/공통/버튼/report-next.png" alt="다음 버튼" title="다음" height="26" style="vertical-align: middle;">을 클릭합니다.
+
+<p align = "center">
+ <img src="./Source/CEREBRO AI/7_보고서/GIF/보고서_2_AI작성 (3).gif">
+</p>
 
 <!-- 부연설명 구분 -->
 
-> **💡 참고 : 미리보기 & 저장**
->
-> - 작성한 주제와 선택한 데이터를 바탕으로 보고서 본문을 작성합니다.
->     - 본문 다시 만들기 <img src="./Source/CEREBRO AI/공통/버튼/report-regenerate.png" alt="본문 다시 만들기 버튼" title="본문 다시 만들기" height="26" style="vertical-align: middle;">를 클릭하여 본문을 재생성할 수 있습니다.
->     - 최종 보고서 제목을 확인한 후 보고서 저장 <img src="./Source/CEREBRO AI/공통/버튼/report-save-report.png" alt="보고서 저장 버튼" title="보고서 저장" height="26" style="vertical-align: middle;">을 클릭합니다.
->     - 보고서 저장 후 편집 화면이 열리며, AI로 만들어진 보고서에서 수정이 가능합니다.
->
-> <p align = "center">
->  <img src="./Source/CEREBRO AI/7_보고서/GIF/보고서_2_AI작성 (4).gif">
-> </p>
+#### 4.1.4 미리보기 & 저장
+
+- 작성한 주제와 선택한 데이터를 바탕으로 보고서 본문을 작성합니다.
+    - 본문 다시 만들기 <img src="./Source/CEREBRO AI/공통/버튼/report-regenerate.png" alt="본문 다시 만들기 버튼" title="본문 다시 만들기" height="26" style="vertical-align: middle;">를 클릭하여 본문을 재생성할 수 있습니다.
+    - 최종 보고서 제목을 확인한 후 보고서 저장 <img src="./Source/CEREBRO AI/공통/버튼/report-save-report.png" alt="보고서 저장 버튼" title="보고서 저장" height="26" style="vertical-align: middle;">을 클릭합니다.
+    - 보고서 저장 후 편집 화면이 열리며, AI로 만들어진 보고서에서 수정이 가능합니다.
+
+<p align = "center">
+ <img src="./Source/CEREBRO AI/7_보고서/GIF/보고서_2_AI작성 (4).gif">
+</p>
 
 <!-- 부연설명 구분 -->
 
@@ -1671,7 +1676,10 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 - 새로운 보고서를 작성하는 기능입니다.
     - 보고서 목록에서 빈 보고서 <img src="./Source/CEREBRO AI/공통/버튼/report-blank.png" alt="빈 보고서 버튼" title="빈 보고서" height="26" style="vertical-align: middle;">를 클릭합니다.
     - 블록을 선택하여 보고서 내용을 작성합니다.
-        - H1 제목 <img src="./Source/CEREBRO AI/공통/버튼/report-title.png" alt="H1 제목 버튼" title="H1 제목" height="26" style="vertical-align: middle;"> / 본문 <img src="./Source/CEREBRO AI/공통/버튼/report-body.png" alt="본문 버튼" title="본문" height="26" style="vertical-align: middle;"> / 페이지 구분 <img src="./Source/CEREBRO AI/공통/버튼/report-break.png" alt="페이지 구분 버튼" title="페이지 구분" height="26" style="vertical-align: middle;"> / 표 <img src="./Source/CEREBRO AI/공통/버튼/report-table.png" alt="표 버튼" title="표" height="26" style="vertical-align: middle;"> - 제목, 문단, 인쇄 시 쪽 나눔, 표를 추가합니다.
+        - H1 제목 / 본문 / 페이지 구분 / 표
+            - <img src="./Source/CEREBRO AI/공통/버튼/report-title.png" alt="H1 제목 버튼" title="H1 제목" height="26" style="vertical-align: middle;"> / <img src="./Source/CEREBRO AI/공통/버튼/report-body.png" alt="본문 버튼" title="본문" height="26" style="vertical-align: middle;"> : 제목과 본문을 추가합니다.
+            - <img src="./Source/CEREBRO AI/공통/버튼/report-break.png" alt="페이지 구분 버튼" title="페이지 구분" height="26" style="vertical-align: middle;"> : 인쇄 시 쪽을 나눕니다.
+            - <img src="./Source/CEREBRO AI/공통/버튼/report-table.png" alt="표 버튼" title="표" height="26" style="vertical-align: middle;"> : 표를 추가합니다.
         - 위젯 - 위젯 선택 <img src="./Source/CEREBRO AI/공통/버튼/report-widget.png" alt="위젯 선택 버튼" title="위젯 선택" height="26" style="vertical-align: middle;">을 클릭하여 BI(OLAP), 차트, 연관관계에서 저장한 위젯을 넣습니다.
         - AI 블록 추가 <img src="./Source/CEREBRO AI/공통/버튼/report-ai-block.png" alt="AI 블록 추가 버튼" title="AI 블록 추가" height="26" style="vertical-align: middle;"> - 프롬프트로 보고서 블록을 자동으로 생성할 수 있습니다.
     - 미리보기 <img src="./Source/CEREBRO AI/공통/버튼/report-preview.png" alt="미리보기 버튼" title="미리보기" height="26" style="vertical-align: middle;">로 문서를 출력 화면을 확인합니다.

@@ -111,13 +111,9 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
     - 카카오 계정을 연동한 경우 카카오 로그인 <img src="./Source/CEREBRO AI/공통/버튼/login-kakao.png" alt="카카오 로그인 버튼" title="카카오 로그인" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 로그인합니다.
     - 로그인 후 홈 화면이 열리며, 상단 메뉴에서 데이터마트 <img src="./Source/CEREBRO AI/공통/버튼/mart-menu.png" alt="데이터마트 버튼" title="데이터마트" height="26" style="vertical-align: middle;">를 클릭하여 분석할 자료에 접근합니다.
 
-**화면 1.** 발급받은 이메일과 비밀번호로 로그인하거나 연동된 카카오 계정을 사용합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/로그인_01_로그인화면.png" alt="발급받은 이메일과 비밀번호로 로그인하거나 연동된 카카오 계정을 사용합니다." width="1100">
 </p>
-
-**화면 2.** 로그인 후 데이터마트에서 분석할 데이터셋을 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/001_로그인_계정로그인_02.png" alt="로그인 후 데이터마트에서 분석할 데이터셋을 확인합니다." width="1100">
@@ -162,8 +158,6 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
     - **DB 추출** : 그룹에 등록된 외부 DB 연결과 테이블을 선택하여 데이터셋을 생성합니다.
     - **문서 업로드** <img src="./Source/CEREBRO AI/공통/버튼/mart-document.png" alt="문서 업로드 버튼" title="문서 업로드" height="26" style="vertical-align: middle;"> : PDF·HWP·DOCX 등 비정형 문서를 업로드하여 GPT 대화에서 활용합니다.
 
-새 데이터셋 등록 메뉴에서 사용할 등록 방식을 선택합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/002_분석_데이터셋등록방식_01.png" alt="새 데이터셋 등록 메뉴에서 사용할 등록 방식을 선택합니다." width="786">
 </p>
@@ -176,19 +170,13 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 2. 데이터셋 제목을 입력하고 CSV 또는 Excel 파일을 업로드합니다.
 3. 등록이 완료되면 목록에서 데이터셋 제목을 클릭하여 분석 화면의 **데이터 구조**로 이동합니다.
 
-**화면 1.** 파일 업로드에서 데이터셋 제목과 파일을 지정합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/003_분석_데이터선택_01.png" alt="파일 업로드에서 데이터셋 제목과 파일을 지정합니다." width="786">
 </p>
 
-**화면 2.** 선택한 파일의 이름과 용량을 확인한 뒤 업로드합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/003_분석_데이터선택_02.png" alt="선택한 파일의 이름과 용량을 확인한 뒤 업로드합니다." width="826">
 </p>
-
-**화면 3.** 업로드가 완료되면 데이터마트 목록에 100행의 실습 데이터셋이 표시됩니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/003_분석_데이터선택_03.png" alt="업로드가 완료되면 데이터마트 목록에 100행의 실습 데이터셋이 표시됩니다." width="1100">
@@ -208,19 +196,13 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 
 - 아래 예시는 실습용 고객매출 100행 중 `total_amount`가 300,000 이상인 27행을 조회하여 SQL 데이터셋으로 등록하는 과정입니다.
 
-**화면 1.** SQL에서 참조할 고객매출 데이터셋을 선택합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/004_분석_데이터셋등록_SQL쿼리_02.png" alt="SQL에서 참조할 고객매출 데이터셋을 선택합니다." width="526">
 </p>
 
-**화면 2.** total_amount가 300,000 이상인 데이터를 조회하고 실행 결과를 확인합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/004_분석_데이터셋등록_SQL쿼리_03.png" alt="total_amount가 300,000 이상인 데이터를 조회하고 실행 결과를 확인합니다." width="1100">
 </p>
-
-**화면 3.** 조회 결과를 새 SQL 데이터셋으로 저장할 제목을 입력합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/004_분석_데이터셋등록_SQL쿼리_04.png" alt="조회 결과를 새 SQL 데이터셋으로 저장할 제목을 입력합니다." width="526">
@@ -242,13 +224,9 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
     - 아래 예시는 고객기본의 전체 컬럼에 고객매출의 `order_id`, `purchase_count`, `total_amount`를 추가하여 7개 컬럼으로 구성합니다.
     - 미리보기는 최대 50행이 표시되며, 등록이 완료된 데이터셋의 전체 행 수는 목록에서 확인합니다.
 
-**화면 1.** customer_id를 INNER JOIN으로 연결하고 고객매출의 order_id·purchase_count·total_amount를 선택하여 7개 컬럼을 미리 확인합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/005_분석_데이터셋등록_데이터셋조인_02.png" alt="customer_id를 INNER JOIN으로 연결하고 고객매출의 order_id·purchase_count·total_amount를 선택하여 7개 컬럼을 미리 확인합니다." width="1100">
 </p>
-
-**화면 2.** 등록된 데이터셋에서 total_amount를 포함한 총 7개 컬럼과 각 컬럼의 100건 데이터를 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/005_분석_데이터셋등록_데이터셋조인_03.png" alt="등록된 데이터셋에서 total_amount를 포함한 총 7개 컬럼과 각 컬럼의 100건 데이터를 확인합니다." width="1100">
@@ -269,19 +247,13 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 
 - 아래 예시는 Oracle의 코드 공통 테이블에서 4개 컬럼, 43행을 추출하는 과정입니다.
 
-**화면 1.** DB 연결과 추출할 테이블을 선택합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/006_분석_데이터셋등록_DB추출_시연_01.png" alt="DB 연결과 추출할 테이블을 선택합니다." width="1100">
 </p>
 
-**화면 2.** 테이블 속성과 데이터를 확인하고 추출 조건을 지정합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/006_분석_데이터셋등록_DB추출_시연_02.png" alt="테이블 속성과 데이터를 확인하고 추출 조건을 지정합니다." width="1100">
 </p>
-
-**화면 3.** 추출 결과를 확인한 뒤 새 데이터셋으로 등록합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/006_분석_데이터셋등록_DB추출_시연_03.png" alt="추출 결과를 확인한 뒤 새 데이터셋으로 등록합니다." width="1100">
@@ -297,13 +269,9 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 4. 등록이 완료되면 데이터마트의 **비정형 문서** 목록에서 문서를 확인합니다.
 5. 문서 제목을 클릭하여 요약과 추출 내용을 확인합니다.
 
-**화면 1.** 문서 업로드에서 PDF 파일을 선택하고 파일 정보를 확인합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/007_분석_데이터셋등록_문서업로드_01.png" alt="문서 업로드에서 PDF 파일을 선택하고 파일 정보를 확인합니다." width="826">
 </p>
-
-**화면 2.** 비정형 문서 목록에서 업로드한 PDF와 처리 상태를 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/007_분석_데이터셋등록_문서업로드_02.png" alt="비정형 문서 목록에서 업로드한 PDF와 처리 상태를 확인합니다." width="1100">
@@ -330,8 +298,6 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 >     - 작업 열의 컬럼 메타 <img src="./Source/CEREBRO AI/공통/버튼/mart-column-meta.png" alt="컬럼 메타 버튼" title="컬럼 메타" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 컬럼별 표시 이름과 역할(차원, 측정값, 기간, 속성)을 지정합니다.
 >     - 재업로드 <img src="./Source/CEREBRO AI/공통/버튼/mart-upload.png" alt="업로드 버튼" title="업로드" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 같은 데이터셋에 새 파일을 올려 내용을 갱신합니다.
 >     - AI 편집 <img src="./Source/CEREBRO AI/공통/버튼/mart-ai-edit.png" alt="AI 편집 버튼" title="AI 편집" height="24" style="vertical-align: middle;"> 버튼을 클릭하면 AI 대화로 현재 데이터셋을 가공한 파생 데이터셋을 만들 수 있습니다.
->
-> 컬럼별 표시 이름과 역할, 계층 그룹, 키 및 표시 여부를 설정합니다.
 >
 > <p align="center">
 >   <img src="./Source/CEREBRO AI/사진구성/009_분석_컬럼메타_01.png" alt="컬럼별 표시 이름과 역할, 계층 그룹, 키 및 표시 여부를 설정합니다." width="1100">
@@ -381,13 +347,9 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 >     - 상단 CerebroGPT 영역의 자세히 보기 <img src="./Source/CEREBRO AI/공통/버튼/analysis-details.png" alt="자세히 보기 버튼" title="자세히 보기" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 요약 정보를 펼쳐 확인 할 수 있습니다.
 >     - <img src="./Source/CEREBRO AI/공통/버튼/analysis-close.png" alt="닫기 버튼" title="닫기" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 요약 영역을 닫습니다.
 >
-> **화면 1.** 원본 데이터의 컬럼별 형식·건수·결측값·통계 정보를 확인합니다.
->
 > <p align="center">
 >   <img src="./Source/CEREBRO AI/사진구성/010_분석_원본_데이터구조_CerebroGPT_01.png" alt="원본 데이터의 컬럼별 형식·건수·결측값·통계 정보를 확인합니다." width="1100">
 > </p>
->
-> **화면 2.** CerebroGPT 요약을 펼쳐 데이터의 주요 특징과 분석 방향을 확인합니다.
 >
 > <p align="center">
 >   <img src="./Source/CEREBRO AI/사진구성/010_분석_원본_데이터구조_CerebroGPT_02.png" alt="CerebroGPT 요약을 펼쳐 데이터의 주요 특징과 분석 방향을 확인합니다." width="1100">
@@ -448,13 +410,9 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 - 컬럼별 데이터에 따른 색을 부여하여 화면에 표시합니다.
     - 왼쪽 위 그룹 색 적용 <img src="./Source/CEREBRO AI/공통/버튼/analysis-color.png" alt="그룹 색 적용 버튼" title="그룹 색 적용" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 컬럼별 같은 데이터를 확인할 수 있습니다.
 
-**화면 1.** 원본 데이터의 행과 컬럼을 표로 조회합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/012_분석_원본_데이터보기_그룹색적용_01.png" alt="원본 데이터의 행과 컬럼을 표로 조회합니다." width="1100">
 </p>
-
-**화면 2.** 같은 값을 가진 셀을 동일한 색으로 구분해 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/012_분석_원본_데이터보기_그룹색적용_02.png" alt="같은 값을 가진 셀을 동일한 색으로 구분해 확인합니다." width="1100">
@@ -530,13 +488,9 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
     - '차트 생성' <img src="./Source/CEREBRO AI/공통/버튼/analysis-create-chart.png" alt="차트 생성 버튼" title="차트 생성" height="26" style="vertical-align: middle;">을 클릭하여 그래프를 생성합니다.
     - 정렬 목록에서 값 내림차순을 선택한 후 다시 '차트 생성' <img src="./Source/CEREBRO AI/공통/버튼/analysis-create-chart.png" alt="차트 생성 버튼" title="차트 생성" height="26" style="vertical-align: middle;">을 클릭하여 정렬합니다.
 
-**화면 1.** 병원지역·성별·보험금 합계를 지정해 비교할 항목을 설정합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/017_분석_원본_차트시각화_막대그래프생성_01.png" alt="병원지역·성별·보험금 합계를 지정해 비교할 항목을 설정합니다." width="1100">
 </p>
-
-**화면 2.** 지역과 성별에 따른 보험금 합계를 막대 차트로 비교합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/017_분석_원본_차트시각화_막대그래프생성_02.png" alt="지역과 성별에 따른 보험금 합계를 막대 차트로 비교합니다." width="1100">
@@ -554,13 +508,9 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
     - 선그래프에 사용할 측정값을 지정 후 드래그합니다.
     - '차트 생성' <img src="./Source/CEREBRO AI/공통/버튼/analysis-create-chart.png" alt="차트 생성 버튼" title="차트 생성" height="26" style="vertical-align: middle;">을 클릭하여 그래프를 생성합니다.
 
-**화면 1.** 선 차트에 사용할 컬럼과 집계 기준을 설정합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/018_분석_원본_차트시각화_선그래프생성_01.png" alt="선 차트에 사용할 컬럼과 집계 기준을 설정합니다." width="1100">
 </p>
-
-**화면 2.** 선 차트의 생성 결과를 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/018_분석_원본_차트시각화_선그래프생성_02.png" alt="선 차트의 생성 결과를 확인합니다." width="1100">
@@ -579,13 +529,9 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
         - 꺾은선 측정값은 오른쪽 Y축으로 표시됩니다.
     - '차트 생성' <img src="./Source/CEREBRO AI/공통/버튼/analysis-create-chart.png" alt="차트 생성 버튼" title="차트 생성" height="26" style="vertical-align: middle;">을 클릭하여 그래프를 생성합니다.
 
-**화면 1.** 막대+꺾은선 차트에 사용할 컬럼과 집계 기준을 설정합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/019_분석_원본_차트시각화_막대꺾은선생성_01.png" alt="막대+꺾은선 차트에 사용할 컬럼과 집계 기준을 설정합니다." width="1100">
 </p>
-
-**화면 2.** 막대+꺾은선 차트의 생성 결과를 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/019_분석_원본_차트시각화_막대꺾은선생성_02.png" alt="막대+꺾은선 차트의 생성 결과를 확인합니다." width="1100">
@@ -605,13 +551,9 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
     - 왼쪽 항목 목록에서 비교항목을 펼쳐 비교할 값만 선택할 수 있습니다.
     - '차트 생성' <img src="./Source/CEREBRO AI/공통/버튼/analysis-create-chart.png" alt="차트 생성 버튼" title="차트 생성" height="26" style="vertical-align: middle;">을 클릭하여 그래프를 생성합니다.
 
-**화면 1.** 세 개의 수치 지표와 비교할 성별을 지정하여 레이더 차트를 구성합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/020_분석_원본_차트시각화_레이더생성_01.png" alt="세 개의 수치 지표와 비교할 성별을 지정하여 레이더 차트를 구성합니다." width="1100">
 </p>
-
-**화면 2.** 지표별 축을 따라 성별에 따른 차이를 비교합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/020_분석_원본_차트시각화_레이더생성_02.png" alt="지표별 축을 따라 성별에 따른 차이를 비교합니다." width="1100">
@@ -637,13 +579,9 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
     - 히스토그램에 사용할 분포항목을 지정 후 드래그합니다.
     - '차트 생성' <img src="./Source/CEREBRO AI/공통/버튼/analysis-create-chart.png" alt="차트 생성 버튼" title="차트 생성" height="26" style="vertical-align: middle;">을 클릭하여 그래프를 생성합니다.
 
-**화면 1.** 히스토그램 차트에 사용할 컬럼과 집계 기준을 설정합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/021_분석_원본_차트시각화_히스토그램생성_01.png" alt="히스토그램 차트에 사용할 컬럼과 집계 기준을 설정합니다." width="1100">
 </p>
-
-**화면 2.** 히스토그램 차트의 생성 결과를 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/021_분석_원본_차트시각화_히스토그램생성_02.png" alt="히스토그램 차트의 생성 결과를 확인합니다." width="1100">
@@ -661,13 +599,9 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
         - 측정값은 숫자만 사용가능합니다.
     - '차트 생성' <img src="./Source/CEREBRO AI/공통/버튼/analysis-create-chart.png" alt="차트 생성 버튼" title="차트 생성" height="26" style="vertical-align: middle;">을 클릭하여 그래프를 생성합니다.
 
-**화면 1.** 박스플롯 차트에 사용할 컬럼과 집계 기준을 설정합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/022_분석_원본_차트시각화_박스플롯생성_01.png" alt="박스플롯 차트에 사용할 컬럼과 집계 기준을 설정합니다." width="1100">
 </p>
-
-**화면 2.** 박스플롯 차트의 생성 결과를 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/022_분석_원본_차트시각화_박스플롯생성_02.png" alt="박스플롯 차트의 생성 결과를 확인합니다." width="1100">
@@ -685,13 +619,9 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
         - 가로축, 세로축, 크기기준은 숫자만 사용가능합니다.
     - '차트 생성' <img src="./Source/CEREBRO AI/공통/버튼/analysis-create-chart.png" alt="차트 생성 버튼" title="차트 생성" height="26" style="vertical-align: middle;">을 클릭하여 그래프를 생성합니다.
 
-**화면 1.** 산점도 차트에 사용할 컬럼과 집계 기준을 설정합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/023_분석_원본_차트시각화_산점도생성_01.png" alt="산점도 차트에 사용할 컬럼과 집계 기준을 설정합니다." width="1100">
 </p>
-
-**화면 2.** 산점도 차트의 생성 결과를 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/023_분석_원본_차트시각화_산점도생성_02.png" alt="산점도 차트의 생성 결과를 확인합니다." width="1100">
@@ -709,13 +639,9 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
     - '차트 생성' <img src="./Source/CEREBRO AI/공통/버튼/analysis-create-chart.png" alt="차트 생성 버튼" title="차트 생성" height="26" style="vertical-align: middle;">을 클릭하여 그래프를 생성합니다.
     - 정렬을 통해 값 내림차순으로 다시 정렬합니다.
 
-**화면 1.** 파이 차트에 사용할 컬럼과 분석 기준을 지정합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/024_분석_원본_차트시각화_분포파이그래프생성_01.png" alt="파이 차트에 사용할 컬럼과 분석 기준을 지정합니다." width="1100">
 </p>
-
-**화면 2.** 파이 차트로 표시된 데이터의 분포와 관계를 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/024_분석_원본_차트시각화_분포파이그래프생성_02.png" alt="파이 차트로 표시된 데이터의 분포와 관계를 확인합니다." width="1100">
@@ -741,13 +667,9 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
         - 날짜 항목은 연도, 분기, 월, 일 단위로 묶어서 사용할 수 있습니다.
     - '차트 생성' <img src="./Source/CEREBRO AI/공통/버튼/analysis-create-chart.png" alt="차트 생성 버튼" title="차트 생성" height="26" style="vertical-align: middle;">을 클릭하여 그래프를 생성합니다.
 
-**화면 1.** 영역 차트에 사용할 컬럼과 분석 기준을 지정합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/025_분석_원본_차트시각화_영역생성_01.png" alt="영역 차트에 사용할 컬럼과 분석 기준을 지정합니다." width="1100">
 </p>
-
-**화면 2.** 영역 차트로 표시된 데이터의 분포와 관계를 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/025_분석_원본_차트시각화_영역생성_02.png" alt="영역 차트로 표시된 데이터의 분포와 관계를 확인합니다." width="1100">
@@ -770,13 +692,9 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
     - 비교항목을 확인합니다. (숫자 항목이 자동으로 지정됩니다.)
     - '차트 생성' <img src="./Source/CEREBRO AI/공통/버튼/analysis-create-chart.png" alt="차트 생성 버튼" title="차트 생성" height="26" style="vertical-align: middle;">을 클릭하여 그래프를 생성합니다.
 
-**화면 1.** 히트맵 차트에 사용할 항목과 측정값을 설정합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/026_분석_원본_차트시각화_히트맵생성_01.png" alt="히트맵 차트에 사용할 항목과 측정값을 설정합니다." width="1100">
 </p>
-
-**화면 2.** 히트맵 차트에서 지정한 항목 간 차이와 구성 비율을 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/026_분석_원본_차트시각화_히트맵생성_02.png" alt="히트맵 차트에서 지정한 항목 간 차이와 구성 비율을 확인합니다." width="1100">
@@ -804,13 +722,9 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 
 <!--사진 예시에는 [지도 실습용 예시 데이터](<./Source/CEREBRO AI/사진구성/예제자료/지도_실습용_예시데이터.csv>)를 사용했습니다.-->
 
-**화면 1.** 실습용 예시 데이터에서 경도·위도·지역과 보험금 합계를 지정합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/027_분석_원본_차트시각화_지도생성_01.png" alt="실습용 예시 데이터에서 경도·위도·지역과 보험금 합계를 지정합니다." width="1100">
 </p>
-
-**화면 2.** 지역별 위치와 보험금 크기를 지도 위에서 비교합니다. 좌표와 금액은 기능 설명을 위한 실습 예시입니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/027_분석_원본_차트시각화_지도생성_02.png" alt="지역별 위치와 보험금 크기를 지도 위에서 비교합니다. 좌표와 금액은 기능 설명을 위한 실습 예시입니다." width="1100">
@@ -828,13 +742,9 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
         - 지역(시군구)를 함께 지정하면 시도를 클릭하여 시군구 단위로 볼 수 있습니다.
     - '차트 생성' <img src="./Source/CEREBRO AI/공통/버튼/analysis-create-chart.png" alt="차트 생성 버튼" title="차트 생성" height="26" style="vertical-align: middle;">을 클릭하여 지도를 생성합니다.
 
-**화면 1.** 한국 지도 차트에 사용할 컬럼과 분석 기준을 지정합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/028_분석_원본_차트시각화_한국지도생성_01.png" alt="한국 지도 차트에 사용할 컬럼과 분석 기준을 지정합니다." width="1100">
 </p>
-
-**화면 2.** 한국 지도 차트로 표시된 데이터의 분포와 관계를 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/028_분석_원본_차트시각화_한국지도생성_02.png" alt="한국 지도 차트로 표시된 데이터의 분포와 관계를 확인합니다." width="1100">
@@ -861,13 +771,9 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
     - '차트 생성' <img src="./Source/CEREBRO AI/공통/버튼/analysis-create-chart.png" alt="차트 생성 버튼" title="차트 생성" height="26" style="vertical-align: middle;">을 클릭하여 그래프를 생성합니다.
     - 정렬을 통해 값 오름차순으로 다시 정렬합니다.
 
-**화면 1.** 파이 차트에 사용할 항목과 측정값을 설정합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/029_분석_원본_차트시각화_구성파이생성_01.png" alt="파이 차트에 사용할 항목과 측정값을 설정합니다." width="1100">
 </p>
-
-**화면 2.** 파이 차트에서 지정한 항목 간 차이와 구성 비율을 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/029_분석_원본_차트시각화_구성파이생성_02.png" alt="파이 차트에서 지정한 항목 간 차이와 구성 비율을 확인합니다." width="1100">
@@ -885,13 +791,9 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
     - 스택막대에 사용할 측정값을 드래그합니다.
     - '차트 생성' <img src="./Source/CEREBRO AI/공통/버튼/analysis-create-chart.png" alt="차트 생성 버튼" title="차트 생성" height="26" style="vertical-align: middle;">을 클릭하여 그래프를 생성합니다.
 
-**화면 1.** 스택막대 차트에 사용할 항목과 측정값을 설정합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/030_분석_원본_차트시각화_스택막대생성_01.png" alt="스택막대 차트에 사용할 항목과 측정값을 설정합니다." width="1100">
 </p>
-
-**화면 2.** 스택막대 차트에서 지정한 항목 간 차이와 구성 비율을 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/030_분석_원본_차트시각화_스택막대생성_02.png" alt="스택막대 차트에서 지정한 항목 간 차이와 구성 비율을 확인합니다." width="1100">
@@ -909,13 +811,9 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
     - 트리맵에 사용할 측정값을 지정 후 드래그합니다.
     - '차트 생성' <img src="./Source/CEREBRO AI/공통/버튼/analysis-create-chart.png" alt="차트 생성 버튼" title="차트 생성" height="26" style="vertical-align: middle;">을 클릭하여 그래프를 생성합니다.
 
-**화면 1.** 트리맵 차트에 사용할 항목과 측정값을 설정합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/031_분석_원본_차트시각화_트리맵생성_01.png" alt="트리맵 차트에 사용할 항목과 측정값을 설정합니다." width="1100">
 </p>
-
-**화면 2.** 트리맵 차트에서 지정한 항목 간 차이와 구성 비율을 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/031_분석_원본_차트시각화_트리맵생성_02.png" alt="트리맵 차트에서 지정한 항목 간 차이와 구성 비율을 확인합니다." width="1100">
@@ -940,13 +838,9 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
     - 샌키에 사용할 측정값을 지정 후 드래그 합니다.
     - '차트 생성' <img src="./Source/CEREBRO AI/공통/버튼/analysis-create-chart.png" alt="차트 생성 버튼" title="차트 생성" height="26" style="vertical-align: middle;">을 클릭하여 그래프를 생성합니다.
 
-**화면 1.** 샌키 차트에 사용할 컬럼과 분석 기준을 지정합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/032_분석_원본_차트시각화_센키생성_01.png" alt="샌키 차트에 사용할 컬럼과 분석 기준을 지정합니다." width="1100">
 </p>
-
-**화면 2.** 샌키 차트로 표시된 데이터의 분포와 관계를 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/032_분석_원본_차트시각화_센키생성_02.png" alt="샌키 차트로 표시된 데이터의 분포와 관계를 확인합니다." width="1100">
@@ -964,13 +858,9 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
         - 가로축은 숫자 또는 날짜 항목만 사용가능합니다.
     - '차트 생성' <img src="./Source/CEREBRO AI/공통/버튼/analysis-create-chart.png" alt="차트 생성 버튼" title="차트 생성" height="26" style="vertical-align: middle;">을 클릭하여 그래프를 생성합니다.
 
-**화면 1.** 스트림그래프 차트에 사용할 컬럼과 분석 기준을 지정합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/033_분석_원본_차트시각화_스트림그래프생성_01.png" alt="스트림그래프 차트에 사용할 컬럼과 분석 기준을 지정합니다." width="1100">
 </p>
-
-**화면 2.** 스트림그래프 차트로 표시된 데이터의 분포와 관계를 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/033_분석_원본_차트시각화_스트림그래프생성_02.png" alt="스트림그래프 차트로 표시된 데이터의 분포와 관계를 확인합니다." width="1100">
@@ -1027,13 +917,9 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
     -  왼쪽 단계 목록에 '새로 추가' 로 표시된 항목을 클릭하여 내용을 확인합니다.
     -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 결과를 확인합니다.
 
-**화면 1.** 등록된 전처리 단계가 없는 초기 상태에서 AI 전처리를 실행합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/034_분석_전처리_AI전처리_초기상태.png" alt="등록된 전처리 단계가 없는 초기 상태에서 AI 전처리를 실행합니다." width="1100">
 </p>
-
-**화면 2.** AI 전처리만 실행하여 추천된 결측값·형 변환·이상치 세 단계와 설정을 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/034_분석_전처리_AI전처리_단독실행결과.png" alt="기존 전처리 내역 없이 AI가 새로 추천한 결측값·형 변환·이상치 세 단계와 설정을 확인합니다." width="1100">
@@ -1047,13 +933,9 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
     -  요청사항에 따라 GPT가 분석한 결과 및 전처리 대상항목을 확인합니다.
     -  <img src="./Source/CEREBRO AI/공통/버튼/preprocess-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 결과를 확인합니다.
 
-**화면 1.** 요청내용을 작성합니다. (예시. 지급일자에서 연도를 추출해 지급연도 컬럼을 만들어줘)
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/035_분석_전처리_AI직접입력_초기상태요청.png" alt="기존 전처리 단계가 없는 상태에서 지급연도 컬럼 생성을 요청합니다." width="1100">
 </p>
-
-**화면 2.** 화면 2. 요청에 따라 추가된 전처리 항목과 설정을 확인합니다. (예시: 지급연도 컬럼의 생성 수식과 컬럼명 확인)
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/035_분석_전처리_AI직접입력_결과설정예시.png" alt="기존 시연을 기준으로 재구성한 예시: 첫 단계인 항목생성에서 year('지급일자') 수식과 지급연도 컬럼명을 확인합니다." width="1100">
@@ -1311,13 +1193,9 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
     - 표시 숫자단위 간략화 <img src="./Source/CEREBRO AI/공통/버튼/bi-compact.png" alt="표시 숫자단위 간략화 버튼" title="표시 숫자단위 간략화" height="24" style="vertical-align: middle;">를 클릭하여 천단위 이상의 숫자건을 간략하게 확인할 수 있습니다.
     - 피벗셀을 클릭하여 해당 조건에 맞는 상세건을 확인할 수 있습니다.
 
-**화면 1.** 열에 보험종류, 행에 성별, 측정값에 보험금 합계를 지정합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/047_분석_통계분석_BI(OLAP)_피벗그래프_01.png" alt="열에 보험종류, 행에 성별, 측정값에 보험금 합계를 지정합니다." width="1100">
 </p>
-
-**화면 2.** 피벗 표에서 보험종류와 성별에 따른 보험금 집계 결과를 비교합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/047_분석_통계분석_BI(OLAP)_피벗그래프_02.png" alt="피벗 표에서 보험종류와 성별에 따른 보험금 집계 결과를 비교합니다." width="1100">
@@ -1329,8 +1207,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
     - 축 분리 <img src="./Source/CEREBRO AI/공통/버튼/bi-split.png" alt="축 분리 버튼" title="축 분리" height="24" style="vertical-align: middle;">를 클릭하여 피벗 항목간의 차를 비교 할 수 있습니다.
     - 축 반전 <img src="./Source/CEREBRO AI/공통/버튼/bi-invert.png" alt="축 반전 버튼" title="축 반전" height="24" style="vertical-align: middle;">을 클릭하여 X,Y축을 반전시켜 그릴 수 있습니다.
     - 위젯 등록 <img src="./Source/CEREBRO AI/공통/버튼/bi-widget.png" alt="위젯 등록 버튼" title="위젯 등록" height="26" style="vertical-align: middle;">을 눌러 그래프를 저장할 수 있습니다.
-
-선그래프만 표시하여 병원지역별 보험금 합계를 보험사기 여부에 따라 비교합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/048_분석_통계분석_BI(OLAP)_선그래프_01.png" alt="선그래프만 표시하여 병원지역별 보험금 합계를 보험사기 여부에 따라 비교합니다." width="1100">
@@ -1347,13 +1223,9 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 
 피벗표와 막대그래프를 순서대로 보며 병원지역별 보험금 합계를 비교합니다.
 
-**화면 1.** 피벗표에서 병원지역과 보험사기 여부에 따른 보험금 합계를 확인합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/BI_비교용_피벗표_전체화면.png" alt="피벗표에서 병원지역과 보험사기 여부에 따른 보험금 합계를 확인합니다." width="1100">
 </p>
-
-**화면 2.** 막대그래프에서 병원지역별 보험금 합계를 보험사기 여부에 따라 비교합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/049_분석_통계분석_BI(OLAP)_막대그래프_01.png" alt="막대그래프에서 병원지역별 보험금 합계를 보험사기 여부에 따라 비교합니다." width="1100">
@@ -1367,13 +1239,9 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 
 피벗표와 표그래프를 순서대로 보며 보험사기 여부와 병원지역에 따른 집계 값을 확인합니다.
 
-**화면 1.** 피벗표에서 병원지역과 보험사기 여부에 따른 보험금 합계를 확인합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/BI_비교용_피벗표_전체화면.png" alt="피벗표에서 병원지역과 보험사기 여부에 따른 보험금 합계를 확인합니다." width="1100">
 </p>
-
-**화면 2.** 표그래프에서 보험사기 여부와 병원지역별 보험금 합계를 행 단위로 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/050_분석_통계분석_BI(OLAP)_표그래프_01.png" alt="표그래프에서 보험사기 여부와 병원지역별 보험금 합계를 행 단위로 확인합니다." width="1100">
@@ -1387,13 +1255,9 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 
 피벗표의 집계 결과와 필터그래프의 상세 데이터를 순서대로 확인합니다.
 
-**화면 1.** 피벗표에서 병원지역과 보험사기 여부에 따른 보험금 합계를 확인합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/BI_비교용_피벗표_전체화면.png" alt="피벗표에서 병원지역과 보험사기 여부에 따른 보험금 합계를 확인합니다." width="1100">
 </p>
-
-**화면 2.** 필터그래프에서 분석 대상의 상세 데이터를 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/051_분석_통계분석_BI(OLAP)_필터그래프_01.png" alt="필터그래프에서 분석 대상의 상세 데이터를 확인합니다." width="1100">
@@ -1467,13 +1331,9 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
     - 항목별 형식과 노드 수를 확인하고 분석에 사용할 항목을 선택한 후 확인 <img src="./Source/CEREBRO AI/공통/버튼/relation-confirm.png" alt="확인 버튼" title="확인" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
     - 선택한 항목을 기준으로 연관관계 분석도가 표기됩니다.
 
-**화면 1.** 분석에 사용할 컬럼과 항목별 노드 수를 확인한 뒤 선택합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/052_분석_연관관계분석_분석항목선택_시연_01.png" alt="분석에 사용할 컬럼과 항목별 노드 수를 확인한 뒤 선택합니다." width="652">
 </p>
-
-**화면 2.** 선택한 항목의 연결 관계가 분석도에 표시됩니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/052_분석_연관관계분석_분석항목선택_시연_02.png" alt="선택한 항목의 연결 관계가 분석도에 표시됩니다." width="1100">
@@ -1485,13 +1345,9 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 >     - 좌측 분석 항목 목록에서 항목명을 클릭합니다.
 >     - 클릭한 항목의 노드를 숨기거나 다시 표시하여 항목 간 연관관계를 분포도로 표시합니다.
 >
-> **화면 1.** 범례에서 항목을 선택해 해당 노드를 숨기거나 표시합니다.
->
 > <p align="center">
 >   <img src="./Source/CEREBRO AI/사진구성/053_분석_연관관계분석_분석대상선택_시연_01.png" alt="범례에서 항목을 선택해 해당 노드를 숨기거나 표시합니다." width="1100">
 > </p>
->
-> **화면 2.** 표시할 항목을 조절하여 관심 있는 관계를 비교합니다.
 >
 > <p align="center">
 >   <img src="./Source/CEREBRO AI/사진구성/053_분석_연관관계분석_분석대상선택_시연_02.png" alt="표시할 항목을 조절하여 관심 있는 관계를 비교합니다." width="1100">
@@ -1504,13 +1360,9 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
     - 항목별로 필터링할 값을 선택 후 적용 <img src="./Source/CEREBRO AI/공통/버튼/relation-apply.png" alt="적용 버튼" title="적용" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
     - 선택한 항목별로 노드가 필터링 되어 분포도에 표기됩니다.
 
-**화면 1.** 항목별로 표시할 값을 선택하여 필터 조건을 지정합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/054_분석_연관관계분석_필터_시연_01.png" alt="항목별로 표시할 값을 선택하여 필터 조건을 지정합니다." width="838">
 </p>
-
-**화면 2.** 필터를 적용한 뒤 남은 노드와 연결 관계를 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/054_분석_연관관계분석_필터_시연_02.png" alt="필터를 적용한 뒤 남은 노드와 연결 관계를 확인합니다." width="1100">
@@ -1523,13 +1375,9 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
     - 등록하기 <img src="./Source/CEREBRO AI/공통/버튼/relation-register.png" alt="등록하기 버튼" title="등록하기" height="26" style="vertical-align: middle;">를 클릭하고 필터링할 항목을 선택 한 후 <img src="./Source/CEREBRO AI/공통/버튼/relation-plus.png" alt="추가 버튼" title="추가" height="24" style="vertical-align: middle;"> 버튼을 클릭합니다.
     - 검색할 조건(일치, 다중일치, 포함, 제외, 시작일치, 끝일치)을 선택하고 상세 조건을 입력한 후 <img src="./Source/CEREBRO AI/공통/버튼/relation-load.png" alt="불러오기 버튼" title="불러오기" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
 
-**화면 1.** 검색 필터에 항목과 일치·포함 등의 조건을 설정합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/055_분석_연관관계분석_검색필터_시연_01.png" alt="검색 필터에 항목과 일치·포함 등의 조건을 설정합니다." width="1100">
 </p>
-
-**화면 2.** 조건을 불러온 뒤 분석도에 표시되는 결과를 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/055_분석_연관관계분석_검색필터_시연_02.png" alt="조건을 불러온 뒤 분석도에 표시되는 결과를 확인합니다." width="1100">
@@ -1541,13 +1389,9 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
     - 오른쪽 도구에서 레이아웃 <img src="./Source/CEREBRO AI/공통/버튼/relation-layout.png" alt="레이아웃 버튼" title="레이아웃" height="24" style="vertical-align: middle;"> 버튼을 클릭합니다.
     - 클릭할 때마다 분포도의 배치 형태가 변경됩니다. (수평형, 수직형, 군집형)
 
-**화면 1.** 레이아웃을 전환하여 항목별 노드 배치를 바꿉니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/056_분석_연관관계분석_레이아웃_시연_01.png" alt="레이아웃을 전환하여 항목별 노드 배치를 바꿉니다." width="1100">
 </p>
-
-**화면 2.** 다른 배치 방식으로 같은 항목의 연결 관계를 살펴봅니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/056_분석_연관관계분석_레이아웃_시연_02.png" alt="다른 배치 방식으로 같은 항목의 연결 관계를 살펴봅니다." width="1100">
@@ -1564,13 +1408,9 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
     - 엣지설정에서 <img src="./Source/CEREBRO AI/공통/버튼/relation-plus.png" alt="추가 버튼" title="추가" height="24" style="vertical-align: middle;"> 를 클릭하여 노드 간 연결된 빈도수 별로 색상을 다르게 표기합니다.
       <br><img src="./Source/CEREBRO AI/공통/버튼/relation-plus.png" alt="추가 버튼" title="추가" height="24" style="vertical-align: middle;"> 버튼 클릭시 빈도수 기준이 차례로 추가되며 두께, 투명도를 조절할 수 있습니다.
 
-**화면 1.** 설정 패널에서 노드 간격·글씨 크기·이름과 엣지 표시를 조절합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/057_분석_연관관계분석_설정_시연_01.png" alt="설정 패널에서 노드 간격·글씨 크기·이름과 엣지 표시를 조절합니다." width="1100">
 </p>
-
-**화면 2.** 엣지의 빈도 구간과 색상·두께를 설정해 관계를 구분합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/057_분석_연관관계분석_설정_시연_02.png" alt="엣지의 빈도 구간과 색상·두께를 설정해 관계를 구분합니다." width="1100">
@@ -1583,13 +1423,9 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
     - 관계를 확인하고자 하는 노드 중 하나를 클릭합니다.
     - 노드 연관관계 창에서 클릭한 노드와 1차로 연결된 항목과 값을 확인할 수 있습니다.
 
-**화면 1.** 관계 도구를 선택하고 관심 노드를 클릭합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/058_분석_연관관계분석_관계_시연_01.png" alt="관계 도구를 선택하고 관심 노드를 클릭합니다." width="1100">
 </p>
-
-**화면 2.** 노드 연관관계 패널에서 연결된 항목과 값을 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/058_분석_연관관계분석_관계_시연_02.png" alt="노드 연관관계 패널에서 연결된 항목과 값을 확인합니다." width="1100">
@@ -1604,19 +1440,13 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 >     - **연계분석** <img src="./Source/CEREBRO AI/공통/버튼/relation-linked.png" alt="연계분석 버튼" title="연계분석" height="24" style="vertical-align: middle;"> 버튼을 다시 클릭하면 연결한 데이터셋에서 **사기**에 해당하는 데이터가 별도 분석 화면에 표시됩니다.
 >     - **분할 방향 → 상하**를 선택하면 기존 분석 화면은 위쪽에, 연결된 분석 화면은 아래쪽에 표시됩니다.
 >
-> **화면 1.** 연관관계 설정에서 연결할 데이터셋과 컬럼을 지정합니다.
->
 > <p align="center">
 >   <img src="./Source/CEREBRO AI/사진구성/059_분석_연관관계분석_관계_데이터셋연결_상하분할_시연_01.png" alt="연관관계 설정에서 연결할 데이터셋과 컬럼을 지정합니다." width="680">
 > </p>
 >
-> **화면 2.** 선택한 값과 연결된 데이터를 별도 분석 화면에서 확인합니다.
->
 > <p align="center">
 >   <img src="./Source/CEREBRO AI/사진구성/059_분석_연관관계분석_관계_데이터셋연결_상하분할_시연_02.png" alt="선택한 값과 연결된 데이터를 별도 분석 화면에서 확인합니다." width="1100">
 > </p>
->
-> **화면 3.** 분할 방향을 상하로 바꿔 두 분석 화면을 위아래로 비교합니다.
 >
 > <p align="center">
 >   <img src="./Source/CEREBRO AI/사진구성/059_분석_연관관계분석_관계_데이터셋연결_상하분할_시연_03.png" alt="분할 방향을 상하로 바꿔 두 분석 화면을 위아래로 비교합니다." width="1100">
@@ -1630,13 +1460,9 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
     - 항목 및 노드를 선택한 후 <img src="./Source/CEREBRO AI/공통/버튼/relation-plus.png" alt="추가 버튼" title="추가" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 패턴에 노드를 추가합니다.
     - 입력한 노드간 패턴 관계가 분포도에 표기됩니다.
 
-**화면 1.** 패턴에 포함할 항목과 노드를 순서대로 추가합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/060_분석_연관관계분석_패턴분석_시연_01.png" alt="패턴에 포함할 항목과 노드를 순서대로 추가합니다." width="1100">
 </p>
-
-**화면 2.** 등록한 패턴에 해당하는 연결 경로를 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/060_분석_연관관계분석_패턴분석_시연_02.png" alt="등록한 패턴에 해당하는 연결 경로를 확인합니다." width="1100">
@@ -1651,13 +1477,9 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
     - 빈도 분석(상위 퍼센트)에서 1%, 5%, 10%, 20% 중 하나를 선택하여 자주 나타나는 연결 경로의 표시 범위를 조절합니다.
         - 1%처럼 작은 비율은 빈도가 높은 경로에 집중할 때, 20%처럼 큰 비율은 더 많은 경로를 함께 살펴볼 때 사용합니다.
 
-**화면 1.** 빈도분석에서 상위 경로를 추가하거나 상위 비율을 선택합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/061_분석_연관관계분석_빈도분석_시연_01.png" alt="빈도분석에서 상위 경로를 추가하거나 상위 비율을 선택합니다." width="1100">
 </p>
-
-**화면 2.** 색으로 구분된 빈도 경로를 분석도에서 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/061_분석_연관관계분석_빈도분석_시연_02.png" alt="색으로 구분된 빈도 경로를 분석도에서 확인합니다." width="1100">
@@ -1669,13 +1491,9 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
     - 분석도를 확대하거나 이동한 후 오른쪽 도구에서 초점 <img src="./Source/CEREBRO AI/공통/버튼/relation-focus.png" alt="초점 버튼" title="초점" height="24" style="vertical-align: middle;"> 버튼을 클릭합니다.
     - 초점이 가운데로 재지정 되어 분포도가 표기됩니다.
 
-**화면 1.** 확대하거나 이동한 분석도의 현재 위치를 확인합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/062_분석_연관관계분석_초점_시연_01.png" alt="확대하거나 이동한 분석도의 현재 위치를 확인합니다." width="1100">
 </p>
-
-**화면 2.** 초점 도구를 사용하여 전체 관계가 보이도록 화면을 정리합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/062_분석_연관관계분석_초점_시연_02.png" alt="초점 도구를 사용하여 전체 관계가 보이도록 화면을 정리합니다." width="1100">
@@ -1688,13 +1506,9 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
     - 저장 확인 창에서 예 <img src="./Source/CEREBRO AI/공통/버튼/common-yes.png" alt="예 버튼" title="예" height="26" style="vertical-align: middle;">를 클릭하여 저장합니다.
     - 이후 저장된 위젯 <img src="./Source/CEREBRO AI/공통/버튼/relation-saved.png" alt="저장된 위젯 버튼" title="저장된 위젯" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 저장한 위젯을 확인하고 불러오거나 이름 변경 <img src="./Source/CEREBRO AI/공통/버튼/relation-rename.png" alt="이름 변경 버튼" title="이름 변경" height="24" style="vertical-align: middle;">, 삭제 <img src="./Source/CEREBRO AI/공통/버튼/relation-delete.png" alt="삭제 버튼" title="삭제" height="24" style="vertical-align: middle;">할 수 있습니다.
 
-**화면 1.** 위젯 이름을 입력하고 분석도를 저장합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/063_분석_연관관계분석_위젯저장_시연_01.png" alt="위젯 이름을 입력하고 분석도를 저장합니다." width="652">
 </p>
-
-**화면 2.** 저장된 위젯 목록에서 이름을 확인하고 불러오거나 관리합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/063_분석_연관관계분석_위젯저장_시연_02.png" alt="저장된 위젯 목록에서 이름을 확인하고 불러오거나 관리합니다." width="776">
@@ -1708,13 +1522,9 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
     - 통합필터 <img src="./Source/CEREBRO AI/공통/버튼/relation-filter.png" alt="필터 버튼" title="필터" height="26" style="vertical-align: middle;">를 사용하면 분할된 모든 화면에 같은 검색 조건을 적용합니다.
     - 오른쪽 닫기 <img src="./Source/CEREBRO AI/공통/버튼/relation-dialog-close.png" alt="닫기 버튼" title="닫기" height="24" style="vertical-align: middle;"> 버튼을 클릭하여 분할된 화면을 닫습니다.
 
-**화면 1.** 미러 분석으로 화면을 나누고 비교할 조건을 설정합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/064_분석_연관관계분석_미러분석_시연_01.png" alt="미러 분석으로 화면을 나누고 비교할 조건을 설정합니다." width="1100">
 </p>
-
-**화면 2.** 화면 동기화와 통합 필터로 두 분석도를 비교합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/064_분석_연관관계분석_미러분석_시연_02.png" alt="화면 동기화와 통합 필터로 두 분석도를 비교합니다." width="1100">
@@ -2094,73 +1904,68 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 <!-- auth: LV3, LV2_41 -->
 
 
-> **💡 참고 : 보고서 주제 선정**
->
-> - 보고서 작성을 위한 주제를 선정하는 기능입니다.
-> - 업로드된 데이터와 연관된 주제로 작성해야 합니다.
->     - 제목 / 주제 : 보고서의 주제를 입력합니다.
->     - 톤 : 보고서 이용목적에 따라 공식 / 캐주얼 중 선택합니다.
->     - 분량 : 요약 / 표준 / 상세 중 하나를 선택합니다.
->
->
-> 보고서 주제와 작성 목적을 입력하고 톤·분량을 선택합니다.
->
-> <p align="center">
->   <img src="./Source/CEREBRO AI/사진구성/074_보고서_2_AI작성 (1)_01.png" alt="보고서 주제와 작성 목적을 입력하고 톤·분량을 선택합니다." width="1100">
-> </p>
+#### 4.1.1 보고서 주제 선정
+
+- 보고서 작성을 위한 주제를 선정하는 기능입니다.
+- 업로드된 데이터와 연관된 주제로 작성해야 합니다.
+    - 제목 / 주제 : 보고서의 주제를 입력합니다.
+    - 톤 : 보고서 이용목적에 따라 공식 / 캐주얼 중 선택합니다.
+    - 분량 : 요약 / 표준 / 상세 중 하나를 선택합니다.
+
+
+| 톤 | 표현 예시 | 활용 목적 |
+|---|---|---|
+| **공식** | “전월 대비 매출이 12% 증가했습니다.” | 업무 보고, 경영진 보고, 대외 제출 |
+| **캐주얼** | “지난달보다 매출이 12% 늘었어요.” | 팀 내 공유, 쉽고 친근한 설명 |
+
+<p align="center">
+  <img src="./Source/CEREBRO AI/사진구성/074_보고서_2_AI작성 (1)_01.png" alt="보고서 주제와 작성 목적을 입력하고 톤·분량을 선택합니다." width="1100">
+</p>
 
 <!-- 부연설명 구분 -->
 
-> **💡 참고 : 데이터셋 선택**
->
-> - 작성할 보고서의 주요 데이터 셋을 지정합니다.
->     - 최대 8개의 데이터셋을 선택할 수 있습니다.
->     - 너무 많은 데이터셋은 AI 컨텍스트가 길어져 품질이 떨어질 수 있습니다.
->
-> 보고서의 근거 자료로 사용할 보험금지급현황 데이터셋을 선택합니다.
->
-> <p align="center">
->   <img src="./Source/CEREBRO AI/사진구성/075_보고서_2_AI작성 (2)_01.png" alt="보고서의 근거 자료로 사용할 보험금지급현황 데이터셋을 선택합니다." width="1100">
-> </p>
+#### 4.1.2 데이터셋 선택
+
+- 작성할 보고서의 주요 데이터 셋을 지정합니다.
+    - 최대 8개의 데이터셋을 선택할 수 있습니다.
+    - 너무 많은 데이터셋은 AI 컨텍스트가 길어져 품질이 떨어질 수 있습니다.
+
+<p align="center">
+  <img src="./Source/CEREBRO AI/사진구성/075_보고서_2_AI작성 (2)_01.png" alt="보고서의 근거 자료로 사용할 보험금지급현황 데이터셋을 선택합니다." width="1100">
+</p>
 
 <!-- 부연설명 구분 -->
 
-> **💡 참고 : 위젯 추천 · 기존 대시보드 위젯**
->
-> - 작성한 주제와 선택한 데이터를 AI가 분석하여 위젯을 자동 생성합니다.
-> - 주제 관련도와 신뢰도를 기준으로 정렬하며, 채택을 통해 본문 보고서에 추가됩니다.
->     - 여러 위젯을 채택할 수 있으며, 모두 채택 <img src="./Source/CEREBRO AI/공통/버튼/report-all.png" alt="모두 채택 버튼" title="모두 채택" height="26" style="vertical-align: middle;"> / 모두 해제 <img src="./Source/CEREBRO AI/공통/버튼/report-none.png" alt="모두 해제 버튼" title="모두 해제" height="26" style="vertical-align: middle;"> / 추천 다시 받기 <img src="./Source/CEREBRO AI/공통/버튼/report-recommend.png" alt="추천 다시 받기 버튼" title="추천 다시 받기" height="26" style="vertical-align: middle;">를 사용할 수 있습니다.
->     - 보정 <img src="./Source/CEREBRO AI/공통/버튼/report-correct.png" alt="보정 버튼" title="보정" height="26" style="vertical-align: middle;"> 버튼으로 추천 위젯의 내용을 수정할 수 있습니다.
-> - 기존 대시보드 위젯 : 스튜디오에서 만든 대시보드와 위젯을 선택한 후 + 추가 <img src="./Source/CEREBRO AI/공통/버튼/report-add.png" alt="추가 버튼" title="추가" height="26" style="vertical-align: middle;">를 클릭하여 함께 넣습니다.
->     - 추가할 항목이 없는 경우 건너뛸 수 있습니다.
->     - 위젯을 선택하여 다음 <img src="./Source/CEREBRO AI/공통/버튼/report-next.png" alt="다음 버튼" title="다음" height="26" style="vertical-align: middle;">을 클릭합니다.
->
-> 추천된 위젯을 검토하고 보고서에 넣을 항목을 채택합니다.
->
-> <p align="center">
->   <img src="./Source/CEREBRO AI/사진구성/076_보고서_2_AI작성 (3)_시연_01.png" alt="추천된 위젯을 검토하고 보고서에 넣을 항목을 채택합니다." width="1100">
-> </p>
+#### 4.1.3 위젯 추천 · 기존 대시보드 위젯
+
+- 작성한 주제와 선택한 데이터를 AI가 분석하여 위젯을 자동 생성합니다.
+- 주제 관련도와 신뢰도를 기준으로 정렬하며, 채택을 통해 본문 보고서에 추가됩니다.
+    - 여러 위젯을 채택할 수 있으며, 모두 채택 <img src="./Source/CEREBRO AI/공통/버튼/report-all.png" alt="모두 채택 버튼" title="모두 채택" height="26" style="vertical-align: middle;"> / 모두 해제 <img src="./Source/CEREBRO AI/공통/버튼/report-none.png" alt="모두 해제 버튼" title="모두 해제" height="26" style="vertical-align: middle;"> / 추천 다시 받기 <img src="./Source/CEREBRO AI/공통/버튼/report-recommend.png" alt="추천 다시 받기 버튼" title="추천 다시 받기" height="26" style="vertical-align: middle;">를 사용할 수 있습니다.
+    - 보정 <img src="./Source/CEREBRO AI/공통/버튼/report-correct.png" alt="보정 버튼" title="보정" height="26" style="vertical-align: middle;"> 버튼으로 추천 위젯의 내용을 수정할 수 있습니다.
+- 기존 대시보드 위젯 : 스튜디오에서 만든 대시보드와 위젯을 선택한 후 + 추가 <img src="./Source/CEREBRO AI/공통/버튼/report-add.png" alt="추가 버튼" title="추가" height="26" style="vertical-align: middle;">를 클릭하여 함께 넣습니다.
+    - 추가할 항목이 없는 경우 건너뛸 수 있습니다.
+    - 위젯을 선택하여 다음 <img src="./Source/CEREBRO AI/공통/버튼/report-next.png" alt="다음 버튼" title="다음" height="26" style="vertical-align: middle;">을 클릭합니다.
+
+<p align="center">
+  <img src="./Source/CEREBRO AI/사진구성/076_보고서_2_AI작성 (3)_시연_01.png" alt="추천된 위젯을 검토하고 보고서에 넣을 항목을 채택합니다." width="1100">
+</p>
 
 <!-- 부연설명 구분 -->
 
-> **💡 참고 : 미리보기 & 저장**
->
-> - 작성한 주제와 선택한 데이터를 바탕으로 보고서 본문을 작성합니다.
->     - 본문 다시 만들기 <img src="./Source/CEREBRO AI/공통/버튼/report-regenerate.png" alt="본문 다시 만들기 버튼" title="본문 다시 만들기" height="26" style="vertical-align: middle;">를 클릭하여 본문을 재생성할 수 있습니다.
->     - 최종 보고서 제목을 확인한 후 보고서 저장 <img src="./Source/CEREBRO AI/공통/버튼/report-save-report.png" alt="보고서 저장 버튼" title="보고서 저장" height="26" style="vertical-align: middle;">을 클릭합니다.
->     - 보고서 저장 후 편집 화면이 열리며, AI로 만들어진 보고서에서 수정이 가능합니다.
->
-> **화면 1.** 생성된 본문과 최종 제목을 검토한 뒤 보고서를 저장합니다.
->
-> <p align="center">
->   <img src="./Source/CEREBRO AI/사진구성/077_보고서_2_AI작성 (4)_시연_01.png" alt="생성된 본문과 최종 제목을 검토한 뒤 보고서를 저장합니다." width="1100">
-> </p>
->
-> **화면 2.** 편집 화면에서 완성된 보고서의 차트와 본문을 확인합니다.
->
-> <p align="center">
->   <img src="./Source/CEREBRO AI/사진구성/077_보고서_2_AI작성 (4)_시연_02.png" alt="편집 화면에서 완성된 보고서의 차트와 본문을 확인합니다." width="1100">
-> </p>
+#### 4.1.4 미리보기 & 저장
+
+- 작성한 주제와 선택한 데이터를 바탕으로 보고서 본문을 작성합니다.
+    - 본문 다시 만들기 <img src="./Source/CEREBRO AI/공통/버튼/report-regenerate.png" alt="본문 다시 만들기 버튼" title="본문 다시 만들기" height="26" style="vertical-align: middle;">를 클릭하여 본문을 재생성할 수 있습니다.
+    - 최종 보고서 제목을 확인한 후 보고서 저장 <img src="./Source/CEREBRO AI/공통/버튼/report-save-report.png" alt="보고서 저장 버튼" title="보고서 저장" height="26" style="vertical-align: middle;">을 클릭합니다.
+    - 보고서 저장 후 편집 화면이 열리며, AI로 만들어진 보고서에서 수정이 가능합니다.
+
+<p align="center">
+  <img src="./Source/CEREBRO AI/사진구성/077_보고서_2_AI작성 (4)_시연_01.png" alt="생성된 본문과 최종 제목을 검토한 뒤 보고서를 저장합니다." width="1100">
+</p>
+
+<p align="center">
+  <img src="./Source/CEREBRO AI/사진구성/077_보고서_2_AI작성 (4)_시연_02.png" alt="편집 화면에서 완성된 보고서의 차트와 본문을 확인합니다." width="1100">
+</p>
 
 <!-- 부연설명 구분 -->
 
@@ -2182,13 +1987,9 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
     - 기본 템플릿 복원 <img src="./Source/CEREBRO AI/공통/버튼/report-restore.png" alt="기본 템플릿 복원 버튼" title="기본 템플릿 복원" height="26" style="vertical-align: middle;">을 클릭하면 제공되는 기본 템플릿을 다시 불러옵니다.
 - 저장 후 템플릿을 활용하여 보고서를 작성 할 수 있습니다.
 
-**화면 1.** 제목·본문 등 공통 블록을 배치해 반복해서 사용할 보고서 양식을 만듭니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/078_보고서_1_템플릿_01.png" alt="제목·본문 등 공통 블록을 배치해 반복해서 사용할 보고서 양식을 만듭니다." width="1100">
 </p>
-
-**화면 2.** 템플릿의 출력 형태를 미리 확인하고 저장합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/078_보고서_1_템플릿_02.png" alt="템플릿의 출력 형태를 미리 확인하고 저장합니다." width="1100">
@@ -2203,13 +2004,9 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 >     - 불러온 템플릿에서 제목과 블록을 수정합니다.
 >     - 저장 <img src="./Source/CEREBRO AI/공통/버튼/report-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;">을 눌러 저장합니다.
 >
-> **화면 1.** 템플릿에서 만들기를 선택한 뒤 사용할 양식을 고릅니다.
->
 > <p align="center">
 >   <img src="./Source/CEREBRO AI/사진구성/079_보고서_템플릿보고서만들기_01.png" alt="템플릿에서 만들기를 선택한 뒤 사용할 양식을 고릅니다." width="598">
 > </p>
->
-> **화면 2.** 불러온 양식에서 제목과 분석 내용을 수정하여 새 보고서를 작성합니다.
 >
 > <p align="center">
 >   <img src="./Source/CEREBRO AI/사진구성/079_보고서_템플릿보고서만들기_02.png" alt="불러온 양식에서 제목과 분석 내용을 수정하여 새 보고서를 작성합니다." width="1100">
@@ -2222,21 +2019,20 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 - 새로운 보고서를 작성하는 기능입니다.
     - 보고서 목록에서 빈 보고서 <img src="./Source/CEREBRO AI/공통/버튼/report-blank.png" alt="빈 보고서 버튼" title="빈 보고서" height="26" style="vertical-align: middle;">를 클릭합니다.
     - 블록을 선택하여 보고서 내용을 작성합니다.
-        - H1 제목 <img src="./Source/CEREBRO AI/공통/버튼/report-title.png" alt="H1 제목 버튼" title="H1 제목" height="26" style="vertical-align: middle;"> / 본문 <img src="./Source/CEREBRO AI/공통/버튼/report-body.png" alt="본문 버튼" title="본문" height="26" style="vertical-align: middle;"> / 페이지 구분 <img src="./Source/CEREBRO AI/공통/버튼/report-break.png" alt="페이지 구분 버튼" title="페이지 구분" height="26" style="vertical-align: middle;"> / 표 <img src="./Source/CEREBRO AI/공통/버튼/report-table.png" alt="표 버튼" title="표" height="26" style="vertical-align: middle;"> - 제목, 문단, 인쇄 시 쪽 나눔, 표를 추가합니다.
-        - 위젯 - 위젯 선택 <img src="./Source/CEREBRO AI/공통/버튼/report-widget.png" alt="위젯 선택 버튼" title="위젯 선택" height="26" style="vertical-align: middle;">을 클릭하여 BI(OLAP), 차트, 연관관계에서 저장한 위젯을 넣습니다.
+        - H1 제목 / 본문 / 페이지 구분 / 표
+            - <img src="./Source/CEREBRO AI/공통/버튼/report-title.png" alt="H1 제목 버튼" title="H1 제목" height="26" style="vertical-align: middle;"> / <img src="./Source/CEREBRO AI/공통/버튼/report-body.png" alt="본문 버튼" title="본문" height="26" style="vertical-align: middle;"> : 제목과 본문을 추가합니다.
+            - <img src="./Source/CEREBRO AI/공통/버튼/report-break.png" alt="페이지 구분 버튼" title="페이지 구분" height="26" style="vertical-align: middle;"> : 인쇄 시 쪽을 나눕니다.
+            - <img src="./Source/CEREBRO AI/공통/버튼/report-table.png" alt="표 버튼" title="표" height="26" style="vertical-align: middle;"> : 표를 추가합니다.
+        - 위젯 - <img src="./Source/CEREBRO AI/공통/버튼/report-widget.png" alt="위젯 선택 버튼" title="위젯 선택" height="26" style="vertical-align: middle;">을 클릭하여 BI(OLAP), 차트, 연관관계에서 저장한 위젯을 넣습니다.
         - AI 블록 추가 <img src="./Source/CEREBRO AI/공통/버튼/report-ai-block.png" alt="AI 블록 추가 버튼" title="AI 블록 추가" height="26" style="vertical-align: middle;"> - 프롬프트로 보고서 블록을 자동으로 생성할 수 있습니다.
     - 미리보기 <img src="./Source/CEREBRO AI/공통/버튼/report-preview.png" alt="미리보기 버튼" title="미리보기" height="26" style="vertical-align: middle;">로 문서를 출력 화면을 확인합니다.
     - 저장 <img src="./Source/CEREBRO AI/공통/버튼/report-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 후 인쇄 <img src="./Source/CEREBRO AI/공통/버튼/report-print.png" alt="인쇄 버튼" title="인쇄" height="26" style="vertical-align: middle;">(인쇄 / PDF 저장), 공유 <img src="./Source/CEREBRO AI/공통/버튼/report-share.png" alt="공유 버튼" title="공유" height="26" style="vertical-align: middle;">(그룹 공유), 최신화 <img src="./Source/CEREBRO AI/공통/버튼/report-refresh.png" alt="최신화 버튼" title="최신화" height="26" style="vertical-align: middle;">(위젯 데이터 갱신) 버튼을 사용할 수 있습니다.
       
 <!-- auth: LV3, LV2_43 -->
 
-**화면 1.** 빈 보고서에 제목·본문 블록을 추가하고 내용을 작성합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/080_보고서_빈보고서만들기_01.png" alt="빈 보고서에 제목·본문 블록을 추가하고 내용을 작성합니다." width="1100">
 </p>
-
-**화면 2.** 저장한 보고서를 미리보기로 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/080_보고서_빈보고서만들기_02.png" alt="저장한 보고서를 미리보기로 확인합니다." width="1100">
@@ -2267,7 +2063,7 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 
 ### 5.1 대시보드 생성
 
-- 새 대시보드를 만들고 제목을 지정하여 저장하는 기능입니다.
+- 새 대시보드를 만들고 제목을 지정하여 저장합니다.
 
 1. 상단 **스튜디오** 메뉴에서 **새 대시보드** <img src="./Source/CEREBRO AI/공통/버튼/studio-new.png" alt="새 대시보드 버튼" title="새 대시보드" height="26" style="vertical-align: middle;">를 클릭합니다.
 2. 상단 제목 입력란에 대시보드 이름을 입력합니다.
@@ -2276,13 +2072,9 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 
 <!-- auth: LV3, LV2_51 -->
 
-**화면 1.** 대시보드 제목을 입력하고 저장합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/081_스튜디오_51_대시보드생성_01.png" alt="대시보드 제목을 입력하고 저장합니다." width="1100">
 </p>
-
-**화면 2.** 저장 창에서 대시보드 제목을 확인하고 저장을 완료합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/081_스튜디오_51_대시보드생성_02.png" alt="저장 창에서 대시보드 제목을 확인하고 저장을 완료합니다." width="687">
@@ -2291,8 +2083,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 > **💡 참고 : 다른 이름으로 저장 · 실행 취소 · 다시 실행**
 >
 > **다른 이름으로 저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save-as.png" alt="다른 이름으로 저장 버튼" title="다른 이름으로 저장" height="24" style="vertical-align: middle;">으로 현재 대시보드를 새 이름의 사본으로 저장합니다. **실행 취소** <img src="./Source/CEREBRO AI/공통/버튼/studio-undo.png" alt="실행 취소 버튼" title="실행 취소" height="24" style="vertical-align: middle;">는 직전 편집을 되돌리고, **다시 실행** <img src="./Source/CEREBRO AI/공통/버튼/studio-redo.png" alt="다시 실행 버튼" title="다시 실행" height="24" style="vertical-align: middle;">은 취소한 편집을 다시 적용합니다.
-
-다른 이름으로 저장 창에서 제목을 바꾸어 별도 대시보드로 저장할 수 있습니다. 실행취소·다시실행은 상단 도구에서 사용합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/082_스튜디오_51_다른이름저장_실행취소_01.png" alt="다른 이름으로 저장 창에서 제목을 바꾸어 별도 대시보드로 저장할 수 있습니다. 실행취소·다시실행은 상단 도구에서 사용합니다." width="526">
@@ -2305,8 +2095,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 > **💡 참고 : 대시보드 목록 관리**
 >
 > 스튜디오 목록에서 **전체·내 대시보드·공유받음**을 선택하여 목록을 확인합니다. **열기** <img src="./Source/CEREBRO AI/공통/버튼/studio-open.png" alt="열기 버튼" title="열기" height="26" style="vertical-align: middle;">로 편집 화면에 들어가고, **복제** <img src="./Source/CEREBRO AI/공통/버튼/studio-duplicate.png" alt="복제 버튼" title="복제" height="24" style="vertical-align: middle;">로 사본을 만들거나 **삭제** <img src="./Source/CEREBRO AI/공통/버튼/studio-delete.png" alt="삭제 버튼" title="삭제" height="24" style="vertical-align: middle;">로 불필요한 대시보드를 제거합니다.
-
-스튜디오 목록에서 대시보드를 열고 관리합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/083_대시보드_대시보드관리_01.png" alt="스튜디오 목록에서 대시보드를 열고 관리합니다." width="1100">
@@ -2324,8 +2112,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 
 <!-- auth: LV3, LV2_52 -->
 
-페이지 추가로 화면을 나누고 왼쪽 목록에서 페이지 순서를 관리합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/084_스튜디오_52_페이지관리_01.png" alt="페이지 추가로 화면을 나누고 왼쪽 목록에서 페이지 순서를 관리합니다." width="1100">
 </p>
@@ -2337,8 +2123,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 3. **위젯 간격**을 입력합니다. 자동 정렬 시 적용되며 기본값은 16px입니다.
 4. 설정한 화면을 확인하고 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
 
-페이지 설정에서 배경색·캔버스 크기·위젯 간격을 조절합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/085_스튜디오_52_캔버스속성_01.png" alt="페이지 설정에서 배경색·캔버스 크기·위젯 간격을 조절합니다." width="1100">
 </p>
@@ -2346,8 +2130,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 > **💡 참고 : 배경 페이지**
 >
 > 왼쪽 **배경 페이지 추가** <img src="./Source/CEREBRO AI/공통/버튼/studio-background-add.png" alt="배경 페이지 추가 버튼" title="배경 페이지 추가" height="26" style="vertical-align: middle;">로 공통 제목이나 안내를 구성합니다. 일반 페이지의 **페이지 설정 → 배경 페이지**에서 해당 배경을 선택하면 여러 페이지에 공통 구성을 사용할 수 있습니다.
-
-공통으로 표시할 요소를 배경 페이지에 구성한 뒤 사용할 페이지에서 배경으로 지정합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/086_스튜디오_52_배경페이지_01.png" alt="공통으로 표시할 요소를 배경 페이지에 구성한 뒤 사용할 페이지에서 배경으로 지정합니다." width="1100">
@@ -2377,13 +2159,9 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 3. X축에 보험종류를 지정하고, 값에 보험금을 추가하여 합계로 집계합니다.
 4. 스타일 탭에서 차트 유형과 제목을 설정하고 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
 
-**화면 1.** 보험금지급현황을 연결하고 X축에 보험종류, 값에 보험금 합계를 지정합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/087_스튜디오_5311_차트_01.png" alt="보험금지급현황을 연결하고 X축에 보험종류, 값에 보험금 합계를 지정합니다." width="1100">
 </p>
-
-**화면 2.** 배치 탭에서 차트의 위치·크기를 조절합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/087_스튜디오_5311_차트_02.png" alt="배치 탭에서 차트의 위치·크기를 조절합니다." width="1100">
@@ -2398,8 +2176,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 3. 스타일 탭에서 제목을 보험금 총액으로, 레이블을 보험금 합계(원)로 입력합니다.
 4. 글자 크기를 조절한 후 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
 
-보험금 합계를 선택하여 전체 지급 금액을 KPI로 표시합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/088_스튜디오_5312_KPI_01.png" alt="보험금 합계를 선택하여 전체 지급 금액을 KPI로 표시합니다." width="1100">
 </p>
@@ -2412,8 +2188,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 2. 보험금지급현황에서 보험금을 선택하고 평균으로 집계합니다.
 3. 스타일 탭에서 제목을 평균 보험금으로 입력합니다.
 4. 최소 0, 최대 10000000으로 범위를 설정하고 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
-
-보험금 평균을 게이지의 값으로 지정합니다. 표시 범위와 색상은 스타일에서 조정합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/089_스튜디오_5313_게이지_01.png" alt="보험금 평균을 게이지의 값으로 지정합니다. 표시 범위와 색상은 스타일에서 조정합니다." width="1100">
@@ -2432,8 +2206,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 3. 정렬 컬럼을 보험금, 정렬 방향을 내림차순으로 지정합니다.
 4. 행 수 제한을 20으로 입력하고 제목을 설정한 후 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
 
-보험금지급현황을 연결하여 행별 데이터를 표로 조회합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/090_스튜디오_5314_테이블_01.png" alt="보험금지급현황을 연결하여 행별 데이터를 표로 조회합니다." width="1100">
 </p>
@@ -2446,8 +2218,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 2. 보험금지급현황을 선택하고 행에 보험종류, 열에 보험사기여부를 지정합니다.
 3. 값 추가 <img src="./Source/CEREBRO AI/공통/버튼/studio-value-add.png" alt="값 추가 버튼" title="값 추가" height="24" style="vertical-align: middle;">를 클릭하여 보험금을 합계로 집계합니다.
 4. 표에 표시된 집계 결과를 확인하고 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
-
-행에 보험종류, 열에 성별, 값에 보험금 합계를 지정하여 교차 집계 결과를 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/091_스튜디오_5315_피벗_01.png" alt="행에 보험종류, 열에 성별, 값에 보험금 합계를 지정하여 교차 집계 결과를 확인합니다." width="1100">
@@ -2463,8 +2233,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 4. 적용 대상에서 차트를 선택하고 적용 컬럼을 보험사기여부로 지정합니다.
 5. 미리보기에서 사기를 선택하여 연결된 차트를 확인한 후 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
 
-필터 컬럼에 보험종류를 지정하고 같은 페이지의 차트를 적용 대상으로 선택합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/092_스튜디오_5316_필터_01.png" alt="필터 컬럼에 보험종류를 지정하고 같은 페이지의 차트를 적용 대상으로 선택합니다." width="1100">
 </p>
@@ -2479,8 +2247,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 2. 내용(마크다운)에 제목과 설명을 입력합니다.
 3. 글자 크기와 정렬 등 서식을 지정하고 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
 
-마크다운으로 제목과 안내 문구를 작성하고 글꼴·정렬·색상을 조절합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/093_스튜디오_5321_텍스트_01.png" alt="마크다운으로 제목과 안내 문구를 작성하고 글꼴·정렬·색상을 조절합니다." width="1100">
 </p>
@@ -2494,8 +2260,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 3. 미리보기에서 제목을 클릭하여 내용이 펼쳐지는지 확인합니다.
 4. 편집 화면으로 돌아와 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
 
-접이식 설명 위젯의 내용과 표시 스타일을 설정합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/094_스튜디오_5322_접이식설명_01.png" alt="접이식 설명 위젯의 내용과 표시 스타일을 설정합니다." width="1100">
 </p>
@@ -2508,8 +2272,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 2. 집계 기간에 업로드 자료 전체를 입력합니다.
 3. 출처를 데이터마트 · 보험금지급현황으로, 담당자를 보험금 분석팀으로 입력합니다.
 4. 출처 주소를 입력하고 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
-
-데이터 기준·출처 위젯의 내용과 표시 스타일을 설정합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/095_스튜디오_5323_데이터기준_출처_01.png" alt="데이터 기준·출처 위젯의 내용과 표시 스타일을 설정합니다." width="1100">
@@ -2526,8 +2288,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 3. 연결 주소와 링크 문구를 지정합니다. 예시는 데이터마트로 이동하도록 설정합니다.
 4. 카드 내용을 확인하고 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
 
-정보 카드 위젯의 내용과 표시 스타일을 설정합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/096_스튜디오_5331_정보카드_01.png" alt="정보 카드 위젯의 내용과 표시 스타일을 설정합니다." width="1100">
 </p>
@@ -2540,8 +2300,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 2. 보험금지급현황을 선택하고 보험금을 합계로 집계합니다.
 3. 요약 문장에 보험금 총액은 {{value}}원입니다.를 입력합니다.
 4. 소수 자릿수를 지정하고 집계값이 포함된 문장을 확인한 후 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
-
-데이터 탭에서 보험금 합계를 연결하고 요약 문장의 {{value}}로 집계값을 표시합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/097_스튜디오_5332_동적요약_01.png" alt="데이터 탭에서 보험금 합계를 연결하고 요약 문장의 {{value}}로 집계값을 표시합니다." width="1100">
@@ -2558,8 +2316,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 3. 이미지 업로드로 파일을 등록하거나 이미지 URL을 입력합니다.
 4. 맞춤 방식을 지정하고 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다. 예시는 보험종류별 보험금 차트를 이미지로 넣습니다.
 
-이미지를 업로드한 뒤 맞춤 방식과 클릭 시 이동 동작을 설정합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/098_스튜디오_5341_이미지_01.png" alt="이미지를 업로드한 뒤 맞춤 방식과 클릭 시 이동 동작을 설정합니다." width="1100">
 </p>
@@ -2573,8 +2329,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 3. 배치를 슬라이드로 변경하고 자동 넘김 간격을 지정합니다.
 4. 미리보기에서 이미지 전환을 확인하고 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
 
-이미지 주소와 사진 설명을 입력하고 격자·슬라이드 배치를 선택합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/099_스튜디오_5342_이미지갤러리_01.png" alt="이미지 주소와 사진 설명을 입력하고 격자·슬라이드 배치를 선택합니다." width="1100">
 </p>
@@ -2586,8 +2340,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 1. 위젯 추가 <img src="./Source/CEREBRO AI/공통/버튼/studio-widget-add.png" alt="위젯 추가 버튼" title="위젯 추가" height="26" style="vertical-align: middle;"> → 미디어 → 동영상을 선택합니다.
 2. 영상 주소에 MP4·WebM 또는 YouTube 주소를 입력합니다.
 3. 설명을 입력하고 미리보기에서 표시 상태를 확인한 후 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
-
-동영상 주소와 설명을 입력하여 대시보드에 소개 영상을 연결합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/100_스튜디오_5343_동영상_01.png" alt="동영상 주소와 설명을 입력하여 대시보드에 소개 영상을 연결합니다." width="1100">
@@ -2603,8 +2355,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 2. 보고서 목록에서 매뉴얼_보험금지급현황_보고서예시를 선택합니다.
 3. 위젯 크기를 조절하여 보고서 내용을 확인하고 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
 
-저장한 보험금지급현황 요약 보고서를 위젯으로 연결합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/101_스튜디오_5351_보고서_01.png" alt="저장한 보험금지급현황 요약 보고서를 위젯으로 연결합니다." width="1100">
 </p>
@@ -2617,8 +2367,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 2. 미리보기 PDF 주소를 입력합니다.
 3. 파일 이름과 파일 주소를 지정합니다. 필요한 경우 항목 추가로 파일을 더 넣습니다.
 4. 파일 크기 표시 등 옵션을 설정하고 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
-
-파일 이름과 문서 주소를 연결하고 파일 크기·다운로드 횟수 표시 여부를 설정합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/102_스튜디오_5352_문서_첨부파일_01.png" alt="파일 이름과 문서 주소를 연결하고 파일 크기·다운로드 횟수 표시 여부를 설정합니다." width="1100">
@@ -2637,8 +2385,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 3. 이동할 페이지나 URL을 설정합니다.
 4. 미리보기에서 이동 동작을 확인한 후 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
 
-링크의 라벨을 입력하고 이동할 내부 페이지를 지정합니다. 외부 URL로도 연결할 수 있습니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/103_스튜디오_5361_링크_01.png" alt="링크의 라벨을 입력하고 이동할 내부 페이지를 지정합니다. 외부 URL로도 연결할 수 있습니다." width="1100">
 </p>
@@ -2652,8 +2398,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 3. 항목별 라벨과 이동할 페이지를 지정합니다.
 4. 방향과 간격을 설정하고 미리보기에서 페이지 이동을 확인한 후 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
 
-메뉴 항목의 이름과 이동 대상을 지정하여 페이지 탐색을 구성합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/104_스튜디오_5362_메뉴_01.png" alt="메뉴 항목의 이름과 이동 대상을 지정하여 페이지 탐색을 구성합니다." width="1100">
 </p>
@@ -2666,8 +2410,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 2. 각 항목의 날짜·단계, 제목, 설명을 입력합니다.
 3. 필요한 항목을 추가하고 방향을 세로 또는 가로로 지정합니다.
 4. 단계별 안내 내용을 확인하고 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
-
-단계별 제목·설명·상태를 지정하여 분석 절차나 진행 상황을 안내합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/105_스튜디오_5363_타임라인_단계안내_01.png" alt="단계별 제목·설명·상태를 지정하여 분석 절차나 진행 상황을 안내합니다." width="1100">
@@ -2684,8 +2426,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 3. 채우기와 테두리, 투명도 등을 지정합니다.
 4. 크기와 위치를 조절하고 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
 
-도형 위젯을 배치하고 색상·선·크기 등의 스타일을 설정합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/106_스튜디오_5371_도형_01.png" alt="도형 위젯을 배치하고 색상·선·크기 등의 스타일을 설정합니다." width="1100">
 </p>
@@ -2698,8 +2438,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 2. 방향과 회전 각도를 지정합니다.
 3. 두께·색상·선 스타일을 설정합니다.
 4. 길이와 위치를 조절하고 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
-
-직선 위젯을 배치하고 색상·선·크기 등의 스타일을 설정합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/107_스튜디오_5372_직선_01.png" alt="직선 위젯을 배치하고 색상·선·크기 등의 스타일을 설정합니다." width="1100">
@@ -2714,8 +2452,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 3. 두께와 선 스타일을 설정합니다.
 4. 캔버스에서 연결 위치를 조절하고 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
 
-화살표 위젯을 배치하고 색상·선·크기 등의 스타일을 설정합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/108_스튜디오_5373_화살표_01.png" alt="화살표 위젯을 배치하고 색상·선·크기 등의 스타일을 설정합니다." width="1100">
 </p>
@@ -2728,8 +2464,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 2. 내용(마크다운)에 설명을 입력합니다.
 3. 말풍선의 채우기·테두리·글자 스타일을 지정합니다.
 4. 캔버스에서 꼬리의 꼭짓점을 끌어 설명할 위치에 맞추고 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
-
-설명선 위젯을 배치하고 색상·선·크기 등의 스타일을 설정합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/109_스튜디오_5374_설명선_01.png" alt="설명선 위젯을 배치하고 색상·선·크기 등의 스타일을 설정합니다." width="1100">
@@ -2747,13 +2481,9 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 2. 사용할 위젯을 선택하여 현재 페이지에 추가합니다.
 3. 위젯의 위치와 크기를 조절하고 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
 
-**화면 1.** 분석에서 저장한 위젯을 선택하여 현재 페이지에 가져옵니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/110_스튜디오_538_저장된위젯_01.png" alt="분석에서 저장한 위젯을 선택하여 현재 페이지에 가져옵니다." width="586">
 </p>
-
-**화면 2.** 가져온 피벗 위젯을 캔버스에 배치하고 데이터와 스타일을 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/110_스튜디오_538_저장된위젯_02.png" alt="가져온 피벗 위젯을 캔버스에 배치하고 데이터와 스타일을 확인합니다." width="1100">
@@ -2766,8 +2496,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 > **💡 참고 : 저장된 위젯 관리**
 >
 > 스튜디오 목록의 **저장된 위젯** 탭에서 원본 데이터, 타입, 이름, 사용처와 저장일을 확인합니다. 위젯 이름을 클릭하여 미리보기·속성을 확인하고 수정하거나 **스튜디오로 가져오기** <img src="./Source/CEREBRO AI/공통/버튼/studio-import.png" alt="스튜디오로 가져오기 버튼" title="스튜디오로 가져오기" height="26" style="vertical-align: middle;">를 선택합니다.
-
-저장 위젯 목록에서 원본 데이터·유형·이름·사용처를 확인하고 관리합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/111_대시보드_저장된위젯_01.png" alt="저장 위젯 목록에서 원본 데이터·유형·이름·사용처를 확인하고 관리합니다." width="1100">
@@ -2791,8 +2519,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 
 <!-- auth: LV3, LV2_52 -->
 
-상단 정렬·스냅 도구와 왼쪽 레이어 목록으로 여러 위젯의 배치를 정리합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/112_스튜디오_54_정렬_스냅_레이어_01.png" alt="상단 정렬·스냅 도구와 왼쪽 레이어 목록으로 여러 위젯의 배치를 정리합니다." width="1100">
 </p>
@@ -2810,8 +2536,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 5. **편집** <img src="./Source/CEREBRO AI/공통/버튼/studio-edit.png" alt="편집 버튼" title="편집" height="26" style="vertical-align: middle;">을 클릭하여 편집 화면으로 돌아옵니다.
 
 <!-- auth: LV3, LV2_53 -->
-
-화면 배율과 자동 새로고침 주기를 선택합니다. 화면 맞춤과 미리보기도 상단에서 실행합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/113_스튜디오_55_화면보기_자동새로고침_01.png" alt="화면 배율과 자동 새로고침 주기를 선택합니다. 화면 맞춤과 미리보기도 상단에서 실행합니다." width="1100">
@@ -2836,8 +2560,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 
 <!-- auth: LV3, LV2_54 -->
 
-AI 도우미에서 원하는 위젯과 배치를 자연어로 요청하고 결과를 확인합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/114_스튜디오_56_AI도우미_01.png" alt="AI 도우미에서 원하는 위젯과 배치를 자연어로 요청하고 결과를 확인합니다." width="1100">
 </p>
@@ -2846,13 +2568,9 @@ AI 도우미에서 원하는 위젯과 배치를 자연어로 요청하고 결�
 >
 > 스튜디오 목록의 **AI 대시보드 생성** <img src="./Source/CEREBRO AI/공통/버튼/studio-ai-create.png" alt="AI 대시보드 생성 버튼" title="AI 대시보드 생성" height="26" style="vertical-align: middle;">에서 데이터셋을 선택합니다. **바로 생성** <img src="./Source/CEREBRO AI/공통/버튼/studio-direct-create.png" alt="바로 생성 버튼" title="바로 생성" height="26" style="vertical-align: middle;">은 데이터 통계를 바탕으로 위젯을 자동 배치하고, **대화로 만들기** <img src="./Source/CEREBRO AI/공통/버튼/studio-chat-create.png" alt="대화로 만들기 버튼" title="대화로 만들기" height="26" style="vertical-align: middle;">는 요청을 입력해 구성한 결과를 확인한 뒤 **대시보드 만들기** <img src="./Source/CEREBRO AI/공통/버튼/studio-create.png" alt="대시보드 만들기 버튼" title="대시보드 만들기" height="26" style="vertical-align: middle;">로 저장합니다.
 
-AI 대시보드 생성에서 분석할 데이터셋을 선택하고 생성 방식을 고릅니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/115_대시보드_자동생성_01.png" alt="AI 대시보드 생성에서 분석할 데이터셋을 선택하고 생성 방식을 고릅니다." width="1100">
 </p>
-
-대화로 만들기에서 필요한 차트·지표와 배치를 구체적으로 요청합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/116_대시보드_대화로만들기_01.png" alt="대화로 만들기에서 필요한 차트·지표와 배치를 구체적으로 요청합니다." width="1100">
@@ -2873,8 +2591,6 @@ AI 대시보드 생성에서 분석할 데이터셋을 선택하고 생성 방�
 4. 공유된 멤버와 권한을 확인합니다. 변경 내용은 바로 저장됩니다.
 
 
-멤버 공유에서 공유할 사용자·그룹을 검색하고 대상별 접근 권한을 지정합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/117_스튜디오_571_멤버공유_01.png" alt="멤버 공유에서 공유할 사용자·그룹을 검색하고 대상별 접근 권한을 지정합니다." width="586">
 </p>
@@ -2883,8 +2599,6 @@ AI 대시보드 생성에서 분석할 데이터셋을 선택하고 생성 방�
 >
 > 대시보드 공유와 원본 데이터셋의 권한은 별도로 확인합니다. 데이터셋 권한 부족 안내가 표시되면 데이터마트의 해당 데이터셋 **공유 설정**에서 같은 멤버에게 **조회** 권한을 부여합니다. 예시는 지정한 멤버에게만 권한을 추가하며 일반 액세스는 제한 상태로 유지합니다.
 
-
-대시보드와 별도로 원본 데이터셋의 공유 설정에서 조회 권한을 확인합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/118_스튜디오_571_데이터셋조회권한_01.png" alt="대시보드와 별도로 원본 데이터셋의 공유 설정에서 조회 권한을 확인합니다." width="706">
@@ -2898,13 +2612,9 @@ AI 대시보드 생성에서 분석할 데이터셋을 선택하고 생성 방�
 4. 관리자가 승인하면 활성화된 퍼블릭 링크를 확인합니다.
 5. 링크를 새 탭에서 열어 대시보드가 표시되는지 확인합니다.
 
-임베드·퍼블릭 탭에서 허용 도메인과 링크 요청·승인 상태를 확인합니다.
-
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/119_스튜디오_572_임베드_퍼블릭요청_01.png" alt="임베드·퍼블릭 탭에서 허용 도메인과 링크 요청·승인 상태를 확인합니다." width="586">
 </p>
-
-공개 링크를 새 탭에서 열면 편집 도구 없이 대시보드가 표시됩니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/120_스튜디오_퍼블릭_새탭_01.png" alt="공개 링크를 새 탭에서 열면 편집 도구 없이 대시보드가 표시됩니다." width="1100">
@@ -2940,19 +2650,13 @@ AI 대시보드 생성에서 분석할 데이터셋을 선택하고 생성 방�
 >     - GPT에게 해당 문서에 대한 질문정보를 입력한 후 전송 <img src="./Source/CEREBRO AI/공통/버튼/gpt-send.png" alt="전송 버튼" title="전송" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
 >     - 사용자가 질의한 내용에 대해 문서의 근거 번호와 함께 분석한 결과를 산출합니다.
 >
-> **화면 1.** 내 문서에서 업로드한 PDF를 선택하고 AI 버튼으로 대화에 추가합니다.
->
 > <p align="center">
 >   <img src="./Source/CEREBRO AI/사진구성/121_GPT_문서질문_01.png" alt="내 문서에서 업로드한 PDF를 선택하고 AI 버튼으로 대화에 추가합니다." width="1100">
 > </p>
 >
-> **화면 2.** 선택한 문서가 입력창에 연결되어 있는지 확인하고 질문을 전송합니다.
->
 > <p align="center">
 >   <img src="./Source/CEREBRO AI/사진구성/121_GPT_문서질문_02.png" alt="선택한 문서가 입력창에 연결되어 있는지 확인하고 질문을 전송합니다." width="1100">
 > </p>
->
-> **화면 3.** 실습 안내 문서의 목적과 단계별 진행 순서에 대한 답변을 확인합니다.
 >
 > <p align="center">
 >   <img src="./Source/CEREBRO AI/사진구성/121_GPT_문서질문_03.png" alt="실습 안내 문서의 목적과 단계별 진행 순서에 대한 답변을 확인합니다." width="1100">
@@ -2968,19 +2672,13 @@ AI 대시보드 생성에서 분석할 데이터셋을 선택하고 생성 방�
 >     - GPT에게 해당 데이터에 대한 질문정보를 입력한 후 전송 <img src="./Source/CEREBRO AI/공통/버튼/gpt-send.png" alt="전송 버튼" title="전송" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
 >     - 사용자가 질의한 내용에 대해 분석한 결과를 표와 함께 산출합니다.
 >
-> **화면 1.** 분석 데이터 목록에서 질문할 보험금지급현황을 선택하고 AI로 연결합니다.
->
 > <p align="center">
 >   <img src="./Source/CEREBRO AI/사진구성/122_GPT_분석데이터질문_01.png" alt="분석 데이터 목록에서 질문할 보험금지급현황을 선택하고 AI로 연결합니다." width="1100">
 > </p>
 >
-> **화면 2.** 데이터가 연결된 상태에서 집계 기준과 필요한 결과 형식을 구체적으로 입력합니다.
->
 > <p align="center">
 >   <img src="./Source/CEREBRO AI/사진구성/122_GPT_분석데이터질문_02.png" alt="데이터가 연결된 상태에서 집계 기준과 필요한 결과 형식을 구체적으로 입력합니다." width="1100">
 > </p>
->
-> **화면 3.** 보험종류별 지급 건수와 보험금 합계의 상위 5개 집계 결과를 확인합니다.
 >
 > <p align="center">
 >   <img src="./Source/CEREBRO AI/사진구성/122_GPT_분석데이터질문_03.png" alt="보험종류별 지급 건수와 보험금 합계의 상위 5개 집계 결과를 확인합니다." width="1100">

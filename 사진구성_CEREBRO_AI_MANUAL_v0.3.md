@@ -2152,15 +2152,15 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 
 ##### 5.3.1.1 차트
 
-- 보험종류별 보험금 지급 규모를 차트로 비교하는 위젯입니다.
+- 데이터셋에서 선택한 컬럼의 값을 차트로 시각화하고 비교하는 위젯입니다.
 
 1. 위젯 추가 <img src="./Source/CEREBRO AI/공통/버튼/studio-widget-add.png" alt="위젯 추가 버튼" title="위젯 추가" height="26" style="vertical-align: middle;"> → 데이터 위젯 → 차트를 선택합니다.
-2. 데이터셋에서 보험금지급현황을 선택합니다.
-3. X축에 보험종류를 지정하고, 값에 보험금을 추가하여 합계로 집계합니다.
+2. 차트에 사용할 데이터셋을 선택합니다.
+3. X축에 데이터를 분류할 컬럼을 지정하고, 값에 집계할 컬럼을 추가하여 합계·평균 등 집계 방식을 선택합니다.
 4. 스타일 탭에서 차트 유형과 제목을 설정하고 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
 
 <p align="center">
-  <img src="./Source/CEREBRO AI/사진구성/087_스튜디오_5311_차트_01.png" alt="보험금지급현황을 연결하고 X축에 보험종류, 값에 보험금 합계를 지정합니다." width="1100">
+  <img src="./Source/CEREBRO AI/사진구성/087_스튜디오_5311_차트_01.png" alt="데이터셋을 연결하고 X축 컬럼, 값 컬럼, 집계 방식을 지정합니다." width="1100">
 </p>
 
 <p align="center">
@@ -2169,15 +2169,15 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 
 ##### 5.3.1.2 KPI
 
-- 보험금 총액처럼 핵심 수치를 하나의 값으로 표시하는 위젯입니다.
+- 선택한 컬럼의 집계 결과를 하나의 핵심 수치로 표시하는 위젯입니다.
 
 1. 위젯 추가 <img src="./Source/CEREBRO AI/공통/버튼/studio-widget-add.png" alt="위젯 추가 버튼" title="위젯 추가" height="26" style="vertical-align: middle;"> → 데이터 위젯 → KPI를 선택합니다.
-2. 보험금지급현황을 선택하고 값(Y)을 보험금, 집계를 합계로 지정합니다.
-3. 스타일 탭에서 제목을 보험금 총액으로, 레이블을 보험금 합계(원)로 입력합니다.
+2. 사용할 데이터셋을 선택하고 값(Y)에 집계할 컬럼과 집계 방식을 지정합니다.
+3. 스타일 탭에서 표시할 수치의 의미에 맞는 제목과 레이블을 입력합니다.
 4. 글자 크기를 조절한 후 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
 
 <p align="center">
-  <img src="./Source/CEREBRO AI/사진구성/088_스튜디오_5312_KPI_01.png" alt="보험금 합계를 선택하여 전체 지급 금액을 KPI로 표시합니다." width="1100">
+  <img src="./Source/CEREBRO AI/사진구성/088_스튜디오_5312_KPI_01.png" alt="선택한 컬럼의 집계 결과를 KPI로 표시합니다." width="1100">
 </p>
 
 ##### 5.3.1.3 게이지
@@ -2185,29 +2185,29 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 - 집계값을 지정한 범위 안에서 게이지로 표시하는 위젯입니다.
 
 1. 위젯 추가 <img src="./Source/CEREBRO AI/공통/버튼/studio-widget-add.png" alt="위젯 추가 버튼" title="위젯 추가" height="26" style="vertical-align: middle;"> → 데이터 위젯 → 게이지를 선택합니다.
-2. 보험금지급현황에서 보험금을 선택하고 평균으로 집계합니다.
-3. 스타일 탭에서 제목을 평균 보험금으로 입력합니다.
-4. 최소 0, 최대 10000000으로 범위를 설정하고 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
+2. 사용할 데이터셋과 값으로 표시할 컬럼을 선택하고 집계 방식을 지정합니다.
+3. 스타일 탭에서 표시할 값의 의미에 맞는 제목을 입력합니다.
+4. 데이터에 맞게 최소값과 최대값을 설정하고 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
 
 <p align="center">
-  <img src="./Source/CEREBRO AI/사진구성/089_스튜디오_5313_게이지_01.png" alt="보험금 평균을 게이지의 값으로 지정합니다. 표시 범위와 색상은 스타일에서 조정합니다." width="1100">
+  <img src="./Source/CEREBRO AI/사진구성/089_스튜디오_5313_게이지_01.png" alt="선택한 컬럼의 집계 결과를 게이지로 표시하고 범위와 색상을 조정합니다." width="1100">
 </p>
 
 > **💡 참고 : 게이지 설정 기준**
 >
-> 예시의 최대값 1천만 원은 게이지 표시 범위입니다. 목표 금액이나 달성률을 의미하지 않습니다. 비율을 표시하려면 값 형태에서 비율을 선택하고 분자·분모를 지정합니다.
+> 최소값과 최대값은 게이지에 표시할 데이터의 범위를 정합니다. 비율을 표시하려면 값 형태에서 비율을 선택하고 분자·분모를 지정합니다.
 
 ##### 5.3.1.4 테이블
 
 - 선택한 컬럼의 데이터를 표로 조회하는 위젯입니다.
 
 1. 위젯 추가 <img src="./Source/CEREBRO AI/공통/버튼/studio-widget-add.png" alt="위젯 추가 버튼" title="위젯 추가" height="26" style="vertical-align: middle;"> → 데이터 위젯 → 테이블을 선택합니다.
-2. 보험금지급현황에서 보험종류, 연령대, 보험금, 보험사기여부 컬럼을 선택합니다.
-3. 정렬 컬럼을 보험금, 정렬 방향을 내림차순으로 지정합니다.
-4. 행 수 제한을 20으로 입력하고 제목을 설정한 후 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
+2. 사용할 데이터셋을 선택하고 표에 표시할 컬럼을 지정합니다.
+3. 정렬 기준이 될 컬럼을 선택하고 오름차순 또는 내림차순으로 정렬 방향을 지정합니다.
+4. 표시할 행 수 제한과 제목을 설정한 후 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
 
 <p align="center">
-  <img src="./Source/CEREBRO AI/사진구성/090_스튜디오_5314_테이블_01.png" alt="보험금지급현황을 연결하여 행별 데이터를 표로 조회합니다." width="1100">
+  <img src="./Source/CEREBRO AI/사진구성/090_스튜디오_5314_테이블_01.png" alt="데이터셋을 연결하고 선택한 컬럼의 데이터를 표로 조회합니다." width="1100">
 </p>
 
 ##### 5.3.1.5 피벗
@@ -2215,26 +2215,26 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 - 행과 열로 데이터를 나누고 집계값을 교차표로 비교하는 위젯입니다.
 
 1. 위젯 추가 <img src="./Source/CEREBRO AI/공통/버튼/studio-widget-add.png" alt="위젯 추가 버튼" title="위젯 추가" height="26" style="vertical-align: middle;"> → 데이터 위젯 → 피벗을 선택합니다.
-2. 보험금지급현황을 선택하고 행에 보험종류, 열에 보험사기여부를 지정합니다.
-3. 값 추가 <img src="./Source/CEREBRO AI/공통/버튼/studio-value-add.png" alt="값 추가 버튼" title="값 추가" height="24" style="vertical-align: middle;">를 클릭하여 보험금을 합계로 집계합니다.
+2. 사용할 데이터셋을 선택하고 행과 열에 데이터를 분류할 컬럼을 지정합니다.
+3. 값 추가 <img src="./Source/CEREBRO AI/공통/버튼/studio-value-add.png" alt="값 추가 버튼" title="값 추가" height="24" style="vertical-align: middle;">를 클릭하여 집계할 컬럼과 집계 방식을 지정합니다.
 4. 표에 표시된 집계 결과를 확인하고 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
 
 <p align="center">
-  <img src="./Source/CEREBRO AI/사진구성/091_스튜디오_5315_피벗_01.png" alt="행에 보험종류, 열에 성별, 값에 보험금 합계를 지정하여 교차 집계 결과를 확인합니다." width="1100">
+  <img src="./Source/CEREBRO AI/사진구성/091_스튜디오_5315_피벗_01.png" alt="행과 열에 분류 컬럼을 지정하고 값 컬럼의 교차 집계 결과를 확인합니다." width="1100">
 </p>
 
 ##### 5.3.1.6 필터
 
 - 선택한 조건을 연결된 위젯에 적용하여 데이터를 좁혀 보는 위젯입니다.
 
-1. 같은 페이지에 보험종류별 보험금 차트를 준비합니다.
+1. 필터를 적용할 데이터 위젯을 같은 페이지에 추가합니다.
 2. 위젯 추가 <img src="./Source/CEREBRO AI/공통/버튼/studio-widget-add.png" alt="위젯 추가 버튼" title="위젯 추가" height="26" style="vertical-align: middle;"> → 데이터 위젯 → 필터를 선택합니다.
-3. 데이터셋은 보험금지급현황, 필터 컬럼은 보험사기여부로 지정합니다.
-4. 적용 대상에서 차트를 선택하고 적용 컬럼을 보험사기여부로 지정합니다.
-5. 미리보기에서 사기를 선택하여 연결된 차트를 확인한 후 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
+3. 필터에 사용할 데이터셋과 조건을 선택할 컬럼을 지정합니다.
+4. 적용 대상에서 연결할 위젯을 선택하고 필터 조건에 대응하는 적용 컬럼을 지정합니다.
+5. 미리보기에서 필터 값을 선택하여 연결된 위젯에 조건이 적용되는지 확인한 후 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
 
 <p align="center">
-  <img src="./Source/CEREBRO AI/사진구성/092_스튜디오_5316_필터_01.png" alt="필터 컬럼에 보험종류를 지정하고 같은 페이지의 차트를 적용 대상으로 선택합니다." width="1100">
+  <img src="./Source/CEREBRO AI/사진구성/092_스튜디오_5316_필터_01.png" alt="필터에 사용할 컬럼을 지정하고 같은 페이지의 위젯을 적용 대상으로 선택합니다." width="1100">
 </p>
 
 #### 5.3.2 텍스트
@@ -2269,8 +2269,8 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 - 자료의 집계 기준과 출처를 함께 표시하는 위젯입니다.
 
 1. 위젯 추가 <img src="./Source/CEREBRO AI/공통/버튼/studio-widget-add.png" alt="위젯 추가 버튼" title="위젯 추가" height="26" style="vertical-align: middle;"> → 텍스트 → 데이터 기준·출처를 선택합니다.
-2. 집계 기간에 업로드 자료 전체를 입력합니다.
-3. 출처를 데이터마트 · 보험금지급현황으로, 담당자를 보험금 분석팀으로 입력합니다.
+2. 자료의 집계 기준이 되는 기간을 입력합니다.
+3. 자료의 출처와 담당자 또는 담당 부서를 입력합니다.
 4. 출처 주소를 입력하고 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
 
 <p align="center">
@@ -2285,7 +2285,7 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 
 1. 위젯 추가 <img src="./Source/CEREBRO AI/공통/버튼/studio-widget-add.png" alt="위젯 추가 버튼" title="위젯 추가" height="26" style="vertical-align: middle;"> → 카드 → 정보 카드를 선택합니다.
 2. 제목과 설명을 입력합니다.
-3. 연결 주소와 링크 문구를 지정합니다. 예시는 데이터마트로 이동하도록 설정합니다.
+3. 이동할 페이지나 외부 주소를 입력하고 링크 문구를 지정합니다.
 4. 카드 내용을 확인하고 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
 
 <p align="center">
@@ -2297,12 +2297,12 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 - 데이터의 집계값을 문장 안에 표시하는 위젯입니다.
 
 1. 위젯 추가 <img src="./Source/CEREBRO AI/공통/버튼/studio-widget-add.png" alt="위젯 추가 버튼" title="위젯 추가" height="26" style="vertical-align: middle;"> → 카드 → 동적 요약을 선택합니다.
-2. 보험금지급현황을 선택하고 보험금을 합계로 집계합니다.
-3. 요약 문장에 보험금 총액은 {{value}}원입니다.를 입력합니다.
+2. 사용할 데이터셋과 집계할 컬럼을 선택하고 집계 방식을 지정합니다.
+3. 요약 문장에 `{{value}}`를 넣어 집계값이 표시될 위치를 지정하고, 필요한 설명과 단위를 함께 입력합니다.
 4. 소수 자릿수를 지정하고 집계값이 포함된 문장을 확인한 후 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
 
 <p align="center">
-  <img src="./Source/CEREBRO AI/사진구성/097_스튜디오_5332_동적요약_01.png" alt="데이터 탭에서 보험금 합계를 연결하고 요약 문장의 {{value}}로 집계값을 표시합니다." width="1100">
+  <img src="./Source/CEREBRO AI/사진구성/097_스튜디오_5332_동적요약_01.png" alt="데이터 탭에서 집계할 컬럼을 연결하고 요약 문장의 {{value}}로 집계값을 표시합니다." width="1100">
 </p>
 
 #### 5.3.4 미디어
@@ -2314,7 +2314,7 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 1. 대시보드 제목을 입력하고 먼저 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
 2. 위젯 추가 <img src="./Source/CEREBRO AI/공통/버튼/studio-widget-add.png" alt="위젯 추가 버튼" title="위젯 추가" height="26" style="vertical-align: middle;"> → 미디어 → 이미지를 선택합니다.
 3. 이미지 업로드로 파일을 등록하거나 이미지 URL을 입력합니다.
-4. 맞춤 방식을 지정하고 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다. 예시는 보험종류별 보험금 차트를 이미지로 넣습니다.
+4. 맞춤 방식을 지정하고 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
 
 <p align="center">
   <img src="./Source/CEREBRO AI/사진구성/098_스튜디오_5341_이미지_01.png" alt="이미지를 업로드한 뒤 맞춤 방식과 클릭 시 이동 동작을 설정합니다." width="1100">
@@ -2326,7 +2326,7 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 
 1. 위젯 추가 <img src="./Source/CEREBRO AI/공통/버튼/studio-widget-add.png" alt="위젯 추가 버튼" title="위젯 추가" height="26" style="vertical-align: middle;"> → 미디어 → 이미지 갤러리를 선택합니다.
 2. 이미지 주소와 사진 설명을 입력하고 항목 추가로 이미지를 더 넣습니다.
-3. 배치를 슬라이드로 변경하고 자동 넘김 간격을 지정합니다.
+3. 배치를 격자 또는 슬라이드로 선택합니다. 슬라이드를 사용할 경우 자동 넘김 간격을 지정합니다.
 4. 미리보기에서 이미지 전환을 확인하고 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
 
 <p align="center">
@@ -2352,11 +2352,11 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 - 사이트에 저장된 보고서를 대시보드에 표시하는 위젯입니다.
 
 1. 위젯 추가 <img src="./Source/CEREBRO AI/공통/버튼/studio-widget-add.png" alt="위젯 추가 버튼" title="위젯 추가" height="26" style="vertical-align: middle;"> → 문서 → 보고서를 선택합니다.
-2. 보고서 목록에서 매뉴얼_보험금지급현황_보고서예시를 선택합니다.
+2. 보고서 목록에서 대시보드에 표시할 보고서를 선택합니다.
 3. 위젯 크기를 조절하여 보고서 내용을 확인하고 **저장** <img src="./Source/CEREBRO AI/공통/버튼/studio-save.png" alt="저장 버튼" title="저장" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
 
 <p align="center">
-  <img src="./Source/CEREBRO AI/사진구성/101_스튜디오_5351_보고서_01.png" alt="저장한 보험금지급현황 요약 보고서를 위젯으로 연결합니다." width="1100">
+  <img src="./Source/CEREBRO AI/사진구성/101_스튜디오_5351_보고서_01.png" alt="목록에서 선택한 보고서를 위젯으로 연결합니다." width="1100">
 </p>
 
 ##### 5.3.5.2 문서·첨부파일
@@ -2372,7 +2372,7 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
   <img src="./Source/CEREBRO AI/사진구성/102_스튜디오_5352_문서_첨부파일_01.png" alt="파일 이름과 문서 주소를 연결하고 파일 크기·다운로드 횟수 표시 여부를 설정합니다." width="1100">
 </p>
 
-- 예제 파일: <a href="./Source/CEREBRO AI/6_대시보드/예제자료/보험금지급현황_대시보드_실습안내.pdf">보험금지급현황_대시보드_실습안내.pdf</a>
+- 예제 파일: <a href="./Source/CEREBRO AI/6_대시보드/예제자료/보험금지급현황_대시보드_실습안내.pdf">문서·첨부파일 위젯 실습용 PDF</a>
 
 #### 5.3.6 안내·이동
 

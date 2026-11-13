@@ -1,0 +1,104 @@
+{
+  "image_references": 501,
+  "gif_references": 122,
+  "unique_gif_files": 122,
+  "tables": 15,
+  "section_headings": 156,
+  "missing_local_files": [],
+  "broken_internal_anchors": [],
+  "external_page_dependencies": [],
+  "source": "CEREBRO_AI_MANUAL_v0.3.md",
+  "source_sha256": "ca3d9780cb19be4d8a6281d1e85758b1286ade3b9f156991c6b0abe86f061de7",
+  "gif_policy": "Original animated GIFs retained without conversion.",
+  "referenced_media_files": 329,
+  "media_bytes": 678624081,
+  "theme": "mkdocs-material 9.7.6",
+  "browser_validation": {
+    "initial": {
+      "title": "CEREBRO AI MANUAL",
+      "images": 501,
+      "gifs": 122,
+      "headings": 156,
+      "tables": 15,
+      "overflow": false,
+      "brokenVisibleImages": []
+    },
+    "layout": {
+      "toc_width": 242,
+      "toc_scale": 1,
+      "toc_inner_padding": "8px",
+      "toc_on_right": true,
+      "logo_content": "none",
+      "logo_background": "none",
+      "gifs_with_scale": 122
+    },
+    "gif_sizes": [
+      {
+        "content_center_offset": 0,
+        "toc_right_gap": 16,
+        "overflow": false,
+        "viewport": 1280,
+        "width": 586.796875,
+        "height": 330.0625,
+        "unscaled_width": 652,
+        "ratio": 0.8999952070552147
+      },
+      {
+        "content_center_offset": 0,
+        "toc_right_gap": 16,
+        "overflow": false,
+        "viewport": 1440,
+        "width": 730.796875,
+        "height": 411.0625,
+        "unscaled_width": 812,
+        "ratio": 0.8999961514778325
+      },
+      {
+        "content_center_offset": 0,
+        "toc_right_gap": 16,
+        "overflow": false,
+        "viewport": 1920,
+        "width": 960.484375,
+        "height": 540.265625,
+        "unscaled_width": 1067.1875,
+        "ratio": 0.9000146412884333
+      },
+      {
+        "content_center_offset": 0,
+        "toc_right_gap": 16,
+        "overflow": false,
+        "viewport": 2400,
+        "width": 956.15625,
+        "height": 537.828125,
+        "unscaled_width": 1062.375,
+        "ratio": 0.9000176491351923
+      },
+      {
+        "content_center_offset": 0,
+        "toc_right_gap": 768,
+        "overflow": false,
+        "viewport": 768,
+        "width": 622.0625,
+        "height": 349.90625,
+        "unscaled_width": 691.15625,
+        "ratio": 0.900031649862097
+      },
+      {
+        "content_center_offset": 0,
+        "toc_right_gap": 390,
+        "overflow": false,
+        "viewport": 390,
+        "width": 315,
+        "height": 177.1875,
+        "unscaled_width": 350,
+        "ratio": 0.9
+      }
+    ],
+    "search": "1개의 일치하는 문서",
+    "gif_animation_changed_across_screenshots": true,
+    "mobile_overflow": false,
+    "external_requests": [],
+    "script_errors": [],
+    "http_errors": []
+  }
+}

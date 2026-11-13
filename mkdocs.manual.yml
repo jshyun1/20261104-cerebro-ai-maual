@@ -1,0 +1,33 @@
+site_name: CEREBRO AI MANUAL
+site_description: CEREBRO AI 사용자 매뉴얼
+use_directory_urls: false
+nav:
+  - CEREBRO AI MANUAL: CEREBRO_AI_MANUAL.md
+theme:
+  name: material
+  language: ko
+  font: false
+  logo: images/logo.png
+  favicon: images/logo.png
+  features:
+    - toc.follow
+    - navigation.top
+plugins:
+  - search:
+      lang: en
+markdown_extensions:
+  - tables
+  - sane_lists
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+      toc_depth: 2-6
+      slugify: !!python/name:markdown.extensions.toc.slugify_unicode
+extra:
+  generator: false
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/extra.js

@@ -1345,10 +1345,18 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
     - 위젯 등록 <img src="./Source/CEREBRO AI/공통/버튼/bi-widget.png" alt="위젯 등록 버튼" title="위젯 등록" height="26" style="vertical-align: middle;">을 눌러 그래프를 저장할 수 있습니다.
 
 
-피벗표와 막대그래프를 함께 보며 병원지역별 보험금 합계를 비교합니다.
+피벗표와 막대그래프를 순서대로 보며 병원지역별 보험금 합계를 비교합니다.
+
+**화면 1.** 피벗표에서 병원지역과 보험사기 여부에 따른 보험금 합계를 확인합니다.
 
 <p align="center">
-  <img src="./Source/CEREBRO AI/사진구성/049_분석_통계분석_BI(OLAP)_막대그래프_01.png" alt="피벗표와 막대그래프를 함께 보며 병원지역별 보험금 합계를 비교합니다." width="1100">
+  <img src="./Source/CEREBRO AI/사진구성/BI_비교용_피벗표_전체화면.png" alt="피벗표에서 병원지역과 보험사기 여부에 따른 보험금 합계를 확인합니다." width="1100">
+</p>
+
+**화면 2.** 막대그래프에서 병원지역별 보험금 합계를 보험사기 여부에 따라 비교합니다.
+
+<p align="center">
+  <img src="./Source/CEREBRO AI/사진구성/049_분석_통계분석_BI(OLAP)_막대그래프_01.png" alt="막대그래프에서 병원지역별 보험금 합계를 보험사기 여부에 따라 비교합니다." width="1100">
 </p>
 
 ##### 3.4.1.4 표그래프
@@ -1357,10 +1365,18 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
     - 표시 숫자단위 간략화 <img src="./Source/CEREBRO AI/공통/버튼/bi-compact.png" alt="표시 숫자단위 간략화 버튼" title="표시 숫자단위 간략화" height="24" style="vertical-align: middle;">를 클릭하여 천단위 이상의 숫자건을 간략하게 확인할 수 있습니다.
     - 위젯 등록 <img src="./Source/CEREBRO AI/공통/버튼/bi-widget.png" alt="위젯 등록 버튼" title="위젯 등록" height="26" style="vertical-align: middle;">을 눌러 그래프를 저장할 수 있습니다.
 
-피벗표와 표그래프를 함께 보며 보험사기 여부와 병원지역에 따른 집계 값을 확인합니다.
+피벗표와 표그래프를 순서대로 보며 보험사기 여부와 병원지역에 따른 집계 값을 확인합니다.
+
+**화면 1.** 피벗표에서 병원지역과 보험사기 여부에 따른 보험금 합계를 확인합니다.
 
 <p align="center">
-  <img src="./Source/CEREBRO AI/사진구성/050_분석_통계분석_BI(OLAP)_표그래프_01.png" alt="피벗표와 표그래프를 함께 보며 보험사기 여부와 병원지역에 따른 집계 값을 확인합니다." width="1100">
+  <img src="./Source/CEREBRO AI/사진구성/BI_비교용_피벗표_전체화면.png" alt="피벗표에서 병원지역과 보험사기 여부에 따른 보험금 합계를 확인합니다." width="1100">
+</p>
+
+**화면 2.** 표그래프에서 보험사기 여부와 병원지역별 보험금 합계를 행 단위로 확인합니다.
+
+<p align="center">
+  <img src="./Source/CEREBRO AI/사진구성/050_분석_통계분석_BI(OLAP)_표그래프_01.png" alt="표그래프에서 보험사기 여부와 병원지역별 보험금 합계를 행 단위로 확인합니다." width="1100">
 </p>
 
 ##### 3.4.1.5 필터그래프
@@ -1369,11 +1385,64 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
     - 표시 숫자단위 간략화 <img src="./Source/CEREBRO AI/공통/버튼/bi-compact.png" alt="표시 숫자단위 간략화 버튼" title="표시 숫자단위 간략화" height="24" style="vertical-align: middle;">를 클릭하여 천단위 이상의 숫자건을 간략하게 확인할 수 있습니다.
     - 위젯 등록 <img src="./Source/CEREBRO AI/공통/버튼/bi-widget.png" alt="위젯 등록 버튼" title="위젯 등록" height="26" style="vertical-align: middle;">을 눌러 그래프를 저장할 수 있습니다.
 
-피벗표의 집계 결과와 필터그래프의 상세 데이터를 함께 확인합니다.
+피벗표의 집계 결과와 필터그래프의 상세 데이터를 순서대로 확인합니다.
+
+**화면 1.** 피벗표에서 병원지역과 보험사기 여부에 따른 보험금 합계를 확인합니다.
 
 <p align="center">
-  <img src="./Source/CEREBRO AI/사진구성/051_분석_통계분석_BI(OLAP)_필터그래프_01.png" alt="피벗표의 집계 결과와 필터그래프의 상세 데이터를 함께 확인합니다." width="1100">
+  <img src="./Source/CEREBRO AI/사진구성/BI_비교용_피벗표_전체화면.png" alt="피벗표에서 병원지역과 보험사기 여부에 따른 보험금 합계를 확인합니다." width="1100">
 </p>
+
+**화면 2.** 필터그래프에서 분석 대상의 상세 데이터를 확인합니다.
+
+<p align="center">
+  <img src="./Source/CEREBRO AI/사진구성/051_분석_통계분석_BI(OLAP)_필터그래프_01.png" alt="필터그래프에서 분석 대상의 상세 데이터를 확인합니다." width="1100">
+</p>
+
+> **💡 참고 : BI 분석 실행 및 결과 활용**
+>
+> **자동 분석 실행**
+>
+> - 분석 조건을 바꿀 때마다 결과를 자동으로 갱신하여 여러 조건을 비교할 때 편리합니다.
+>     - 분석 실행 왼쪽의 <img src="./Source/CEREBRO AI/공통/버튼/bi-auto-run.png" alt="자동 분석 실행 버튼" title="자동 분석 실행" height="26" style="vertical-align: middle;"> 버튼으로 자동 실행을 켜거나 끕니다. 활성화한 상태에서 열·행·측정값 등 분석 조건을 변경하면 결과에 반영됩니다.
+>
+> <p align="center">
+>   <img src="./Source/CEREBRO AI/4_분석/BI_참고/BI_참고_자동분석실행.png" alt="분석 조건과 분석 실행 버튼 왼쪽의 자동 분석 실행 버튼" width="300">
+> </p>
+>
+> **엑셀 다운로드**
+>
+> - 현재 분석 결과를 엑셀 파일로 저장하여 집계 값을 확인하거나 다른 문서 작성에 활용합니다.
+>     - 분석을 실행한 뒤 결과 영역 위쪽의 <img src="./Source/CEREBRO AI/공통/버튼/bi-excel.png" alt="엑셀 다운로드 버튼" title="엑셀 다운로드" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
+>
+> <p align="center">
+>   <img src="./Source/CEREBRO AI/4_분석/BI_참고/BI_참고_엑셀다운로드.png" alt="피벗 집계 결과와 결과 영역 위쪽의 엑셀 다운로드 버튼" width="1000">
+> </p>
+>
+> **위젯 등록**
+>
+> - 분석 결과를 위젯으로 저장하여 스튜디오나 보고서에서 다시 활용합니다.
+>     - 결과 영역 위쪽의 <img src="./Source/CEREBRO AI/공통/버튼/bi-widget.png" alt="위젯 등록 버튼" title="위젯 등록" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다. 확인 창에서 알아보기 쉬운 이름을 입력한 뒤 <img src="./Source/CEREBRO AI/공통/버튼/common-yes.png" alt="예 버튼" title="예" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 저장합니다.
+>
+> <p align="center">
+>   <img src="./Source/CEREBRO AI/4_분석/BI_참고/BI_참고_위젯등록.png" alt="위젯 이름을 입력하고 저장하는 확인 창" width="630">
+> </p>
+>
+> **저장된 위젯**
+>
+> - 이전에 등록한 BI 위젯을 확인하고 다시 불러올 때 사용합니다.
+>     - BI 화면 오른쪽 위의 <img src="./Source/CEREBRO AI/공통/버튼/bi-saved.png" alt="저장된 위젯 버튼" title="저장된 위젯" height="26" style="vertical-align: middle;"> 버튼을 클릭하고 사용할 위젯을 선택합니다.
+>     - 등록한 위젯은 스튜디오의 저장된 위젯 목록에서도 확인할 수 있습니다. 대시보드에 활용하는 방법은 [5.3.8 저장된 위젯 가져오기](#538-저장된-위젯-가져오기)를 참조합니다.
+>
+> <p align="center">
+>   <img src="./Source/CEREBRO AI/4_분석/BI_참고/BI_참고_저장된위젯버튼.png" alt="BI 화면 오른쪽 위의 저장된 위젯 버튼" width="300">
+> </p>
+>
+> 스튜디오의 저장된 위젯 목록 예시입니다. 위젯 이름과 원본 데이터, 사용처 등을 확인할 수 있습니다.
+>
+> <p align="center">
+>   <img src="./Source/CEREBRO AI/4_분석/BI_참고/BI_참고_저장된위젯목록.png" alt="스튜디오에서 등록한 피벗 위젯을 확인하는 저장된 위젯 목록 예시" width="1100">
+> </p>
 
 <!-- /auth -->
 
@@ -1538,7 +1607,7 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 > **화면 1.** 연관관계 설정에서 연결할 데이터셋과 컬럼을 지정합니다.
 >
 > <p align="center">
->   <img src="./Source/CEREBRO AI/사진구성/059_분석_연관관계분석_관계_데이터셋연결_상하분할_시연_01.png" alt="연관관계 설정에서 연결할 데이터셋과 컬럼을 지정합니다." width="1100">
+>   <img src="./Source/CEREBRO AI/사진구성/059_분석_연관관계분석_관계_데이터셋연결_상하분할_시연_01.png" alt="연관관계 설정에서 연결할 데이터셋과 컬럼을 지정합니다." width="680">
 > </p>
 >
 > **화면 2.** 선택한 값과 연결된 데이터를 별도 분석 화면에서 확인합니다.

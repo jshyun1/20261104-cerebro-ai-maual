@@ -1,0 +1,119 @@
+{
+  "purpose": "Shared BI reference photos for both manual versions",
+  "assets": [
+    {
+      "file": "Source/CEREBRO AI/4_분석/BI_참고/BI_참고_자동분석실행.png",
+      "source": "Source/CEREBRO AI/4_분석/분석_BI분석.png",
+      "crop_box": [
+        548,
+        819,
+        807,
+        1020
+      ],
+      "size": [
+        259,
+        201
+      ],
+      "sha256": "dde1e9e02fa217731cc389426c47ec4ce4f7b77b18bb3622b9332eaf299d0d70",
+      "method": "Existing screenshot or GIF frame crop; no new portal capture or generated UI."
+    },
+    {
+      "file": "Source/CEREBRO AI/4_분석/BI_참고/BI_참고_엑셀다운로드.png",
+      "source": "Source/CEREBRO AI/4_분석/GIF/분석_통계분석_BI(OLAP)_피벗그래프.gif",
+      "crop_box": [
+        830,
+        171,
+        1782,
+        453
+      ],
+      "size": [
+        952,
+        282
+      ],
+      "sha256": "f7a03115f921f626f0422d9f6289c9f2e4a293c63262d0e8009df719017dfe3c",
+      "method": "Existing screenshot or GIF frame crop; no new portal capture or generated UI.",
+      "frame": 160
+    },
+    {
+      "file": "Source/CEREBRO AI/4_분석/BI_참고/BI_참고_위젯등록.png",
+      "source": "Source/CEREBRO AI/4_분석/GIF/분석_통계분석_BI(OLAP)_선그래프.gif",
+      "crop_box": [
+        646,
+        401,
+        1275,
+        679
+      ],
+      "size": [
+        629,
+        278
+      ],
+      "sha256": "ac18ebefb240808c542dd8f5a926f33ef01880f4f871ce50fb802bd2ac84e11d",
+      "method": "Existing screenshot or GIF frame crop; no new portal capture or generated UI.",
+      "frame": 345
+    },
+    {
+      "file": "Source/CEREBRO AI/4_분석/BI_참고/BI_참고_저장된위젯버튼.png",
+      "source": "Source/CEREBRO AI/4_분석/분석_BI분석.png",
+      "crop_box": [
+        1648,
+        95,
+        1893,
+        154
+      ],
+      "size": [
+        245,
+        59
+      ],
+      "sha256": "5a2fb82e78cf588eaacefb6f92801c3bddbfe501e2200c771a18193059bbb192",
+      "method": "Existing screenshot or GIF frame crop; no new portal capture or generated UI."
+    },
+    {
+      "file": "Source/CEREBRO AI/4_분석/BI_참고/BI_참고_저장된위젯목록.png",
+      "source": "Source/CEREBRO AI/사진구성/111_대시보드_저장된위젯_01.png",
+      "crop_box": [
+        241,
+        74,
+        1577,
+        333
+      ],
+      "size": [
+        1336,
+        259
+      ],
+      "sha256": "ba47bba11f27f87144286925e41943dbd113d7103cec82ef84e344f096bef203",
+      "method": "Existing screenshot or GIF frame crop; no new portal capture or generated UI."
+    },
+    {
+      "file": "Source/CEREBRO AI/공통/버튼/bi-auto-run.png",
+      "source": "Source/CEREBRO AI/4_분석/분석_BI분석.png",
+      "crop_box": [
+        558,
+        965,
+        604,
+        1011
+      ],
+      "size": [
+        46,
+        46
+      ],
+      "sha256": "b0eec8e278edd156aae5d7dc350b62b5fef6e55e2d604c2db02843a7f32def53",
+      "method": "Existing screenshot or GIF frame crop; no new portal capture or generated UI."
+    },
+    {
+      "file": "Source/CEREBRO AI/공통/버튼/bi-saved.png",
+      "source": "Source/CEREBRO AI/4_분석/분석_BI분석.png",
+      "crop_box": [
+        1752,
+        103,
+        1879,
+        146
+      ],
+      "size": [
+        127,
+        43
+      ],
+      "sha256": "ff5ed67b5d26c5c8ac9c1521473d7860c672f13e7f459dcdc2919b3f4ab867b1",
+      "method": "Existing screenshot or GIF frame crop; no new portal capture or generated UI."
+    }
+  ]
+}

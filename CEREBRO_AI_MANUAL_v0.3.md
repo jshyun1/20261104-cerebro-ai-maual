@@ -1115,6 +1115,51 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
  <img src="./Source/CEREBRO AI/4_분석/GIF/분석_통계분석_BI(OLAP)_필터그래프.gif">
 </p>
 
+> **💡 참고 : BI 분석 실행 및 결과 활용**
+>
+> **자동 분석 실행**
+>
+> - 분석 조건을 바꿀 때마다 결과를 자동으로 갱신하여 여러 조건을 비교할 때 편리합니다.
+>     - 분석 실행 왼쪽의 <img src="./Source/CEREBRO AI/공통/버튼/bi-auto-run.png" alt="자동 분석 실행 버튼" title="자동 분석 실행" height="26" style="vertical-align: middle;"> 버튼으로 자동 실행을 켜거나 끕니다. 활성화한 상태에서 열·행·측정값 등 분석 조건을 변경하면 결과에 반영됩니다.
+>
+> <p align="center">
+>   <img src="./Source/CEREBRO AI/4_분석/BI_참고/BI_참고_자동분석실행.png" alt="분석 조건과 분석 실행 버튼 왼쪽의 자동 분석 실행 버튼" width="300">
+> </p>
+>
+> **엑셀 다운로드**
+>
+> - 현재 분석 결과를 엑셀 파일로 저장하여 집계 값을 확인하거나 다른 문서 작성에 활용합니다.
+>     - 분석을 실행한 뒤 결과 영역 위쪽의 <img src="./Source/CEREBRO AI/공통/버튼/bi-excel.png" alt="엑셀 다운로드 버튼" title="엑셀 다운로드" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다.
+>
+> <p align="center">
+>   <img src="./Source/CEREBRO AI/4_분석/BI_참고/BI_참고_엑셀다운로드.png" alt="피벗 집계 결과와 결과 영역 위쪽의 엑셀 다운로드 버튼" width="1000">
+> </p>
+>
+> **위젯 등록**
+>
+> - 분석 결과를 위젯으로 저장하여 스튜디오나 보고서에서 다시 활용합니다.
+>     - 결과 영역 위쪽의 <img src="./Source/CEREBRO AI/공통/버튼/bi-widget.png" alt="위젯 등록 버튼" title="위젯 등록" height="26" style="vertical-align: middle;"> 버튼을 클릭합니다. 확인 창에서 알아보기 쉬운 이름을 입력한 뒤 <img src="./Source/CEREBRO AI/공통/버튼/common-yes.png" alt="예 버튼" title="예" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 저장합니다.
+>
+> <p align="center">
+>   <img src="./Source/CEREBRO AI/4_분석/BI_참고/BI_참고_위젯등록.png" alt="위젯 이름을 입력하고 저장하는 확인 창" width="630">
+> </p>
+>
+> **저장된 위젯**
+>
+> - 이전에 등록한 BI 위젯을 확인하고 다시 불러올 때 사용합니다.
+>     - BI 화면 오른쪽 위의 <img src="./Source/CEREBRO AI/공통/버튼/bi-saved.png" alt="저장된 위젯 버튼" title="저장된 위젯" height="26" style="vertical-align: middle;"> 버튼을 클릭하고 사용할 위젯을 선택합니다.
+>     - 등록한 위젯은 스튜디오의 저장된 위젯 목록에서도 확인할 수 있습니다. 대시보드에 활용하는 방법은 [5.3.8 저장된 위젯 가져오기](#538-저장된-위젯-가져오기)를 참조합니다.
+>
+> <p align="center">
+>   <img src="./Source/CEREBRO AI/4_분석/BI_참고/BI_참고_저장된위젯버튼.png" alt="BI 화면 오른쪽 위의 저장된 위젯 버튼" width="300">
+> </p>
+>
+> 스튜디오의 저장된 위젯 목록 예시입니다. 위젯 이름과 원본 데이터, 사용처 등을 확인할 수 있습니다.
+>
+> <p align="center">
+>   <img src="./Source/CEREBRO AI/4_분석/BI_참고/BI_참고_저장된위젯목록.png" alt="스튜디오에서 등록한 피벗 위젯을 확인하는 저장된 위젯 목록 예시" width="1100">
+> </p>
+
 <!-- /auth -->
 
 #### 3.4.2 연관관계분석

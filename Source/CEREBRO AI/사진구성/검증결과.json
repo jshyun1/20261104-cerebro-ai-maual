@@ -258,5 +258,51 @@
       ],
       "checkedAt": "2026-11-12T07:01:48.818Z"
     }
+  },
+  "relation_dropdown_correction": {
+    "source_frames": 997,
+    "output_frames": 896,
+    "removed_source_ranges": [
+      [
+        119,
+        154
+      ],
+      [
+        166,
+        184
+      ],
+      [
+        254,
+        299
+      ]
+    ],
+    "removed_frames": 101,
+    "original_duration_ms": 49850,
+    "duration_ms": 44800,
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "source_to_output_keyframes": {
+      "185": 130,
+      "200": 145,
+      "240": 185,
+      "320": 219,
+      "677": 576,
+      "916": 815,
+      "996": 895
+    },
+    "gif_sha256": "c67b2c2a81015ec2893222b18a03894376c819180ff28891a3d505af1e6f89ca",
+    "png_sha256": "32e9a57ba3abbd72eca2d56d1a2746c8370829a58d2dbce1fa4c74105aa418bc",
+    "verified_frames": 896,
+    "retained_frame_pixels_match_quantized_source": true,
+    "retained_frame_durations_preserved": true,
+    "png_file": "059_분석_연관관계분석_관계_데이터셋연결_상하분할_시연_01.png",
+    "png_size": [
+      680,
+      126
+    ],
+    "method": "Reuse a clean selected-state frame for PNG; remove blank native-menu and popup-loading frames from GIF; retain mouse movements and final upper/lower split.",
+    "source_gif_sha256_before_cleanup": "1df9dc831a0b0801b3fb8ce2c7c26481f267c3feb4803a19ed5e297655c7f1e0"
   }
 }

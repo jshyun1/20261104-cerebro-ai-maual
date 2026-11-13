@@ -1256,171 +1256,66 @@
     "topic_index": 48,
     "section": "##### 3.4.1.2 선그래프",
     "size": [
-      1013,
-      770
+      1920,
+      1080
     ],
-    "sha256": "9082bd93dba285ef30f2eddd9166b6bd4775c5830cda94f1f53566b25238c2ec",
+    "sha256": "7fc8a19b138ade43cd6ab8cabd513848994c5c44b8fda4cae8fc42f777b7899d",
     "account_name_masked": true,
-    "cropped": true,
+    "cropped": false,
     "original": "./Source/CEREBRO AI/4_분석/GIF/분석_통계분석_BI(OLAP)_선그래프.gif",
     "frame_index": 215,
-    "crop_box": [
-      847,
-      250,
-      1860,
-      1020
-    ],
-    "account_header_excluded": true
+    "fullscreen": true
   },
   {
     "file": "049_분석_통계분석_BI(OLAP)_막대그래프_01.png",
-    "caption": "피벗표와 막대그래프를 함께 보며 병원지역별 보험금 합계를 비교합니다.",
-    "source": "gif_composite",
+    "caption": "막대그래프에서 병원지역별 보험금 합계를 보험사기 여부에 따라 비교합니다.",
+    "source": "gif",
     "topic_index": 49,
     "section": "##### 3.4.1.3 막대그래프",
     "size": [
-      1049,
-      1108
+      1920,
+      1080
     ],
-    "sha256": "22d3ff01217e6b73245ca5128354cb53f668341df588d8777728ac6eb0c43ec2",
+    "sha256": "c8d3203a48724d2b2b33424662a5efcbcb9c3ca38a97f000349483e1951cd639",
     "account_name_masked": true,
-    "cropped": true,
+    "cropped": false,
     "original": "./Source/CEREBRO AI/4_분석/GIF/분석_통계분석_BI(OLAP)_막대그래프.gif",
-    "frame_index": 215,
-    "crop_box": [
-      847,
-      250,
-      1860,
-      1020
-    ],
-    "account_header_excluded": true,
-    "composition": {
-      "layout": "vertical",
-      "panels": [
-        {
-          "label": "피벗표 (일부)",
-          "original": "./Source/CEREBRO AI/4_분석/GIF/분석_통계분석_BI(OLAP)_피벗그래프.gif",
-          "frame_index": 160,
-          "crop_box": [
-            847,
-            250,
-            1782,
-            444
-          ]
-        },
-        {
-          "label": "막대그래프",
-          "original": "./Source/CEREBRO AI/4_분석/GIF/분석_통계분석_BI(OLAP)_막대그래프.gif",
-          "frame_index": 215,
-          "crop_box": [
-            847,
-            250,
-            1860,
-            1020
-          ]
-        }
-      ]
-    }
+    "frame_index": 200,
+    "fullscreen": true
   },
   {
     "file": "050_분석_통계분석_BI(OLAP)_표그래프_01.png",
-    "caption": "피벗표와 표그래프를 함께 보며 보험사기 여부와 병원지역에 따른 집계 값을 확인합니다.",
-    "source": "gif_composite",
+    "caption": "표그래프에서 보험사기 여부와 병원지역별 보험금 합계를 행 단위로 확인합니다.",
+    "source": "gif",
     "topic_index": 50,
     "section": "##### 3.4.1.4 표그래프",
     "size": [
-      1049,
-      1108
+      1920,
+      1080
     ],
-    "sha256": "32cc6fadba208cff5398e807eb15d637a4e782d2d2627e2524dd8b5a2d549a6e",
+    "sha256": "045bf9df23280857f2febc64093a09588cab77da5881be72b8dfca0acc976117",
     "account_name_masked": true,
-    "cropped": true,
+    "cropped": false,
     "original": "./Source/CEREBRO AI/4_분석/GIF/분석_통계분석_BI(OLAP)_표그래프.gif",
     "frame_index": 180,
-    "crop_box": [
-      847,
-      250,
-      1860,
-      1020
-    ],
-    "account_header_excluded": true,
-    "composition": {
-      "layout": "vertical",
-      "panels": [
-        {
-          "label": "피벗표 (일부)",
-          "original": "./Source/CEREBRO AI/4_분석/GIF/분석_통계분석_BI(OLAP)_피벗그래프.gif",
-          "frame_index": 160,
-          "crop_box": [
-            847,
-            250,
-            1782,
-            444
-          ]
-        },
-        {
-          "label": "표그래프",
-          "original": "./Source/CEREBRO AI/4_분석/GIF/분석_통계분석_BI(OLAP)_표그래프.gif",
-          "frame_index": 180,
-          "crop_box": [
-            847,
-            250,
-            1860,
-            1020
-          ]
-        }
-      ]
-    }
+    "fullscreen": true
   },
   {
     "file": "051_분석_통계분석_BI(OLAP)_필터그래프_01.png",
-    "caption": "피벗표의 집계 결과와 필터그래프의 상세 데이터를 함께 확인합니다.",
-    "source": "gif_composite",
+    "caption": "필터그래프에서 분석 대상의 상세 데이터를 확인합니다.",
+    "source": "gif",
     "topic_index": 51,
     "section": "##### 3.4.1.5 필터그래프",
     "size": [
-      1049,
-      1108
+      1920,
+      1080
     ],
-    "sha256": "6a234822f0802ef27cfe990e5e1b89a7b1f8a9b039757c4f199bea08b81aacc4",
+    "sha256": "8e4d72bb60f99313b2b7d58069e0caf08e71f0184f2611bed4621f6feba5c2ef",
     "account_name_masked": true,
-    "cropped": true,
+    "cropped": false,
     "original": "./Source/CEREBRO AI/4_분석/GIF/분석_통계분석_BI(OLAP)_필터그래프.gif",
     "frame_index": 220,
-    "crop_box": [
-      847,
-      250,
-      1860,
-      1020
-    ],
-    "account_header_excluded": true,
-    "composition": {
-      "layout": "vertical",
-      "panels": [
-        {
-          "label": "피벗표 (일부)",
-          "original": "./Source/CEREBRO AI/4_분석/GIF/분석_통계분석_BI(OLAP)_피벗그래프.gif",
-          "frame_index": 160,
-          "crop_box": [
-            847,
-            250,
-            1782,
-            444
-          ]
-        },
-        {
-          "label": "필터그래프",
-          "original": "./Source/CEREBRO AI/4_분석/GIF/분석_통계분석_BI(OLAP)_필터그래프.gif",
-          "frame_index": 220,
-          "crop_box": [
-            847,
-            250,
-            1860,
-            1020
-          ]
-        }
-      ]
-    }
+    "fullscreen": true
   },
   {
     "file": "052_분석_연관관계분석_분석항목선택_시연_01.png",
@@ -1651,23 +1546,31 @@
     "caption": "연관관계 설정에서 연결할 데이터셋과 컬럼을 지정합니다.",
     "source": "gif",
     "original": "./Source/CEREBRO AI/4_분석/GIF/분석_연관관계분석_관계_데이터셋연결_상하분할.gif",
-    "frame": 179,
+    "frame": 219,
     "topic_index": 59,
     "section": "##### 3.4.2.6 관계",
     "size": [
-      1920,
-      1080
+      680,
+      126
     ],
-    "sha256": "5c2b30450133dd0c9dee68defe6cbfa5c95241704b79f95dc0c2301b41153fc2",
+    "sha256": "32e9a57ba3abbd72eca2d56d1a2746c8370829a58d2dbce1fa4c74105aa418bc",
     "account_name_masked": false,
-    "cropped": false
+    "cropped": true,
+    "frame_before_gif_cleanup": 320,
+    "crop_box": [
+      1051,
+      216,
+      1731,
+      342
+    ],
+    "account_header_excluded": true
   },
   {
     "file": "059_분석_연관관계분석_관계_데이터셋연결_상하분할_시연_02.png",
     "caption": "선택한 값과 연결된 데이터를 별도 분석 화면에서 확인합니다.",
     "source": "gif",
     "original": "./Source/CEREBRO AI/4_분석/GIF/분석_연관관계분석_관계_데이터셋연결_상하분할.gif",
-    "frame": 677,
+    "frame": 576,
     "topic_index": 59,
     "section": "##### 3.4.2.6 관계",
     "size": [
@@ -1676,14 +1579,15 @@
     ],
     "sha256": "8b3ab041c39ae3c9cbb332f22e8924655524ba640c93c2c4eede8a5e22fc4763",
     "account_name_masked": false,
-    "cropped": false
+    "cropped": false,
+    "frame_before_gif_cleanup": 677
   },
   {
     "file": "059_분석_연관관계분석_관계_데이터셋연결_상하분할_시연_03.png",
     "caption": "분할 방향을 상하로 바꿔 두 분석 화면을 위아래로 비교합니다.",
     "source": "gif",
     "original": "./Source/CEREBRO AI/4_분석/GIF/분석_연관관계분석_관계_데이터셋연결_상하분할.gif",
-    "frame": 916,
+    "frame": 815,
     "topic_index": 59,
     "section": "##### 3.4.2.6 관계",
     "size": [
@@ -1692,7 +1596,8 @@
     ],
     "sha256": "3b811b23fcab619aec8979baad6c578777c3e40a075b3d86695a050d921f835f",
     "account_name_masked": false,
-    "cropped": false
+    "cropped": false,
+    "frame_before_gif_cleanup": 916
   },
   {
     "file": "060_분석_연관관계분석_패턴분석_시연_01.png",
@@ -3188,5 +3093,25 @@
     "sha256": "bad2ed4cb1d7efa632fd60abf7d642875107e155a6c958bd61c445268c9e7fd9",
     "account_name_masked": true,
     "cropped": false
+  },
+  {
+    "file": "BI_비교용_피벗표_전체화면.png",
+    "caption": "병원지역과 보험사기 여부에 따른 보험금 합계를 피벗표로 확인하는 CEREBRO 전체 화면",
+    "source": "gif",
+    "original": "./Source/CEREBRO AI/4_분석/GIF/분석_통계분석_BI(OLAP)_피벗그래프.gif",
+    "frame_index": 160,
+    "sections": [
+      "3.4.1.3",
+      "3.4.1.4",
+      "3.4.1.5"
+    ],
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "eeb0239b7ba029deedd8e070ebae283f5208d876979a703625c77e2729bd7e4c",
+    "cropped": false,
+    "fullscreen": true,
+    "account_name_masked": true
   }
 ]

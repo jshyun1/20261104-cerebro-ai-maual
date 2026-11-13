@@ -1330,10 +1330,10 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
     - 축 반전 <img src="./Source/CEREBRO AI/공통/버튼/bi-invert.png" alt="축 반전 버튼" title="축 반전" height="24" style="vertical-align: middle;">을 클릭하여 X,Y축을 반전시켜 그릴 수 있습니다.
     - 위젯 등록 <img src="./Source/CEREBRO AI/공통/버튼/bi-widget.png" alt="위젯 등록 버튼" title="위젯 등록" height="26" style="vertical-align: middle;">을 눌러 그래프를 저장할 수 있습니다.
 
-선 그래프 표시 방식을 선택해 같은 집계 결과를 확인합니다.
+선그래프만 표시하여 병원지역별 보험금 합계를 보험사기 여부에 따라 비교합니다.
 
 <p align="center">
-  <img src="./Source/CEREBRO AI/사진구성/048_분석_통계분석_BI(OLAP)_선그래프_01.png" alt="선 그래프 표시 방식을 선택해 같은 집계 결과를 확인합니다." width="1100">
+  <img src="./Source/CEREBRO AI/사진구성/048_분석_통계분석_BI(OLAP)_선그래프_01.png" alt="선그래프만 표시하여 병원지역별 보험금 합계를 보험사기 여부에 따라 비교합니다." width="1100">
 </p>
 
 ##### 3.4.1.3 막대그래프
@@ -1345,10 +1345,10 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
     - 위젯 등록 <img src="./Source/CEREBRO AI/공통/버튼/bi-widget.png" alt="위젯 등록 버튼" title="위젯 등록" height="26" style="vertical-align: middle;">을 눌러 그래프를 저장할 수 있습니다.
 
 
-막대 그래프 표시 방식을 선택해 같은 집계 결과를 확인합니다.
+피벗표와 막대그래프를 함께 보며 병원지역별 보험금 합계를 비교합니다.
 
 <p align="center">
-  <img src="./Source/CEREBRO AI/사진구성/049_분석_통계분석_BI(OLAP)_막대그래프_01.png" alt="막대 그래프 표시 방식을 선택해 같은 집계 결과를 확인합니다." width="1100">
+  <img src="./Source/CEREBRO AI/사진구성/049_분석_통계분석_BI(OLAP)_막대그래프_01.png" alt="피벗표와 막대그래프를 함께 보며 병원지역별 보험금 합계를 비교합니다." width="1100">
 </p>
 
 ##### 3.4.1.4 표그래프
@@ -1357,10 +1357,10 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
     - 표시 숫자단위 간략화 <img src="./Source/CEREBRO AI/공통/버튼/bi-compact.png" alt="표시 숫자단위 간략화 버튼" title="표시 숫자단위 간략화" height="24" style="vertical-align: middle;">를 클릭하여 천단위 이상의 숫자건을 간략하게 확인할 수 있습니다.
     - 위젯 등록 <img src="./Source/CEREBRO AI/공통/버튼/bi-widget.png" alt="위젯 등록 버튼" title="위젯 등록" height="26" style="vertical-align: middle;">을 눌러 그래프를 저장할 수 있습니다.
 
-표 그래프 표시 방식을 선택해 같은 집계 결과를 확인합니다.
+피벗표와 표그래프를 함께 보며 보험사기 여부와 병원지역에 따른 집계 값을 확인합니다.
 
 <p align="center">
-  <img src="./Source/CEREBRO AI/사진구성/050_분석_통계분석_BI(OLAP)_표그래프_01.png" alt="표 그래프 표시 방식을 선택해 같은 집계 결과를 확인합니다." width="1100">
+  <img src="./Source/CEREBRO AI/사진구성/050_분석_통계분석_BI(OLAP)_표그래프_01.png" alt="피벗표와 표그래프를 함께 보며 보험사기 여부와 병원지역에 따른 집계 값을 확인합니다." width="1100">
 </p>
 
 ##### 3.4.1.5 필터그래프
@@ -1369,10 +1369,10 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
     - 표시 숫자단위 간략화 <img src="./Source/CEREBRO AI/공통/버튼/bi-compact.png" alt="표시 숫자단위 간략화 버튼" title="표시 숫자단위 간략화" height="24" style="vertical-align: middle;">를 클릭하여 천단위 이상의 숫자건을 간략하게 확인할 수 있습니다.
     - 위젯 등록 <img src="./Source/CEREBRO AI/공통/버튼/bi-widget.png" alt="위젯 등록 버튼" title="위젯 등록" height="26" style="vertical-align: middle;">을 눌러 그래프를 저장할 수 있습니다.
 
-필터 그래프에서 집계 결과를 확인하고 관심 항목을 선택하여 비교합니다.
+피벗표의 집계 결과와 필터그래프의 상세 데이터를 함께 확인합니다.
 
 <p align="center">
-  <img src="./Source/CEREBRO AI/사진구성/051_분석_통계분석_BI(OLAP)_필터그래프_01.png" alt="필터 그래프에서 집계 결과를 확인하고 관심 항목을 선택하여 비교합니다." width="1100">
+  <img src="./Source/CEREBRO AI/사진구성/051_분석_통계분석_BI(OLAP)_필터그래프_01.png" alt="피벗표의 집계 결과와 필터그래프의 상세 데이터를 함께 확인합니다." width="1100">
 </p>
 
 <!-- /auth -->

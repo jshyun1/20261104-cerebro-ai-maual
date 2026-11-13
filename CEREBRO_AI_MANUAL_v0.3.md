@@ -95,9 +95,11 @@ AI 모델 개발 과정을 자동화하여 분석 효율 향상
 - 모듈형 구조 기반 기능 구성
 - 사용자 환경 맞춤형 시스템 적용 지원
 
+<!--
 ### 1.4 소개영상
 
   [![Video Label](<./Source/CEREBRO AI/1_시스템설명/CEREBRO_AI_홍보영상_썸네일.png>)](https://youtu.be/vMShTccIX4M?si=WtS7lhztr9txBVqf)
+-->
 
 
 <br/>

@@ -1451,7 +1451,7 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 - 전처리 된 데이터 항목 간 연관관계를 분석도로 확인하는 기능입니다.
     - 항목간 필터링 , 관계, 패턴 및 빈도 분석을 통해 컬럼 간 관계를 분석할 수 있습니다.
     - 분석도 오른쪽 아래에 표시 중인 노드(node), 연결선(edge), 행(row) 수가 표시됩니다.
-    - 왼쪽 메뉴의 연관관계분석 옆 <img src="./Source/CEREBRO AI/공통/버튼/relation-new-window.png" alt="새 창 버튼" title="새 창" height="24" style="vertical-align: middle;"> 버튼을 클릭하면 분석도를 새 창으로 열 수 있습니다.
+    - 왼쪽 메뉴의 연관관계분석 옆 <img src="./Source/CEREBRO AI/공통/버튼/relation-new-window.png" alt="새 창 버튼" title="새 창" height="24" style="vertical-align: middle;"> 버튼을 클릭하면 분석도를 새 창으로 열 수 있습니다.  
       ※ 노드 수가 최대 노드 수를 넘으면 분석도가 표시되지 않으므로, 분석 항목 선택에서 항목 수를 줄여 사용합니다.
 
 <p align = "center">
@@ -1765,7 +1765,8 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
         - 폴더모양 <img src="./Source/CEREBRO AI/공통/버튼/ml-folder.png" alt="자동 전처리 상세 설정 버튼" title="자동 전처리 상세 설정" height="24" style="vertical-align: middle;"> 버튼을 클릭하면 상세한 설정이 가능합니다.
     - 알고리즘 : 결과 표의 실행 스위치로 학습할 알고리즘을 선정합니다.
     - 학습 데이터 비율 선정 : 학습에 사용되는 난수와 비율을 조정합니다.
-        - 학습에 필요한 난수를 숫자로 입력합니다. 랜덤생성 <img src="./Source/CEREBRO AI/공통/버튼/ml-random.png" alt="랜덤생성 버튼" title="랜덤생성" height="24" style="vertical-align: middle;"> 버튼을 누르면 임의의 값이 설정됩니다.
+        - 학습에 필요한 난수를 숫자로 입력합니다. 랜덤생성 <img src="./Source/CEREBRO AI/공통/버튼/ml-random.png" alt="랜덤생성 버튼" title="랜덤생성" height="24" style="vertical-align: middle;"> 버튼을 누르면 임의의 값이 설정됩니다.  
+                 -  참고: 난수 시드는 데이터 분할의 무작위성을 제어하는 값으로, 동일한 데이터와 시드를 사용하면 동일한 분할 결과를 재현할 수 있습니다.
         - 학습용, 검증용 건수를 확인하며 학습과 테스트 데이터의 비율을 설정합니다.
     - 모델학습 : '모델 학습' <img src="./Source/CEREBRO AI/공통/버튼/ml-train.png" alt="모델 학습 버튼" title="모델 학습" height="26" style="vertical-align: middle;">을 클릭한 후 확인 창에서 예 <img src="./Source/CEREBRO AI/공통/버튼/common-yes.png" alt="예 버튼" title="예" height="26" style="vertical-align: middle;">를 클릭하여 선택한 알고리즘에 대한 모델학습을 수행합니다.
         - 학습이 끝나면 알고리즘별 R2, RMSE, RMSLE, MAPE 가 표시됩니다.
@@ -1969,8 +1970,8 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
 
 - 모델 분석
 
-    - 모델분석 : '모델 분석' <img src="./Source/CEREBRO AI/공통/버튼/ml-analyze.png" alt="모델 분석 버튼" title="모델 분석" height="26" style="vertical-align: middle;">을 클릭하면 분석정보를 확인할 수 있습니다.
-        - 군집 탭에서 행별 군집 결과를 확인하며, 전체다운로드 <img src="./Source/CEREBRO AI/공통/버튼/ml-download-all.png" alt="전체 다운로드 버튼" title="전체 다운로드" height="26" style="vertical-align: middle;"> 클릭시 다운로드 됩니다.
+    - 모델분석 : <img src="./Source/CEREBRO AI/공통/버튼/ml-analyze.png" alt="모델 분석 버튼" title="모델 분석" height="26" style="vertical-align: middle;">을 클릭하면 분석정보를 확인할 수 있습니다.
+        - 군집 탭에서 행별 군집 결과를 확인하며, <img src="./Source/CEREBRO AI/공통/버튼/ml-download-all.png" alt="전체 다운로드 버튼" title="전체 다운로드" height="26" style="vertical-align: middle;"> 클릭시 다운로드 됩니다.
     - 그래프 : 군집 결과 산점도를 확인할 수 있습니다.
     - 다운로드 : 모델을 다운로드 할 수 있으며 python 소스코드를 확인합니다.
         - 모델 다운로드 <img src="./Source/CEREBRO AI/공통/버튼/ml-download.png" alt="모델 다운로드 버튼" title="모델 다운로드" height="26" style="vertical-align: middle;"> 버튼을 클릭하여 모델을 다운로드합니다.

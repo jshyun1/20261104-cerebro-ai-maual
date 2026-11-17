@@ -1622,14 +1622,6 @@ AI가 데이터를 분석하여 전처리 항목을 추천하거나, 사용자�
  <img src="./Source/CEREBRO AI/7_보고서/GIF/보고서_2_AI작성 (4).gif">
 </p>
 
-<!-- 부연설명 구분 -->
-
-> **💡 참고 : 생성된 AI 기반 보고서**
->
-> <p align = "center">
->   <img src = "./Source/CEREBRO AI/7_보고서/보고서_AI보고서만들기_본문생성결과.png">
-> </p>
-
 <!-- /auth -->
 
 ### 4.2 템플릿 만들기
